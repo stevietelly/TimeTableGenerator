@@ -1,0 +1,393 @@
+[
+ {
+  "course": "Computer Science",
+  "school": "Information, Science and Technology",
+  "department": "science",
+  "units": [
+   [
+    "Introduction to Algorithms",
+    "Introduction to Object Oriented Programming",
+    "Introduction to Structured Programming",
+    "Communication Skills",
+    "Computational Structures",
+    "HIV and AIDS"
+   ],
+    [
+    "Programming for Web and Mobile devices",
+    "Introduction to low level programming",
+    "Introduction to High Level Programming",
+    "Physics and its relation to Computer Science",
+    "The Processor and its architecture",
+    "Introduction to Databases"
+   ],
+   [
+    "Introduction to Software",
+    "Programming and Coding Principles",
+    "Information as a science",
+    "Problem Solving with programming",
+    "Computer Science Patterns",
+    "Introduction to Open Source Technologies"
+   ],
+ [
+    "Artificial Intelligence",
+    "Project Management",
+    "ICT Security",
+    "Software Engineering",
+    "Quantitative Techniques for Information Scientists",
+    "Web Design  and Development"
+   ]
+]
+},
+ {
+  "course": "Health Information Technology",
+  "school": "Health Sciences",
+  "department": "Health Information",
+  "units": [
+   [
+    "Communication Skills",
+    "HIV and AIDS",
+    "Introduction to Health Systems",
+    "Introduction to Health Records",
+    "Statistics I",
+    "The Human Anatomy"
+   ],
+   [
+    "Health Administrative Statistics",
+    "Introduction to Human Pathology",
+    "Foundations of Health Systems Management",
+    "Anatomy Management for Health Systems Management",
+    "Introduction to Human Anatomy ang Physiology",
+    "Introduction to Health Management Information system"
+   ],
+   [
+    "Human Computer Interaction",
+    "Introduction Epidemiology and Demography",
+    "Classification of Diseases, coding Diagnoses and Procedures",
+    "Time Management For Health System Managers",
+    "Medical Terminology, Diagnosis amd Treatments",
+    "Health Insurance and Policies"
+   ],
+   [
+    "Database Construction and Management",
+    "Medical terminology and Clinical Documentation",
+    "Health Policy and Planning",
+    "Purchasing and Contracting in Healthcare",
+    "Healthcare Entrepreneurship",
+    "Health Risk and Insurance Management"
+   ]
+]
+ },
+ {
+  "course": "Hotel and Hospitality Management",
+  "school": "Catering and Hospitality",
+  "department": "Hospitality",
+  "units": [
+    [
+    "Communication Skills",
+    "HIV and AIDS",
+    "Cleaning and Hygiene",
+    "Introduction to Food Chemistry",
+    "Introduction to Food Biology",
+    "Supply and Management"
+   ],
+    [
+    "Carbohydrates and Fats",
+    "Proteins",
+    "Vitamins",
+    "Fruits and Vegetables",
+    "Cooking Oil Mechanics",
+    "Drinks and Beverages"
+   ],
+    [
+    "Introduction to Hotel Management",
+    "Hotel Structure and Administration",
+    "Basic Catering Services",
+    "Dining Table Structure",
+    "French Cuisine",
+    "East African Cuisine"
+   ],
+    [
+    "Spanish Cuisine",
+    "Italian Cuisine",
+    "Indian Cuisine",
+    "Indonesian Cuisine",
+    "south African Cuisine",
+    "West African Cuisine"
+   ]
+]
+ },
+ {
+  "course": "Secondary Education",
+  "school": "Education",
+  "department": "Higher Education",
+  "units": [
+    [
+    "HIV and AIDS",
+    "Communication Skills",
+    "Basic Teaching Skills",
+    "Introduction to Psychology",
+    "Class Management",
+    "Teaching Tools"
+   ],
+    [
+    "Physiology II",
+    "Listening and Speaking Skills",
+    "Class Routines",
+    "Time Management",
+    "Foundations of Student Psychology",
+    "Discipline and Punishment"
+   ],
+    [
+    "Mathematics I",
+    "English: Language and Grammar",
+    "Biology I",
+    "Chemistry I",
+    "History I",
+    "Physics I"
+   ],
+    [
+    "Ethics and professional Practice in Teaching",
+    "Student teacher Relationship",
+    "Special Needs Education",
+    "Parent teacher Relationship",
+    "Teacher teacher relationship",
+    "Board Management",
+    "Administrative duties in School"
+   ]
+]
+ },
+ {
+  "course": "Primary Education",
+  "school": "Education",
+  "department": "Lower Education",
+  "units": [
+    [
+    "HIV and AIDS",
+    "Communication Skills",
+    "Basic Teaching Skills",
+    "Class Management",
+    "Teaching Tools",
+    "Kids and Kids Development"
+   ],
+    [
+    "Introduction to Child Care",
+    "Levels of Child Understanding and Comprehension",
+    "Teaching Basic Arithmetic",
+    "Teaching Basic Grammar",
+    "Introduction to Communication with Children",
+    "Child Development II"
+   ],
+    [
+    "English: Language and Grammar",
+    "English II",
+    "Mathematics I",
+    "Science: Introduction and Foundation",
+    "Swahili I",
+    "Teaching and Scholar Activities"
+   ],
+    [
+    "Administrative duties in School",
+    "Ethics and professional Practice in Teaching",
+    "Pupil Teacher Interaction",
+    "Marking and Notation",
+    "Teacher teacher relationship",
+    "Special Needs Education"
+   ]
+]
+ },
+ {
+  "course": "Civil Engineering",
+  "school": "Engineering",
+  "department": "civil",
+  "units": [
+    [
+    "HIV and AIDS",
+    "Communication Skills",
+    "Introduction to Civil Engineering",
+    "Basic Engineering",
+    "History of Civil Engineering",
+    "Physics and its Relation to Civil Engineering"
+   ],
+    [
+    "Introduction to Architecture",
+    "Foundations of Building and Construction",
+    "Introduction to Building Materials and Hardware Tools",
+    "Classification of Buildings",
+    "Construction site Management",
+    "Introduction to Management"
+   ],
+    [
+    "Location and Positional Services",
+    "Engineering Tools",
+    "Engineering as a Service",
+    "Engineering as a Science",
+    "Engineering as an Art",
+    "Civil Engineering"
+   ],
+    [
+    "Civil Systems",
+    "Glass Metamorphosis",
+    "Stone Masonry and Metamorphosis",
+    "Structural Engineering",
+    "Architectural Engineering",
+    "Paid Architecture"
+   ]
+]
+ },
+ {
+  "course": "Mass Media Communication",
+  "school": "Journalism and Mass Media",
+  "department": "masscom",
+  "units": [
+    [
+    "HIV and AIDS",
+    "Communication Skills",
+    "Ethics of a Journalist",
+    "Types of Media Skills",
+    "Listening and Speaking Skills",
+    "Public Speaking"
+   ],
+    [
+    "Time Management",
+    "Introduction to Human Anatomy ang Physiology",
+    "Political Systems and Governance",
+    "Introduction to Reporting, news and coverage",
+    "Introduction to Information Processing and Handling",
+    "History of Kenyan Journalism"
+   ],
+    [
+    "Mass Communication",
+    "Foundations of ICT",
+    "Basic Computer Skills",
+    "Graphics",
+    "Advanced Writing I",
+    "Forms of Media Communication"
+   ],
+    [
+    "Advanced Writing II",
+    "Photography 101",
+    "Photography for Crime scene",
+    "Speech, Talking and Conversations",
+    "Interviewing",
+    "Research Methods"
+   ]
+]
+ },
+ {
+  "course": "Library and Information Studies",
+  "school": "Information Science and Technology",
+  "department": "information",
+  "units": [
+    [
+    "HIV and AIDS",
+    "Communication Skills",
+    "Introduction to the general Library",
+    "Catalogue and Book Record Management",
+    "Introduction to Information Processing and Handling",
+    "Library Systems"
+   ],
+    [
+    "Research Methods",
+    "Management Information systems",
+    "Time Management",
+    "Introduction to Management",
+    "Classification of Books",
+    "Basic Record Keeping"
+   ],
+    [
+    "History of Books",
+    "Basic Book Keeping",
+    "Books and Information Technology",
+    "Library Management system",
+    "Book Annotations",
+    "Shelves and Book Storage"
+   ],
+    [
+    "Library and Physical Structures",
+    "Library utilities and using them",
+    "Advanced Writing I",
+    "Subjects and Scholastic Categorisation",
+    "Basic Computer Skills",
+    "Spreadsheets and Workbooks"
+   ]
+]
+ },
+ {
+  "course": "Electrical and Electronic Engineering",
+  "school": "Engineering",
+  "department": "Electrical",
+  "units": [
+    [
+    "HIV and AIDS",
+    "Communication Skills",
+    "Physics and its Relation to Electronic Engineering",
+    "Electrostatics I",
+    "Basic Engineering",
+    "Basic Electronics"
+   ],
+    [
+    "Electrostatics II",
+    "Foundations of Electronics",
+    "Introduction to Circuits and Circuitry",
+    "Wiring and Physical Connections",
+    "Basic Record Keeping",
+    "Introduction to Measurement and Quantification"
+   ],
+    [
+    "Physics I",
+    "Physics II",
+    "Electrostatics III",
+    "Forms of Energy",
+    "Conversion of Energy",
+    "Energy and Empirical Measurements"
+   ],
+    [
+    "Voltage Enhancements",
+    "National Grid",
+    "Green Energy and Climate Action",
+    "Solar Radiation and power",
+    "Nuclear, fossil and Steam power",
+    "Basic Forms of Energy Generation"
+   ]
+]
+ },
+ {
+  "course": "Information and Communication Technology",
+  "school": "Information Science and Technology",
+  "department": "information",
+  "units": [
+    [
+    "HIV and AIDS",
+    "Communication Skills",
+    "Introduction to Data and Information",
+    "Applications of Information and Communication Technology",
+    "Introduction To Computers",
+    "Basic Electronics"
+   ],
+    [
+    "Introduction to Systems",
+    "Principles and Practices of Management",
+    "Cataloguing",
+    "Introduction to Databases",
+    "Introduction to Communication in ICT",
+    "Information as a science"
+   ],
+    [
+    "Physics I",
+    "Physics II",
+    "Introduction to Circuits and Circuitry",
+    "Electrostatics I",
+    "Electrostatics II",
+    "Electrostatics III"
+   ],
+    [
+    "Object Oriented technology",
+    "Disaster and Risk Management in Information Centers",
+    "Human Computer Interaction",
+    "Decision Support and Expert Systems",
+    "ICT Security",
+    "Law Ethics and Professional Practice in Informatics"
+   ]
+]
+ }
+]

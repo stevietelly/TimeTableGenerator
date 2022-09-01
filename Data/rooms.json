@@ -1,0 +1,127 @@
+[
+ {
+  "building": "infocoms",
+  "identifier": "A01",
+  "capacity": 40
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A02",
+  "capacity": 70
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A03",
+  "capacity": 150
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A04",
+  "capacity": 40
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A05",
+  "capacity": 20
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A06",
+  "capacity": 70
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A07",
+  "capacity": 150
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A08",
+  "capacity": 20
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A09",
+  "capacity": 50
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A10",
+  "capacity": 30
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A11",
+  "capacity": 20
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A12",
+  "capacity": 70
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A13",
+  "capacity": 20
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A14",
+  "capacity": 20
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A15",
+  "capacity": 50
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A16",
+  "capacity": 150
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A17",
+  "capacity": 20
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A18",
+  "capacity": 30
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A19",
+  "capacity": 50
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A20",
+  "capacity": 20
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A21",
+  "capacity": 40
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A22",
+  "capacity": 50
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A23",
+  "capacity": 40
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A24",
+  "capacity": 20
+ },
+ {
+  "building": "infocoms",
+  "identifier": "A25",
+  "capacity": 30
+ }
+]

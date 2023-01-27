@@ -5,7 +5,9 @@ from Assets.DateTime.DayTime import DayTime
 from Assets.DateTime.Duration import Duration
 from Assets.DateTime.Time import Time
 from Assets.DateTime.Week import Week
+from Assets.FileHandling.Format import Format
 from Assets.FileHandling.Read import Read
+from Assets.FileHandling.Write import Write
 from Logics.Calculators.Group import GroupCalculator
 from Logics.Calculators.Instructor import InstructorCalculator
 from Logics.Calculators.Room import RoomCalculator
@@ -73,6 +75,8 @@ class Generator:
             self.ResetValues()
             self.Accounting()
             self.Statistics()
+
+        self.Output()
 
     def ReadData(self):
         # Get Configuration
@@ -298,25 +302,33 @@ class Generator:
                 if index != 0:
                     free_instructor_period = random.choice(self.FindSpecificInstructorPeriod(
                         clashed_instructor.instructor.identifier))
-                    mutated_session = Session(original_session.room, free_instructor_period.daytime, original_session.schedule)
+                    mutated_session = Session(original_session.room, free_instructor_period.daytime,
+                                              original_session.schedule)
                     self.ReplaceSession(original_session, mutated_session)
 
-    def FindGroup(self, course_name: str, year: int):
+    def Output(self):
+        format_ = Format(self.session_holder, type_="html")
+        result = format_.GiveResult()
+
+        writer = Write("Bin/html/", "index.html", result, type_="html")
+        writer.dump()
+
+    def FindGroup(self, course_name: str, year: int) -> Group:
         for group in self.group_holder:
             if group.title == course_name and group.year == year:
                 return group
 
-    def FindUnit(self, unit_name: str):
+    def FindUnit(self, unit_name: str) -> Unit:
         for unit in self.unit_holder:
             if unit.title == unit_name:
                 return unit
 
-    def FindInstructor(self, inst_id: str):
+    def FindInstructor(self, inst_id: str) -> Instructor:
         for instructor in self.instructor_holder:
             if instructor.identifier == inst_id:
                 return instructor
 
-    def FindSession(self, schedule_identifier: int):
+    def FindSession(self, schedule_identifier: int) -> Session:
         for session in self.session_holder:
             if session.schedule.identifier == schedule_identifier:
                 return session
@@ -325,19 +337,19 @@ class Generator:
         index = self.session_holder.index(old_session)
         self.session_holder[index] = new_session
 
-    def FindRoom(self, room_name: str):
+    def FindRoom(self, room_name: str) -> Room:
         for room in self.room_holder:
             if room.name == room_name:
                 return room
 
-    def FindSpecificGroupPeriod(self, group_id: str):
+    def FindSpecificGroupPeriod(self, group_id: str) -> list:
         group_list = []
         for group_period in self.free_group_periods:
             if str(group_period.group) == group_id:
                 group_list.append(group_period)
         return group_list
 
-    def FindSpecificInstructorPeriod(self, instructor_id: int):
+    def FindSpecificInstructorPeriod(self, instructor_id: int) -> list:
         instructor_list = []
         for instructor_period in self.free_instructor_periods:
             if instructor_period.instructor.identifier == instructor_id:

@@ -16,7 +16,6 @@ class Session:
     instructor_clash_cost = Cost
     instructor_clash_identifiers = []
 
-
     def __init__(self, room, daytime: DayTime, schedule: Schedule):
         self.room = room
         self.schedule = schedule

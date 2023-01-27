@@ -14,36 +14,17 @@ class Time:
         self.clockSystemHandling()
 
     def format(self):
-        temp = None
+        self.time_string = self.time_string.replace(" ", '')
+        if "am" in self.time_string:
+            self.state = 'am'
+            self.time_string = self.time_string.replace("am", '')
+        if 'pm' in self.time_string:
+            self.state = 'pm'
+            self.time_string = self.time_string.replace("pm", '')
 
-        hour_mode = True
-        minute_mode = False
-        state_mode = False
-        for element in self.time_string:
-            if element == ":" and hour_mode:
-                self.hour = int(temp)
-                temp = None
-                hour_mode = False
-                minute_mode = True
-            elif hour_mode:
-                if temp is None:
-                    temp = element
-                elif temp is not None:
-                    temp += element
-            elif element in "amp" and minute_mode:
-                self.minute = int(temp)
-                minute_mode = False
-                state_mode = True
-                temp = element
-            elif minute_mode:
-                if temp is None:
-                    temp = element
-                elif temp is not None:
-                    temp += element
-            elif state_mode:
-                temp += element
+        hours, minutes = self.time_string.split(":")
 
-        self.state = temp
+        self.hour, self.minute = int(hours), int(minutes)
 
     def clockSystemHandling(self):
         if self.state == "pm" and self.hour < 12:
@@ -62,7 +43,10 @@ class Time:
         return f'Time->{self.hour}:{self.minuteHandling(self.minute)}{self.state}'
 
     def __add__(self, other):
-        """Returns Time"""
+        """
+        Time Addition
+        Returns Time
+        """
         hour = self.hour + other.hour
         minute = self.minute + other.minute
 
@@ -75,13 +59,9 @@ class Time:
 
         return time
 
-    def __eq__(self, other):
-        if self.hour == other.hour and self.minute == other.minute:
-            return True
-        return False
-
     def __sub__(self, other):
         """
+        Time subtraction
         Returns Duration
         """
         hour = self.hour - other.hour
@@ -89,4 +69,50 @@ class Time:
         duration = Duration(hour, minute)
         return duration
 
+    def __eq__(self, other):
+        """
+        Time Equality -> if equal
+        Returns Boolean
+        """
+        if self.hour == other.hour and self.minute == other.minute:
+            return True
+        return False
+
+    def __ne__(self, other):
+        """
+        Time Inequality -> if not equal
+        Returns Boolean
+        """
+        if not self == other:
+            return True
+        return False
+
+    def __gt__(self, other):
+        """
+        Time Greater Than -> if time >
+        Returns Boolean
+        """
+        if self.hour > other.hour:
+            return True
+        elif self.hour == other.hour and self.minute > other.minute:
+            return True
+        return False
+
+    def __ge__(self, other):
+        """
+        Time Greater Than or Equal to -> if time >=
+        Returns Boolean
+        """
+        if self > other or self == other:
+            return True
+        return False
+
+    def __le__(self, other):
+        """
+        Time Less Than or Equal to -> if time <=
+        Returns Boolean
+        """
+        if self < other or self == other:
+            return True
+        return False
 

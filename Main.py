@@ -151,16 +151,6 @@ class Generator:
                 raise TypeError
 
 
-    def ReadData(self, configuration, students, instructors, rooms, units,
-                 courses):
-        # Get Configuration
-        self.configurations: dict = Read(configuration).extract()
-        self.all_students: dict = Read(students).extract()
-        self.all_instructors: dict = Read(instructors).extract()
-        self.all_rooms: dict = Read(rooms).extract()
-        self.all_units: dict = Read(units).extract()
-        self.all_courses: dict = Read(courses).extract()
-
     def InitialiseData(self):
         """Configurations"""
         self.institution_name = self.configurations['name']

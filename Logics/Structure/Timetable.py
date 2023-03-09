@@ -9,7 +9,7 @@ class Timetable:
         self.periods = periods
         self.sessions = sessions
     
-    def Output(self):
+    def Output(self, file_path:str):
         format_ = Format(self.sessions)
         result = format_.GiveResult()
 

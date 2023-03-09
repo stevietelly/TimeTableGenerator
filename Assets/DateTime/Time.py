@@ -10,7 +10,7 @@ class Time:
     state = None  # am or pm
 
     def __init__(self, time_string: str):
-        self.time_string = time_string
+        self.time_string = time_string.lower()
         self.format()
         self.clockSystemHandling()
 

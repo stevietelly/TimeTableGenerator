@@ -22,6 +22,8 @@ class Format:
             form['identifier'] = i.schedule.identifier
             form['group'] = i.schedule.group.title
             form['year'] = i.schedule.group.year
+            form['day'] = str(i.daytime.day)
+            form['time'] = str(i.daytime.time)
             form['daytime'] = str(i.daytime)
             form['instructor'] = i.schedule.instructor.name
             form['unit'] = i.schedule.unit.title

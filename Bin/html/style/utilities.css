@@ -1,0 +1,19 @@
+:root {
+    --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+    --lighter-color: #f4f4f479;
+    --grey-color: #a7a5a5;
+    --green-color: rgba(9, 128, 9, 0.781);
+    --red-color: rgba(221, 38, 38, 0.938);
+  }
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color-white{
+    color: var(--light-color);
+}

@@ -40,3 +40,8 @@ class Group:
     def AddStudent(self, student):
         self.students.append(student)
         self.total += 1
+
+class NullGroup(Group):
+    def __init__(self):
+        self.title = None
+        self.year = None

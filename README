@@ -1,3 +1,38 @@
-# TimeTableGenerator
-A minimalist Algorithm that creates timetables written in python
-Written for a Higher Learning Insitution e.g university or college
+# Timetable Generator
+---
+
+## Introduction
+A simple Timetable generator based on an ongoing personal project. rewritten for my [cs50p](https://cs50.harvard.edu/python/2022/project/) final project.
+
+The project is geared at developing an application that deveolops timetables based on input data and recommendations given,
+finding the most optimum solution to atimetable that has the most minimum number of clashes and meets user demands to the
+most physically possible.
+
+
+### Origin
+It was developed in  accrodance with cs50p final project requirements as below:
+- Your project must be implemented in Python.
+- Your project must have a main function and three or more additional functions. At least three of those additional functions must be accompanied by tests that can be executed with pytest.
+- Your main function must be in a file called project.py, which should be in the “root” (i.e., top-level folder) of your project.
+- Your 3 required custom functions other than main must also be in project.py and defined at the same indentation level as main (i.e., not nested under any classes or functions).
+- Your test functions must be in a file called test_project.py, which should also be in the “root” of your project. Be sure they have the same name as your custom functions, prepended with test_ (test_custom_function, for example, where custom_function is a function you’ve implemented in project.py).
+- You are welcome to implement additional classes and functions as you see fit beyond the minimum requirement.
+- Implementing your project should entail more time and effort than is required by each of the course’s problem sets.
+- Any pip-installable libraries that your project requires must be listed, one per line, in a file called requirements.txt in the root of your project
+
+## User Manual
+The projects start point is `project.py` and can take in flags to determine how input data will be handled and how output data is to be handled too.
+
+
+`python project.py` -> Manually input data one by one, with simple questions.
+
+`python project.py default.py` -> Automatically loads in data file inside the data folder
+
+`python project.py .... -c` -> The `-c` Flag indicates that the configuration will be manually typed in, please check input data below to show the formart for handling input files.
+
+`python project.py .... -o output_type` The `-o` flag is followed by either of the following parameters `csv, json, html, excel`
+
+### Flags
+flags allow for smaller functioonality to be handled 
+
+`-c` allows that configurations be maniaully written one by one

@@ -1,10 +1,3 @@
-/.idea
-/node_modules
-package.json
-package-lock.json
-test.py
-my_file.html
-/.vscode
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

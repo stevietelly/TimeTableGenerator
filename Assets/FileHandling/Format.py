@@ -1,4 +1,5 @@
-from Assets.Formation.html import designHeader, designFooter
+from Assets.Formation.HTML import DOMNode, DOMTree
+from Assets.Formation.CSS import CSSFile, CSSRule
 
 
 class Format:
@@ -29,7 +30,11 @@ class Format:
 
     def formHTML(self):
 
-        self.result = designHeader("Timetable Generator") + designFooter()
-
+        # DOMtree
+        root = DOMTree("Timetable Generator", "index.html")
+    
+    def formCSV(self):
+        pass
+         
     def GiveResult(self):
         return self.result

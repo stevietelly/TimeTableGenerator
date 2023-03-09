@@ -1,4 +1,5 @@
 from Assets.DateTime.Duration import Duration
+from datetime import datetime
 
 
 class Time:
@@ -14,7 +15,7 @@ class Time:
         self.clockSystemHandling()
 
     def format(self):
-        self.time_string = self.time_string.replace(" ", '')
+        self.time_string = self.time_string.replace(" ", "")
         if "am" in self.time_string:
             self.state = 'am'
             self.time_string = self.time_string.replace("am", '')
@@ -116,3 +117,16 @@ class Time:
             return True
         return False
 
+
+
+def is_valid_time(time_str):
+    try:
+        if len(time_str) == 5:
+            datetime.strptime(time_str, '%H:%M')
+        elif len(time_str) == 8:
+            datetime.strptime(time_str, '%I:%M:%S %p')
+        else:
+            return False
+        return True
+    except ValueError:
+        return False

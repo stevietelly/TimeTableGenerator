@@ -3,5 +3,12 @@
   "days":  ["Monday", "Tuesday", "Wednesday"],
   "start-time": "8:00am",
   "end-time": "4:00pm",
-  "duration-per-session": 1
+  "duration-per-session": 1,
+  "system": {
+    "limit": 0,
+    "saturation": false,
+    "tries": 1,
+    "output": "json",
+    "output_folder": "Bin/json"
+  }
 }

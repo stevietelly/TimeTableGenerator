@@ -13,3 +13,9 @@ class Unit:
 
     def __str__(self):
         return f'{self.title} {self.sessions} in a week'
+
+class NullUnit(Unit):
+    def __init__(self):
+        self.title = None
+        self.sessions = None
+        self.qualified_instructors = None

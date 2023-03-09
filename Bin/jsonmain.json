@@ -1,0 +1,2786 @@
+[
+ {
+  "identifier": 1,
+  "group": "Computer Science",
+  "year": 1,
+  "daytime": "Monday at 11:00am",
+  "instructor": "Gilbert Mount",
+  "unit": "Introduction to Algorithms"
+ },
+ {
+  "identifier": 2,
+  "group": "Computer Science",
+  "year": 1,
+  "daytime": "Wednesday at 11:00am",
+  "instructor": "Suzie Atieno",
+  "unit": "Introduction to Object Oriented Programming"
+ },
+ {
+  "identifier": 3,
+  "group": "Computer Science",
+  "year": 1,
+  "daytime": "Monday at 15:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Introduction to Structured Programming"
+ },
+ {
+  "identifier": 4,
+  "group": "Computer Science",
+  "year": 1,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Introduction to Structured Programming"
+ },
+ {
+  "identifier": 5,
+  "group": "Computer Science",
+  "year": 1,
+  "daytime": "Wednesday at 13:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 6,
+  "group": "Computer Science",
+  "year": 1,
+  "daytime": "Monday at 9:00am",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 7,
+  "group": "Computer Science",
+  "year": 1,
+  "daytime": "Tuesday at 10:00am",
+  "instructor": "steve Sulpis",
+  "unit": "Computational Structures"
+ },
+ {
+  "identifier": 8,
+  "group": "Computer Science",
+  "year": 1,
+  "daytime": "Monday at 13:00pm",
+  "instructor": "Ronald Wanjala",
+  "unit": "HIV and AIDS"
+ },
+ {
+  "identifier": 9,
+  "group": "Computer Science",
+  "year": 2,
+  "daytime": "Monday at 8:00am",
+  "instructor": "Crystal Naliaka",
+  "unit": "Programming for Web and Mobile devices"
+ },
+ {
+  "identifier": 10,
+  "group": "Computer Science",
+  "year": 2,
+  "daytime": "Monday at 15:00pm",
+  "instructor": "Crystal Naliaka",
+  "unit": "Programming for Web and Mobile devices"
+ },
+ {
+  "identifier": 11,
+  "group": "Computer Science",
+  "year": 2,
+  "daytime": "Wednesday at 16:00pm",
+  "instructor": "Nicky Sulpis",
+  "unit": "Introduction to low level programming"
+ },
+ {
+  "identifier": 12,
+  "group": "Computer Science",
+  "year": 2,
+  "daytime": "Tuesday at 12:00pm",
+  "instructor": "Nicky Sulpis",
+  "unit": "Introduction to low level programming"
+ },
+ {
+  "identifier": 13,
+  "group": "Computer Science",
+  "year": 2,
+  "daytime": "Wednesday at 8:00am",
+  "instructor": "Keziah Wanajala",
+  "unit": "Introduction to High Level Programming"
+ },
+ {
+  "identifier": 14,
+  "group": "Computer Science",
+  "year": 2,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Keziah Wanajala",
+  "unit": "Introduction to High Level Programming"
+ },
+ {
+  "identifier": 15,
+  "group": "Computer Science",
+  "year": 2,
+  "daytime": "Monday at 10:00am",
+  "instructor": "Kevin Kane",
+  "unit": "Physics and its relation to Computer Science"
+ },
+ {
+  "identifier": 16,
+  "group": "Computer Science",
+  "year": 2,
+  "daytime": "Wednesday at 14:00pm",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "The Processor and its architecture"
+ },
+ {
+  "identifier": 17,
+  "group": "Computer Science",
+  "year": 2,
+  "daytime": "Wednesday at 13:00pm",
+  "instructor": "Kevin Kane",
+  "unit": "Introduction to Databases"
+ },
+ {
+  "identifier": 18,
+  "group": "Computer Science",
+  "year": 2,
+  "daytime": "Tuesday at 15:00pm",
+  "instructor": "Kevin Kane",
+  "unit": "Introduction to Databases"
+ },
+ {
+  "identifier": 19,
+  "group": "Computer Science",
+  "year": 3,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "steve Kamau",
+  "unit": "Introduction to Software"
+ },
+ {
+  "identifier": 20,
+  "group": "Computer Science",
+  "year": 3,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Lilian Okuthe",
+  "unit": "Programming and Coding Principles"
+ },
+ {
+  "identifier": 21,
+  "group": "Computer Science",
+  "year": 3,
+  "daytime": "Tuesday at 12:00pm",
+  "instructor": "Angelo Kane",
+  "unit": "Information as a science"
+ },
+ {
+  "identifier": 22,
+  "group": "Computer Science",
+  "year": 3,
+  "daytime": "Tuesday at 13:00pm",
+  "instructor": "Angelo Kane",
+  "unit": "Information as a science"
+ },
+ {
+  "identifier": 23,
+  "group": "Computer Science",
+  "year": 3,
+  "daytime": "Monday at 15:00pm",
+  "instructor": "Micheal Rodrigo",
+  "unit": "Problem Solving with programming"
+ },
+ {
+  "identifier": 24,
+  "group": "Computer Science",
+  "year": 3,
+  "daytime": "Tuesday at 11:00am",
+  "instructor": "Micheal Rodrigo",
+  "unit": "Problem Solving with programming"
+ },
+ {
+  "identifier": 25,
+  "group": "Computer Science",
+  "year": 3,
+  "daytime": "Monday at 13:00pm",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Computer Science Patterns"
+ },
+ {
+  "identifier": 26,
+  "group": "Computer Science",
+  "year": 3,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Catherine Wangui",
+  "unit": "Introduction to Open Source Technologies"
+ },
+ {
+  "identifier": 27,
+  "group": "Computer Science",
+  "year": 3,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Catherine Wangui",
+  "unit": "Introduction to Open Source Technologies"
+ },
+ {
+  "identifier": 28,
+  "group": "Computer Science",
+  "year": 4,
+  "daytime": "Tuesday at 10:00am",
+  "instructor": "Micheal Sulpis",
+  "unit": "Artificial Intelligence"
+ },
+ {
+  "identifier": 29,
+  "group": "Computer Science",
+  "year": 4,
+  "daytime": "Monday at 8:00am",
+  "instructor": "Micheal Sulpis",
+  "unit": "Artificial Intelligence"
+ },
+ {
+  "identifier": 30,
+  "group": "Computer Science",
+  "year": 4,
+  "daytime": "Monday at 15:00pm",
+  "instructor": "Sam Lena",
+  "unit": "Project Management"
+ },
+ {
+  "identifier": 31,
+  "group": "Computer Science",
+  "year": 4,
+  "daytime": "Wednesday at 9:00am",
+  "instructor": "Lilian Okuthe",
+  "unit": "ICT Security"
+ },
+ {
+  "identifier": 32,
+  "group": "Computer Science",
+  "year": 4,
+  "daytime": "Wednesday at 16:00pm",
+  "instructor": "Ananias Salvatore",
+  "unit": "Software Engineering"
+ },
+ {
+  "identifier": 33,
+  "group": "Computer Science",
+  "year": 4,
+  "daytime": "Monday at 11:00am",
+  "instructor": "Ananias Salvatore",
+  "unit": "Software Engineering"
+ },
+ {
+  "identifier": 34,
+  "group": "Computer Science",
+  "year": 4,
+  "daytime": "Monday at 12:00pm",
+  "instructor": "Elijah Kane",
+  "unit": "Quantitative Techniques for Information Scientists"
+ },
+ {
+  "identifier": 35,
+  "group": "Computer Science",
+  "year": 4,
+  "daytime": "Wednesday at 8:00am",
+  "instructor": "Saweetie Lena",
+  "unit": "Web Design  and Development"
+ },
+ {
+  "identifier": 36,
+  "group": "Health Information Technology",
+  "year": 1,
+  "daytime": "Tuesday at 11:00am",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 37,
+  "group": "Health Information Technology",
+  "year": 1,
+  "daytime": "Monday at 12:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 38,
+  "group": "Health Information Technology",
+  "year": 1,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "Keziah Wanajala",
+  "unit": "HIV and AIDS"
+ },
+ {
+  "identifier": 39,
+  "group": "Health Information Technology",
+  "year": 1,
+  "daytime": "Monday at 8:00am",
+  "instructor": "Ariana Wanjiru",
+  "unit": "Introduction to Health Systems"
+ },
+ {
+  "identifier": 40,
+  "group": "Health Information Technology",
+  "year": 1,
+  "daytime": "Tuesday at 12:00pm",
+  "instructor": "Ariana Wanjiru",
+  "unit": "Introduction to Health Systems"
+ },
+ {
+  "identifier": 41,
+  "group": "Health Information Technology",
+  "year": 1,
+  "daytime": "Monday at 9:00am",
+  "instructor": "steve Kamau",
+  "unit": "Introduction to Health Records"
+ },
+ {
+  "identifier": 42,
+  "group": "Health Information Technology",
+  "year": 1,
+  "daytime": "Tuesday at 14:00pm",
+  "instructor": "steve Kamau",
+  "unit": "Introduction to Health Records"
+ },
+ {
+  "identifier": 43,
+  "group": "Health Information Technology",
+  "year": 1,
+  "daytime": "Monday at 11:00am",
+  "instructor": "Zoe Naliaka",
+  "unit": "Statistics I"
+ },
+ {
+  "identifier": 44,
+  "group": "Health Information Technology",
+  "year": 1,
+  "daytime": "Tuesday at 11:00am",
+  "instructor": "Edith Nanjala",
+  "unit": "The Human Anatomy"
+ },
+ {
+  "identifier": 45,
+  "group": "Health Information Technology",
+  "year": 2,
+  "daytime": "Wednesday at 11:00am",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Health Administrative Statistics"
+ },
+ {
+  "identifier": 46,
+  "group": "Health Information Technology",
+  "year": 2,
+  "daytime": "Wednesday at 14:00pm",
+  "instructor": "Elijah Kane",
+  "unit": "Introduction to Human Pathology"
+ },
+ {
+  "identifier": 47,
+  "group": "Health Information Technology",
+  "year": 2,
+  "daytime": "Tuesday at 14:00pm",
+  "instructor": "Keziah Wanajala",
+  "unit": "Foundations of Health Systems Management"
+ },
+ {
+  "identifier": 48,
+  "group": "Health Information Technology",
+  "year": 2,
+  "daytime": "Monday at 11:00am",
+  "instructor": "steve Sulpis",
+  "unit": "Anatomy Management for Health Systems Management"
+ },
+ {
+  "identifier": 49,
+  "group": "Health Information Technology",
+  "year": 2,
+  "daytime": "Tuesday at 9:00am",
+  "instructor": "steve Sulpis",
+  "unit": "Anatomy Management for Health Systems Management"
+ },
+ {
+  "identifier": 50,
+  "group": "Health Information Technology",
+  "year": 2,
+  "daytime": "Tuesday at 15:00pm",
+  "instructor": "Richard Salvatore",
+  "unit": "Introduction to Human Anatomy ang Physiology"
+ },
+ {
+  "identifier": 51,
+  "group": "Health Information Technology",
+  "year": 2,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Richard Salvatore",
+  "unit": "Introduction to Human Anatomy ang Physiology"
+ },
+ {
+  "identifier": 52,
+  "group": "Health Information Technology",
+  "year": 2,
+  "daytime": "Tuesday at 11:00am",
+  "instructor": "kyla Wanjiru",
+  "unit": "Introduction to Health Management Information system"
+ },
+ {
+  "identifier": 53,
+  "group": "Health Information Technology",
+  "year": 2,
+  "daytime": "Wednesday at 9:00am",
+  "instructor": "kyla Wanjiru",
+  "unit": "Introduction to Health Management Information system"
+ },
+ {
+  "identifier": 54,
+  "group": "Health Information Technology",
+  "year": 3,
+  "daytime": "Wednesday at 8:00am",
+  "instructor": "Saweetie Awino",
+  "unit": "Human Computer Interaction"
+ },
+ {
+  "identifier": 55,
+  "group": "Health Information Technology",
+  "year": 3,
+  "daytime": "Tuesday at 11:00am",
+  "instructor": "Sarah Nanjala",
+  "unit": "Introduction Epidemiology and Demography"
+ },
+ {
+  "identifier": 56,
+  "group": "Health Information Technology",
+  "year": 3,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "Sarah Nanjala",
+  "unit": "Introduction Epidemiology and Demography"
+ },
+ {
+  "identifier": 57,
+  "group": "Health Information Technology",
+  "year": 3,
+  "daytime": "Tuesday at 9:00am",
+  "instructor": "Petra Awino",
+  "unit": "Classification of Diseases, coding Diagnoses and Procedures"
+ },
+ {
+  "identifier": 58,
+  "group": "Health Information Technology",
+  "year": 3,
+  "daytime": "Monday at 15:00pm",
+  "instructor": "Petra Awino",
+  "unit": "Time Management For Health System Managers"
+ },
+ {
+  "identifier": 59,
+  "group": "Health Information Technology",
+  "year": 3,
+  "daytime": "Wednesday at 9:00am",
+  "instructor": "Gilbert Mount",
+  "unit": "Medical Terminology, Diagnosis amd Treatments"
+ },
+ {
+  "identifier": 60,
+  "group": "Health Information Technology",
+  "year": 3,
+  "daytime": "Monday at 13:00pm",
+  "instructor": "kyla Ngilu",
+  "unit": "Health Insurance and Policies"
+ },
+ {
+  "identifier": 61,
+  "group": "Health Information Technology",
+  "year": 3,
+  "daytime": "Tuesday at 13:00pm",
+  "instructor": "kyla Ngilu",
+  "unit": "Health Insurance and Policies"
+ },
+ {
+  "identifier": 62,
+  "group": "Health Information Technology",
+  "year": 4,
+  "daytime": "Monday at 13:00pm",
+  "instructor": "kyla Ngilu",
+  "unit": "Database Construction and Management"
+ },
+ {
+  "identifier": 63,
+  "group": "Health Information Technology",
+  "year": 4,
+  "daytime": "Monday at 15:00pm",
+  "instructor": "Stephen Stephens",
+  "unit": "Medical terminology and Clinical Documentation"
+ },
+ {
+  "identifier": 64,
+  "group": "Health Information Technology",
+  "year": 4,
+  "daytime": "Monday at 13:00pm",
+  "instructor": "Suzie Atieno",
+  "unit": "Health Policy and Planning"
+ },
+ {
+  "identifier": 65,
+  "group": "Health Information Technology",
+  "year": 4,
+  "daytime": "Tuesday at 9:00am",
+  "instructor": "Suzie Atieno",
+  "unit": "Health Policy and Planning"
+ },
+ {
+  "identifier": 66,
+  "group": "Health Information Technology",
+  "year": 4,
+  "daytime": "Monday at 14:00pm",
+  "instructor": "Saweetie Awino",
+  "unit": "Purchasing and Contracting in Healthcare"
+ },
+ {
+  "identifier": 67,
+  "group": "Health Information Technology",
+  "year": 4,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "Micheal Sulpis",
+  "unit": "Healthcare Entrepreneurship"
+ },
+ {
+  "identifier": 68,
+  "group": "Health Information Technology",
+  "year": 4,
+  "daytime": "Monday at 12:00pm",
+  "instructor": "Suzie Atieno",
+  "unit": "Health Risk and Insurance Management"
+ },
+ {
+  "identifier": 69,
+  "group": "Health Information Technology",
+  "year": 4,
+  "daytime": "Tuesday at 11:00am",
+  "instructor": "Suzie Atieno",
+  "unit": "Health Risk and Insurance Management"
+ },
+ {
+  "identifier": 70,
+  "group": "Hotel and Hospitality Management",
+  "year": 1,
+  "daytime": "Monday at 16:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 71,
+  "group": "Hotel and Hospitality Management",
+  "year": 1,
+  "daytime": "Monday at 14:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 72,
+  "group": "Hotel and Hospitality Management",
+  "year": 1,
+  "daytime": "Wednesday at 16:00pm",
+  "instructor": "Keziah Wanajala",
+  "unit": "HIV and AIDS"
+ },
+ {
+  "identifier": 73,
+  "group": "Hotel and Hospitality Management",
+  "year": 1,
+  "daytime": "Tuesday at 13:00pm",
+  "instructor": "Emmah Wanajala",
+  "unit": "Cleaning and Hygiene"
+ },
+ {
+  "identifier": 74,
+  "group": "Hotel and Hospitality Management",
+  "year": 1,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Emmah Wanajala",
+  "unit": "Cleaning and Hygiene"
+ },
+ {
+  "identifier": 75,
+  "group": "Hotel and Hospitality Management",
+  "year": 1,
+  "daytime": "Tuesday at 10:00am",
+  "instructor": "Gilbert Mount",
+  "unit": "Introduction to Food Chemistry"
+ },
+ {
+  "identifier": 76,
+  "group": "Hotel and Hospitality Management",
+  "year": 1,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "Catherine Wangui",
+  "unit": "Introduction to Food Biology"
+ },
+ {
+  "identifier": 77,
+  "group": "Hotel and Hospitality Management",
+  "year": 1,
+  "daytime": "Monday at 9:00am",
+  "instructor": "Catherine Wangui",
+  "unit": "Introduction to Food Biology"
+ },
+ {
+  "identifier": 78,
+  "group": "Hotel and Hospitality Management",
+  "year": 1,
+  "daytime": "Wednesday at 9:00am",
+  "instructor": "Richard Salvatore",
+  "unit": "Supply and Management"
+ },
+ {
+  "identifier": 79,
+  "group": "Hotel and Hospitality Management",
+  "year": 1,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Richard Salvatore",
+  "unit": "Supply and Management"
+ },
+ {
+  "identifier": 80,
+  "group": "Hotel and Hospitality Management",
+  "year": 2,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Silas Keino",
+  "unit": "Carbohydrates and Fats"
+ },
+ {
+  "identifier": 81,
+  "group": "Hotel and Hospitality Management",
+  "year": 2,
+  "daytime": "Wednesday at 13:00pm",
+  "instructor": "Richard Owens",
+  "unit": "Proteins"
+ },
+ {
+  "identifier": 82,
+  "group": "Hotel and Hospitality Management",
+  "year": 2,
+  "daytime": "Tuesday at 13:00pm",
+  "instructor": "Richard Owens",
+  "unit": "Proteins"
+ },
+ {
+  "identifier": 83,
+  "group": "Hotel and Hospitality Management",
+  "year": 2,
+  "daytime": "Tuesday at 8:00am",
+  "instructor": "kyla Wanjiru",
+  "unit": "Vitamins"
+ },
+ {
+  "identifier": 84,
+  "group": "Hotel and Hospitality Management",
+  "year": 2,
+  "daytime": "Monday at 14:00pm",
+  "instructor": "kyla Wanjiru",
+  "unit": "Vitamins"
+ },
+ {
+  "identifier": 85,
+  "group": "Hotel and Hospitality Management",
+  "year": 2,
+  "daytime": "Wednesday at 8:00am",
+  "instructor": "Saweetie Lena",
+  "unit": "Fruits and Vegetables"
+ },
+ {
+  "identifier": 86,
+  "group": "Hotel and Hospitality Management",
+  "year": 2,
+  "daytime": "Wednesday at 14:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Cooking Oil Mechanics"
+ },
+ {
+  "identifier": 87,
+  "group": "Hotel and Hospitality Management",
+  "year": 2,
+  "daytime": "Monday at 10:00am",
+  "instructor": "Lilian Wangui",
+  "unit": "Drinks and Beverages"
+ },
+ {
+  "identifier": 88,
+  "group": "Hotel and Hospitality Management",
+  "year": 3,
+  "daytime": "Monday at 13:00pm",
+  "instructor": "Doreen Wanjiru",
+  "unit": "Introduction to Hotel Management"
+ },
+ {
+  "identifier": 89,
+  "group": "Hotel and Hospitality Management",
+  "year": 3,
+  "daytime": "Monday at 10:00am",
+  "instructor": "Elijah Kane",
+  "unit": "Hotel Structure and Administration"
+ },
+ {
+  "identifier": 90,
+  "group": "Hotel and Hospitality Management",
+  "year": 3,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Sam Lena",
+  "unit": "Basic Catering Services"
+ },
+ {
+  "identifier": 91,
+  "group": "Hotel and Hospitality Management",
+  "year": 3,
+  "daytime": "Monday at 12:00pm",
+  "instructor": "Sam Lena",
+  "unit": "Basic Catering Services"
+ },
+ {
+  "identifier": 92,
+  "group": "Hotel and Hospitality Management",
+  "year": 3,
+  "daytime": "Monday at 15:00pm",
+  "instructor": "Anastacia Awino",
+  "unit": "Dining Table Structure"
+ },
+ {
+  "identifier": 93,
+  "group": "Hotel and Hospitality Management",
+  "year": 3,
+  "daytime": "Wednesday at 14:00pm",
+  "instructor": "Angelo Kane",
+  "unit": "French Cuisine"
+ },
+ {
+  "identifier": 94,
+  "group": "Hotel and Hospitality Management",
+  "year": 3,
+  "daytime": "Tuesday at 8:00am",
+  "instructor": "Pelesiah Wanajala",
+  "unit": "East African Cuisine"
+ },
+ {
+  "identifier": 95,
+  "group": "Hotel and Hospitality Management",
+  "year": 3,
+  "daytime": "Monday at 11:00am",
+  "instructor": "Pelesiah Wanajala",
+  "unit": "East African Cuisine"
+ },
+ {
+  "identifier": 96,
+  "group": "Hotel and Hospitality Management",
+  "year": 4,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "kyla Wanjiru",
+  "unit": "Spanish Cuisine"
+ },
+ {
+  "identifier": 97,
+  "group": "Hotel and Hospitality Management",
+  "year": 4,
+  "daytime": "Tuesday at 10:00am",
+  "instructor": "kyla Wanjiru",
+  "unit": "Spanish Cuisine"
+ },
+ {
+  "identifier": 98,
+  "group": "Hotel and Hospitality Management",
+  "year": 4,
+  "daytime": "Monday at 13:00pm",
+  "instructor": "steve Kamau",
+  "unit": "Italian Cuisine"
+ },
+ {
+  "identifier": 99,
+  "group": "Hotel and Hospitality Management",
+  "year": 4,
+  "daytime": "Wednesday at 16:00pm",
+  "instructor": "steve Kamau",
+  "unit": "Italian Cuisine"
+ },
+ {
+  "identifier": 100,
+  "group": "Hotel and Hospitality Management",
+  "year": 4,
+  "daytime": "Monday at 10:00am",
+  "instructor": "kyla Ngilu",
+  "unit": "Indian Cuisine"
+ },
+ {
+  "identifier": 101,
+  "group": "Hotel and Hospitality Management",
+  "year": 4,
+  "daytime": "Tuesday at 9:00am",
+  "instructor": "Gilbert Mount",
+  "unit": "Indonesian Cuisine"
+ },
+ {
+  "identifier": 102,
+  "group": "Hotel and Hospitality Management",
+  "year": 4,
+  "daytime": "Tuesday at 14:00pm",
+  "instructor": "Gilbert Mount",
+  "unit": "Indonesian Cuisine"
+ },
+ {
+  "identifier": 103,
+  "group": "Hotel and Hospitality Management",
+  "year": 4,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Silas Keino",
+  "unit": "south African Cuisine"
+ },
+ {
+  "identifier": 104,
+  "group": "Hotel and Hospitality Management",
+  "year": 4,
+  "daytime": "Monday at 14:00pm",
+  "instructor": "Richard Owens",
+  "unit": "West African Cuisine"
+ },
+ {
+  "identifier": 105,
+  "group": "Secondary Education",
+  "year": 1,
+  "daytime": "Tuesday at 10:00am",
+  "instructor": "Elijah Kane",
+  "unit": "HIV and AIDS"
+ },
+ {
+  "identifier": 106,
+  "group": "Secondary Education",
+  "year": 1,
+  "daytime": "Tuesday at 12:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 107,
+  "group": "Secondary Education",
+  "year": 1,
+  "daytime": "Tuesday at 15:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 108,
+  "group": "Secondary Education",
+  "year": 1,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Basic Teaching Skills"
+ },
+ {
+  "identifier": 109,
+  "group": "Secondary Education",
+  "year": 1,
+  "daytime": "Monday at 10:00am",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Basic Teaching Skills"
+ },
+ {
+  "identifier": 110,
+  "group": "Secondary Education",
+  "year": 1,
+  "daytime": "Tuesday at 13:00pm",
+  "instructor": "Nicky Sulpis",
+  "unit": "Introduction to Psychology"
+ },
+ {
+  "identifier": 111,
+  "group": "Secondary Education",
+  "year": 1,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Bravin Maguire",
+  "unit": "Class Management"
+ },
+ {
+  "identifier": 112,
+  "group": "Secondary Education",
+  "year": 1,
+  "daytime": "Monday at 13:00pm",
+  "instructor": "Zoe Naliaka",
+  "unit": "Teaching Tools"
+ },
+ {
+  "identifier": 113,
+  "group": "Secondary Education",
+  "year": 2,
+  "daytime": "Wednesday at 9:00am",
+  "instructor": "Richard Owens",
+  "unit": "Physiology II"
+ },
+ {
+  "identifier": 114,
+  "group": "Secondary Education",
+  "year": 2,
+  "daytime": "Wednesday at 14:00pm",
+  "instructor": "Richard Salvatore",
+  "unit": "Listening and Speaking Skills"
+ },
+ {
+  "identifier": 115,
+  "group": "Secondary Education",
+  "year": 2,
+  "daytime": "Wednesday at 11:00am",
+  "instructor": "Petra Ngilu",
+  "unit": "Class Routines"
+ },
+ {
+  "identifier": 116,
+  "group": "Secondary Education",
+  "year": 2,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Lilian Okuthe",
+  "unit": "Time Management"
+ },
+ {
+  "identifier": 117,
+  "group": "Secondary Education",
+  "year": 2,
+  "daytime": "Wednesday at 16:00pm",
+  "instructor": "Pelesiah Wanajala",
+  "unit": "Foundations of Student Psychology"
+ },
+ {
+  "identifier": 118,
+  "group": "Secondary Education",
+  "year": 2,
+  "daytime": "Monday at 13:00pm",
+  "instructor": "Lilian Wangui",
+  "unit": "Discipline and Punishment"
+ },
+ {
+  "identifier": 119,
+  "group": "Secondary Education",
+  "year": 3,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Micheal Rodrigo",
+  "unit": "Mathematics I"
+ },
+ {
+  "identifier": 120,
+  "group": "Secondary Education",
+  "year": 3,
+  "daytime": "Monday at 12:00pm",
+  "instructor": "Pelesiah Wanajala",
+  "unit": "English: Language and Grammar"
+ },
+ {
+  "identifier": 121,
+  "group": "Secondary Education",
+  "year": 3,
+  "daytime": "Wednesday at 9:00am",
+  "instructor": "Pelesiah Wanajala",
+  "unit": "English: Language and Grammar"
+ },
+ {
+  "identifier": 122,
+  "group": "Secondary Education",
+  "year": 3,
+  "daytime": "Wednesday at 13:00pm",
+  "instructor": "Kevin Mccdonald",
+  "unit": "Biology I"
+ },
+ {
+  "identifier": 123,
+  "group": "Secondary Education",
+  "year": 3,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Kevin Mccdonald",
+  "unit": "Biology I"
+ },
+ {
+  "identifier": 124,
+  "group": "Secondary Education",
+  "year": 3,
+  "daytime": "Tuesday at 10:00am",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Chemistry I"
+ },
+ {
+  "identifier": 125,
+  "group": "Secondary Education",
+  "year": 3,
+  "daytime": "Monday at 15:00pm",
+  "instructor": "Gilbert Mount",
+  "unit": "History I"
+ },
+ {
+  "identifier": 126,
+  "group": "Secondary Education",
+  "year": 3,
+  "daytime": "Wednesday at 11:00am",
+  "instructor": "Doreen Wanjiru",
+  "unit": "Physics I"
+ },
+ {
+  "identifier": 127,
+  "group": "Secondary Education",
+  "year": 4,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Kala Wanjiru",
+  "unit": "Ethics and professional Practice in Teaching"
+ },
+ {
+  "identifier": 128,
+  "group": "Secondary Education",
+  "year": 4,
+  "daytime": "Monday at 12:00pm",
+  "instructor": "Malcom Kane",
+  "unit": "Student teacher Relationship"
+ },
+ {
+  "identifier": 129,
+  "group": "Secondary Education",
+  "year": 4,
+  "daytime": "Tuesday at 8:00am",
+  "instructor": "Chris Kamau",
+  "unit": "Special Needs Education"
+ },
+ {
+  "identifier": 130,
+  "group": "Secondary Education",
+  "year": 4,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Kevin Mccdonald",
+  "unit": "Parent teacher Relationship"
+ },
+ {
+  "identifier": 131,
+  "group": "Secondary Education",
+  "year": 4,
+  "daytime": "Monday at 10:00am",
+  "instructor": "Kevin Mccdonald",
+  "unit": "Parent teacher Relationship"
+ },
+ {
+  "identifier": 132,
+  "group": "Secondary Education",
+  "year": 4,
+  "daytime": "Tuesday at 14:00pm",
+  "instructor": "Anastacia Awino",
+  "unit": "Teacher teacher relationship"
+ },
+ {
+  "identifier": 133,
+  "group": "Secondary Education",
+  "year": 4,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Crystal Naliaka",
+  "unit": "Board Management"
+ },
+ {
+  "identifier": 134,
+  "group": "Secondary Education",
+  "year": 4,
+  "daytime": "Wednesday at 8:00am",
+  "instructor": "Crystal Naliaka",
+  "unit": "Board Management"
+ },
+ {
+  "identifier": 135,
+  "group": "Secondary Education",
+  "year": 4,
+  "daytime": "Monday at 9:00am",
+  "instructor": "kyla Wanjiru",
+  "unit": "Administrative duties in School"
+ },
+ {
+  "identifier": 136,
+  "group": "Secondary Education",
+  "year": 4,
+  "daytime": "Tuesday at 9:00am",
+  "instructor": "kyla Wanjiru",
+  "unit": "Administrative duties in School"
+ },
+ {
+  "identifier": 137,
+  "group": "Primary Education",
+  "year": 1,
+  "daytime": "Tuesday at 13:00pm",
+  "instructor": "Elijah Kane",
+  "unit": "HIV and AIDS"
+ },
+ {
+  "identifier": 138,
+  "group": "Primary Education",
+  "year": 1,
+  "daytime": "Monday at 13:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 139,
+  "group": "Primary Education",
+  "year": 1,
+  "daytime": "Tuesday at 8:00am",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 140,
+  "group": "Primary Education",
+  "year": 1,
+  "daytime": "Tuesday at 14:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Basic Teaching Skills"
+ },
+ {
+  "identifier": 141,
+  "group": "Primary Education",
+  "year": 1,
+  "daytime": "Monday at 10:00am",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Basic Teaching Skills"
+ },
+ {
+  "identifier": 142,
+  "group": "Primary Education",
+  "year": 1,
+  "daytime": "Tuesday at 15:00pm",
+  "instructor": "Angelo Kipchoge",
+  "unit": "Class Management"
+ },
+ {
+  "identifier": 143,
+  "group": "Primary Education",
+  "year": 1,
+  "daytime": "Monday at 11:00am",
+  "instructor": "steve Kamau",
+  "unit": "Teaching Tools"
+ },
+ {
+  "identifier": 144,
+  "group": "Primary Education",
+  "year": 1,
+  "daytime": "Monday at 9:00am",
+  "instructor": "Micheal Sulpis",
+  "unit": "Kids and Kids Development"
+ },
+ {
+  "identifier": 145,
+  "group": "Primary Education",
+  "year": 2,
+  "daytime": "Wednesday at 16:00pm",
+  "instructor": "Petra Awino",
+  "unit": "Introduction to Child Care"
+ },
+ {
+  "identifier": 146,
+  "group": "Primary Education",
+  "year": 2,
+  "daytime": "Tuesday at 10:00am",
+  "instructor": "Keziah Wanajala",
+  "unit": "Levels of Child Understanding and Comprehension"
+ },
+ {
+  "identifier": 147,
+  "group": "Primary Education",
+  "year": 2,
+  "daytime": "Wednesday at 14:00pm",
+  "instructor": "Keziah Wanajala",
+  "unit": "Levels of Child Understanding and Comprehension"
+ },
+ {
+  "identifier": 148,
+  "group": "Primary Education",
+  "year": 2,
+  "daytime": "Wednesday at 13:00pm",
+  "instructor": "Silas Keino",
+  "unit": "Teaching Basic Arithmetic"
+ },
+ {
+  "identifier": 149,
+  "group": "Primary Education",
+  "year": 2,
+  "daytime": "Tuesday at 9:00am",
+  "instructor": "Silas Keino",
+  "unit": "Teaching Basic Arithmetic"
+ },
+ {
+  "identifier": 150,
+  "group": "Primary Education",
+  "year": 2,
+  "daytime": "Monday at 9:00am",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Teaching Basic Grammar"
+ },
+ {
+  "identifier": 151,
+  "group": "Primary Education",
+  "year": 2,
+  "daytime": "Tuesday at 12:00pm",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Teaching Basic Grammar"
+ },
+ {
+  "identifier": 152,
+  "group": "Primary Education",
+  "year": 2,
+  "daytime": "Monday at 11:00am",
+  "instructor": "Saweetie Awino",
+  "unit": "Introduction to Communication with Children"
+ },
+ {
+  "identifier": 153,
+  "group": "Primary Education",
+  "year": 2,
+  "daytime": "Tuesday at 13:00pm",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Child Development II"
+ },
+ {
+  "identifier": 154,
+  "group": "Primary Education",
+  "year": 3,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Pelesiah Wanajala",
+  "unit": "English: Language and Grammar"
+ },
+ {
+  "identifier": 155,
+  "group": "Primary Education",
+  "year": 3,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Pelesiah Wanajala",
+  "unit": "English: Language and Grammar"
+ },
+ {
+  "identifier": 156,
+  "group": "Primary Education",
+  "year": 3,
+  "daytime": "Wednesday at 13:00pm",
+  "instructor": "Doreen Wanjiru",
+  "unit": "English II"
+ },
+ {
+  "identifier": 157,
+  "group": "Primary Education",
+  "year": 3,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "Doreen Wanjiru",
+  "unit": "English II"
+ },
+ {
+  "identifier": 158,
+  "group": "Primary Education",
+  "year": 3,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Micheal Rodrigo",
+  "unit": "Mathematics I"
+ },
+ {
+  "identifier": 159,
+  "group": "Primary Education",
+  "year": 3,
+  "daytime": "Wednesday at 14:00pm",
+  "instructor": "Malcom Kane",
+  "unit": "Science: Introduction and Foundation"
+ },
+ {
+  "identifier": 160,
+  "group": "Primary Education",
+  "year": 3,
+  "daytime": "Monday at 11:00am",
+  "instructor": "Malcom Kane",
+  "unit": "Science: Introduction and Foundation"
+ },
+ {
+  "identifier": 161,
+  "group": "Primary Education",
+  "year": 3,
+  "daytime": "Monday at 10:00am",
+  "instructor": "Suzie Atieno",
+  "unit": "Swahili I"
+ },
+ {
+  "identifier": 162,
+  "group": "Primary Education",
+  "year": 3,
+  "daytime": "Monday at 14:00pm",
+  "instructor": "Suzie Atieno",
+  "unit": "Swahili I"
+ },
+ {
+  "identifier": 163,
+  "group": "Primary Education",
+  "year": 3,
+  "daytime": "Tuesday at 15:00pm",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Teaching and Scholar Activities"
+ },
+ {
+  "identifier": 164,
+  "group": "Primary Education",
+  "year": 3,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Teaching and Scholar Activities"
+ },
+ {
+  "identifier": 165,
+  "group": "Primary Education",
+  "year": 4,
+  "daytime": "Monday at 12:00pm",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Administrative duties in School"
+ },
+ {
+  "identifier": 166,
+  "group": "Primary Education",
+  "year": 4,
+  "daytime": "Tuesday at 8:00am",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Administrative duties in School"
+ },
+ {
+  "identifier": 167,
+  "group": "Primary Education",
+  "year": 4,
+  "daytime": "Monday at 15:00pm",
+  "instructor": "Skala Awino",
+  "unit": "Ethics and professional Practice in Teaching"
+ },
+ {
+  "identifier": 168,
+  "group": "Primary Education",
+  "year": 4,
+  "daytime": "Monday at 11:00am",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Pupil Teacher Interaction"
+ },
+ {
+  "identifier": 169,
+  "group": "Primary Education",
+  "year": 4,
+  "daytime": "Monday at 8:00am",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Marking and Notation"
+ },
+ {
+  "identifier": 170,
+  "group": "Primary Education",
+  "year": 4,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Anastacia Awino",
+  "unit": "Teacher teacher relationship"
+ },
+ {
+  "identifier": 171,
+  "group": "Primary Education",
+  "year": 4,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "Chris Kamau",
+  "unit": "Special Needs Education"
+ },
+ {
+  "identifier": 172,
+  "group": "Civil Engineering",
+  "year": 1,
+  "daytime": "Wednesday at 9:00am",
+  "instructor": "Elijah Kane",
+  "unit": "HIV and AIDS"
+ },
+ {
+  "identifier": 173,
+  "group": "Civil Engineering",
+  "year": 1,
+  "daytime": "Monday at 9:00am",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 174,
+  "group": "Civil Engineering",
+  "year": 1,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 175,
+  "group": "Civil Engineering",
+  "year": 1,
+  "daytime": "Tuesday at 8:00am",
+  "instructor": "Kevin Kane",
+  "unit": "Introduction to Civil Engineering"
+ },
+ {
+  "identifier": 176,
+  "group": "Civil Engineering",
+  "year": 1,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Kevin Kane",
+  "unit": "Introduction to Civil Engineering"
+ },
+ {
+  "identifier": 177,
+  "group": "Civil Engineering",
+  "year": 1,
+  "daytime": "Wednesday at 8:00am",
+  "instructor": "Silas Keino",
+  "unit": "Basic Engineering"
+ },
+ {
+  "identifier": 178,
+  "group": "Civil Engineering",
+  "year": 1,
+  "daytime": "Tuesday at 13:00pm",
+  "instructor": "Silas Keino",
+  "unit": "Basic Engineering"
+ },
+ {
+  "identifier": 179,
+  "group": "Civil Engineering",
+  "year": 1,
+  "daytime": "Monday at 16:00pm",
+  "instructor": "Kevin Mccdonald",
+  "unit": "History of Civil Engineering"
+ },
+ {
+  "identifier": 180,
+  "group": "Civil Engineering",
+  "year": 1,
+  "daytime": "Wednesday at 13:00pm",
+  "instructor": "Sarah Nanjala",
+  "unit": "Physics and its Relation to Civil Engineering"
+ },
+ {
+  "identifier": 181,
+  "group": "Civil Engineering",
+  "year": 1,
+  "daytime": "Monday at 10:00am",
+  "instructor": "Sarah Nanjala",
+  "unit": "Physics and its Relation to Civil Engineering"
+ },
+ {
+  "identifier": 182,
+  "group": "Civil Engineering",
+  "year": 2,
+  "daytime": "Wednesday at 13:00pm",
+  "instructor": "Crystal Naliaka",
+  "unit": "Introduction to Architecture"
+ },
+ {
+  "identifier": 183,
+  "group": "Civil Engineering",
+  "year": 2,
+  "daytime": "Wednesday at 11:00am",
+  "instructor": "Angelo Kane",
+  "unit": "Foundations of Building and Construction"
+ },
+ {
+  "identifier": 184,
+  "group": "Civil Engineering",
+  "year": 2,
+  "daytime": "Tuesday at 11:00am",
+  "instructor": "Angelo Kane",
+  "unit": "Foundations of Building and Construction"
+ },
+ {
+  "identifier": 185,
+  "group": "Civil Engineering",
+  "year": 2,
+  "daytime": "Tuesday at 14:00pm",
+  "instructor": "Chris Kamau",
+  "unit": "Introduction to Building Materials and Hardware Tools"
+ },
+ {
+  "identifier": 186,
+  "group": "Civil Engineering",
+  "year": 2,
+  "daytime": "Monday at 12:00pm",
+  "instructor": "Chris Kamau",
+  "unit": "Introduction to Building Materials and Hardware Tools"
+ },
+ {
+  "identifier": 187,
+  "group": "Civil Engineering",
+  "year": 2,
+  "daytime": "Monday at 8:00am",
+  "instructor": "Sarah Nanjala",
+  "unit": "Classification of Buildings"
+ },
+ {
+  "identifier": 188,
+  "group": "Civil Engineering",
+  "year": 2,
+  "daytime": "Monday at 8:00am",
+  "instructor": "Sarah Nanjala",
+  "unit": "Classification of Buildings"
+ },
+ {
+  "identifier": 189,
+  "group": "Civil Engineering",
+  "year": 2,
+  "daytime": "Tuesday at 12:00pm",
+  "instructor": "Crystal Naliaka",
+  "unit": "Construction site Management"
+ },
+ {
+  "identifier": 190,
+  "group": "Civil Engineering",
+  "year": 2,
+  "daytime": "Monday at 10:00am",
+  "instructor": "Crystal Naliaka",
+  "unit": "Construction site Management"
+ },
+ {
+  "identifier": 191,
+  "group": "Civil Engineering",
+  "year": 2,
+  "daytime": "Monday at 16:00pm",
+  "instructor": "Ronald Wanjala",
+  "unit": "Introduction to Management"
+ },
+ {
+  "identifier": 192,
+  "group": "Civil Engineering",
+  "year": 2,
+  "daytime": "Tuesday at 8:00am",
+  "instructor": "Ronald Wanjala",
+  "unit": "Introduction to Management"
+ },
+ {
+  "identifier": 193,
+  "group": "Civil Engineering",
+  "year": 3,
+  "daytime": "Monday at 11:00am",
+  "instructor": "Jackson Junior",
+  "unit": "Location and Positional Services"
+ },
+ {
+  "identifier": 194,
+  "group": "Civil Engineering",
+  "year": 3,
+  "daytime": "Wednesday at 13:00pm",
+  "instructor": "Jackson Junior",
+  "unit": "Location and Positional Services"
+ },
+ {
+  "identifier": 195,
+  "group": "Civil Engineering",
+  "year": 3,
+  "daytime": "Monday at 13:00pm",
+  "instructor": "Kevin Kane",
+  "unit": "Engineering Tools"
+ },
+ {
+  "identifier": 196,
+  "group": "Civil Engineering",
+  "year": 3,
+  "daytime": "Monday at 11:00am",
+  "instructor": "Kevin Kane",
+  "unit": "Engineering Tools"
+ },
+ {
+  "identifier": 197,
+  "group": "Civil Engineering",
+  "year": 3,
+  "daytime": "Wednesday at 14:00pm",
+  "instructor": "kyla Wanjiru",
+  "unit": "Engineering as a Service"
+ },
+ {
+  "identifier": 198,
+  "group": "Civil Engineering",
+  "year": 3,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Malcom Kane",
+  "unit": "Engineering as a Science"
+ },
+ {
+  "identifier": 199,
+  "group": "Civil Engineering",
+  "year": 3,
+  "daytime": "Wednesday at 8:00am",
+  "instructor": "Malcom Kane",
+  "unit": "Engineering as a Science"
+ },
+ {
+  "identifier": 200,
+  "group": "Civil Engineering",
+  "year": 3,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "Petra Ngilu",
+  "unit": "Engineering as an Art"
+ },
+ {
+  "identifier": 201,
+  "group": "Civil Engineering",
+  "year": 3,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Richard Owens",
+  "unit": "Civil Engineering"
+ },
+ {
+  "identifier": 202,
+  "group": "Civil Engineering",
+  "year": 4,
+  "daytime": "Monday at 16:00pm",
+  "instructor": "kyla Wanjiru",
+  "unit": "Civil Systems"
+ },
+ {
+  "identifier": 203,
+  "group": "Civil Engineering",
+  "year": 4,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Ananias Salvatore",
+  "unit": "Glass Metamorphosis"
+ },
+ {
+  "identifier": 204,
+  "group": "Civil Engineering",
+  "year": 4,
+  "daytime": "Monday at 13:00pm",
+  "instructor": "Gilbert Mount",
+  "unit": "Stone Masonry and Metamorphosis"
+ },
+ {
+  "identifier": 205,
+  "group": "Civil Engineering",
+  "year": 4,
+  "daytime": "Monday at 10:00am",
+  "instructor": "Gilbert Mount",
+  "unit": "Stone Masonry and Metamorphosis"
+ },
+ {
+  "identifier": 206,
+  "group": "Civil Engineering",
+  "year": 4,
+  "daytime": "Tuesday at 13:00pm",
+  "instructor": "Doreen Wanjiru",
+  "unit": "Structural Engineering"
+ },
+ {
+  "identifier": 207,
+  "group": "Civil Engineering",
+  "year": 4,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Doreen Wanjiru",
+  "unit": "Structural Engineering"
+ },
+ {
+  "identifier": 208,
+  "group": "Civil Engineering",
+  "year": 4,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "steve Sulpis",
+  "unit": "Architectural Engineering"
+ },
+ {
+  "identifier": 209,
+  "group": "Civil Engineering",
+  "year": 4,
+  "daytime": "Tuesday at 8:00am",
+  "instructor": "steve Sulpis",
+  "unit": "Architectural Engineering"
+ },
+ {
+  "identifier": 210,
+  "group": "Civil Engineering",
+  "year": 4,
+  "daytime": "Monday at 16:00pm",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Paid Architecture"
+ },
+ {
+  "identifier": 211,
+  "group": "Mass Media Communication",
+  "year": 1,
+  "daytime": "Wednesday at 13:00pm",
+  "instructor": "Elijah Kane",
+  "unit": "HIV and AIDS"
+ },
+ {
+  "identifier": 212,
+  "group": "Mass Media Communication",
+  "year": 1,
+  "daytime": "Tuesday at 9:00am",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 213,
+  "group": "Mass Media Communication",
+  "year": 1,
+  "daytime": "Wednesday at 14:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 214,
+  "group": "Mass Media Communication",
+  "year": 1,
+  "daytime": "Tuesday at 14:00pm",
+  "instructor": "Edith Nanjala",
+  "unit": "Ethics of a Journalist"
+ },
+ {
+  "identifier": 215,
+  "group": "Mass Media Communication",
+  "year": 1,
+  "daytime": "Tuesday at 15:00pm",
+  "instructor": "Edith Nanjala",
+  "unit": "Ethics of a Journalist"
+ },
+ {
+  "identifier": 216,
+  "group": "Mass Media Communication",
+  "year": 1,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "kyla Wanjiru",
+  "unit": "Types of Media Skills"
+ },
+ {
+  "identifier": 217,
+  "group": "Mass Media Communication",
+  "year": 1,
+  "daytime": "Wednesday at 16:00pm",
+  "instructor": "Richard Salvatore",
+  "unit": "Listening and Speaking Skills"
+ },
+ {
+  "identifier": 218,
+  "group": "Mass Media Communication",
+  "year": 1,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "Sam Lena",
+  "unit": "Public Speaking"
+ },
+ {
+  "identifier": 219,
+  "group": "Mass Media Communication",
+  "year": 2,
+  "daytime": "Wednesday at 13:00pm",
+  "instructor": "Catherine Wangui",
+  "unit": "Time Management"
+ },
+ {
+  "identifier": 220,
+  "group": "Mass Media Communication",
+  "year": 2,
+  "daytime": "Monday at 16:00pm",
+  "instructor": "Catherine Wangui",
+  "unit": "Introduction to Human Anatomy ang Physiology"
+ },
+ {
+  "identifier": 221,
+  "group": "Mass Media Communication",
+  "year": 2,
+  "daytime": "Monday at 15:00pm",
+  "instructor": "Catherine Wangui",
+  "unit": "Introduction to Human Anatomy ang Physiology"
+ },
+ {
+  "identifier": 222,
+  "group": "Mass Media Communication",
+  "year": 2,
+  "daytime": "Wednesday at 8:00am",
+  "instructor": "Pelesiah Wanajala",
+  "unit": "Political Systems and Governance"
+ },
+ {
+  "identifier": 223,
+  "group": "Mass Media Communication",
+  "year": 2,
+  "daytime": "Tuesday at 11:00am",
+  "instructor": "Catherine Wangui",
+  "unit": "Introduction to Reporting, news and coverage"
+ },
+ {
+  "identifier": 224,
+  "group": "Mass Media Communication",
+  "year": 2,
+  "daytime": "Tuesday at 14:00pm",
+  "instructor": "Saweetie Awino",
+  "unit": "Introduction to Information Processing and Handling"
+ },
+ {
+  "identifier": 225,
+  "group": "Mass Media Communication",
+  "year": 2,
+  "daytime": "Monday at 9:00am",
+  "instructor": "Saweetie Awino",
+  "unit": "Introduction to Information Processing and Handling"
+ },
+ {
+  "identifier": 226,
+  "group": "Mass Media Communication",
+  "year": 2,
+  "daytime": "Tuesday at 14:00pm",
+  "instructor": "Pelesiah Wanajala",
+  "unit": "History of Kenyan Journalism"
+ },
+ {
+  "identifier": 227,
+  "group": "Mass Media Communication",
+  "year": 3,
+  "daytime": "Monday at 9:00am",
+  "instructor": "Ronald Wanjala",
+  "unit": "Mass Communication"
+ },
+ {
+  "identifier": 228,
+  "group": "Mass Media Communication",
+  "year": 3,
+  "daytime": "Monday at 8:00am",
+  "instructor": "Kevin Kane",
+  "unit": "Foundations of ICT"
+ },
+ {
+  "identifier": 229,
+  "group": "Mass Media Communication",
+  "year": 3,
+  "daytime": "Monday at 8:00am",
+  "instructor": "Catherine Wangui",
+  "unit": "Basic Computer Skills"
+ },
+ {
+  "identifier": 230,
+  "group": "Mass Media Communication",
+  "year": 3,
+  "daytime": "Monday at 11:00am",
+  "instructor": "Sam Lena",
+  "unit": "Graphics"
+ },
+ {
+  "identifier": 231,
+  "group": "Mass Media Communication",
+  "year": 3,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Advanced Writing I"
+ },
+ {
+  "identifier": 232,
+  "group": "Mass Media Communication",
+  "year": 3,
+  "daytime": "Wednesday at 9:00am",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Advanced Writing I"
+ },
+ {
+  "identifier": 233,
+  "group": "Mass Media Communication",
+  "year": 3,
+  "daytime": "Tuesday at 12:00pm",
+  "instructor": "Skala Awino",
+  "unit": "Forms of Media Communication"
+ },
+ {
+  "identifier": 234,
+  "group": "Mass Media Communication",
+  "year": 4,
+  "daytime": "Monday at 12:00pm",
+  "instructor": "Richard Salvatore",
+  "unit": "Advanced Writing II"
+ },
+ {
+  "identifier": 235,
+  "group": "Mass Media Communication",
+  "year": 4,
+  "daytime": "Tuesday at 9:00am",
+  "instructor": "Lilian Okuthe",
+  "unit": "Photography 101"
+ },
+ {
+  "identifier": 236,
+  "group": "Mass Media Communication",
+  "year": 4,
+  "daytime": "Tuesday at 9:00am",
+  "instructor": "Lilian Okuthe",
+  "unit": "Photography 101"
+ },
+ {
+  "identifier": 237,
+  "group": "Mass Media Communication",
+  "year": 4,
+  "daytime": "Wednesday at 8:00am",
+  "instructor": "Petra Ngilu",
+  "unit": "Photography for Crime scene"
+ },
+ {
+  "identifier": 238,
+  "group": "Mass Media Communication",
+  "year": 4,
+  "daytime": "Tuesday at 11:00am",
+  "instructor": "Emmah Wanajala",
+  "unit": "Speech, Talking and Conversations"
+ },
+ {
+  "identifier": 239,
+  "group": "Mass Media Communication",
+  "year": 4,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Petra Ngilu",
+  "unit": "Interviewing"
+ },
+ {
+  "identifier": 240,
+  "group": "Mass Media Communication",
+  "year": 4,
+  "daytime": "Tuesday at 15:00pm",
+  "instructor": "Kala Wanjiru",
+  "unit": "Research Methods"
+ },
+ {
+  "identifier": 241,
+  "group": "Mass Media Communication",
+  "year": 4,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "Kala Wanjiru",
+  "unit": "Research Methods"
+ },
+ {
+  "identifier": 242,
+  "group": "Library and Information Studies",
+  "year": 1,
+  "daytime": "Wednesday at 13:00pm",
+  "instructor": "Elijah Kane",
+  "unit": "HIV and AIDS"
+ },
+ {
+  "identifier": 243,
+  "group": "Library and Information Studies",
+  "year": 1,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 244,
+  "group": "Library and Information Studies",
+  "year": 1,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 245,
+  "group": "Library and Information Studies",
+  "year": 1,
+  "daytime": "Monday at 13:00pm",
+  "instructor": "Ananias Salvatore",
+  "unit": "Introduction to the general Library"
+ },
+ {
+  "identifier": 246,
+  "group": "Library and Information Studies",
+  "year": 1,
+  "daytime": "Wednesday at 13:00pm",
+  "instructor": "Edith Nanjala",
+  "unit": "Catalogue and Book Record Management"
+ },
+ {
+  "identifier": 247,
+  "group": "Library and Information Studies",
+  "year": 1,
+  "daytime": "Monday at 12:00pm",
+  "instructor": "Edith Nanjala",
+  "unit": "Catalogue and Book Record Management"
+ },
+ {
+  "identifier": 248,
+  "group": "Library and Information Studies",
+  "year": 1,
+  "daytime": "Monday at 14:00pm",
+  "instructor": "Ariana Wanjiru",
+  "unit": "Introduction to Information Processing and Handling"
+ },
+ {
+  "identifier": 249,
+  "group": "Library and Information Studies",
+  "year": 1,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Ariana Wanjiru",
+  "unit": "Introduction to Information Processing and Handling"
+ },
+ {
+  "identifier": 250,
+  "group": "Library and Information Studies",
+  "year": 1,
+  "daytime": "Wednesday at 11:00am",
+  "instructor": "Lilian Wangui",
+  "unit": "Library Systems"
+ },
+ {
+  "identifier": 251,
+  "group": "Library and Information Studies",
+  "year": 2,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Kala Wanjiru",
+  "unit": "Research Methods"
+ },
+ {
+  "identifier": 252,
+  "group": "Library and Information Studies",
+  "year": 2,
+  "daytime": "Tuesday at 11:00am",
+  "instructor": "Kala Wanjiru",
+  "unit": "Research Methods"
+ },
+ {
+  "identifier": 253,
+  "group": "Library and Information Studies",
+  "year": 2,
+  "daytime": "Monday at 9:00am",
+  "instructor": "Kevin Kane",
+  "unit": "Management Information systems"
+ },
+ {
+  "identifier": 254,
+  "group": "Library and Information Studies",
+  "year": 2,
+  "daytime": "Tuesday at 11:00am",
+  "instructor": "Kevin Kane",
+  "unit": "Management Information systems"
+ },
+ {
+  "identifier": 255,
+  "group": "Library and Information Studies",
+  "year": 2,
+  "daytime": "Wednesday at 13:00pm",
+  "instructor": "Keziah Wanajala",
+  "unit": "Time Management"
+ },
+ {
+  "identifier": 256,
+  "group": "Library and Information Studies",
+  "year": 2,
+  "daytime": "Monday at 9:00am",
+  "instructor": "kyla Ngilu",
+  "unit": "Introduction to Management"
+ },
+ {
+  "identifier": 257,
+  "group": "Library and Information Studies",
+  "year": 2,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "kyla Ngilu",
+  "unit": "Introduction to Management"
+ },
+ {
+  "identifier": 258,
+  "group": "Library and Information Studies",
+  "year": 2,
+  "daytime": "Tuesday at 15:00pm",
+  "instructor": "Pelesiah Wanajala",
+  "unit": "Classification of Books"
+ },
+ {
+  "identifier": 259,
+  "group": "Library and Information Studies",
+  "year": 2,
+  "daytime": "Monday at 11:00am",
+  "instructor": "Pelesiah Wanajala",
+  "unit": "Classification of Books"
+ },
+ {
+  "identifier": 260,
+  "group": "Library and Information Studies",
+  "year": 2,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Elijah Kane",
+  "unit": "Basic Record Keeping"
+ },
+ {
+  "identifier": 261,
+  "group": "Library and Information Studies",
+  "year": 2,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "Elijah Kane",
+  "unit": "Basic Record Keeping"
+ },
+ {
+  "identifier": 262,
+  "group": "Library and Information Studies",
+  "year": 3,
+  "daytime": "Monday at 11:00am",
+  "instructor": "Micheal Sulpis",
+  "unit": "History of Books"
+ },
+ {
+  "identifier": 263,
+  "group": "Library and Information Studies",
+  "year": 3,
+  "daytime": "Tuesday at 8:00am",
+  "instructor": "Micheal Sulpis",
+  "unit": "History of Books"
+ },
+ {
+  "identifier": 264,
+  "group": "Library and Information Studies",
+  "year": 3,
+  "daytime": "Monday at 14:00pm",
+  "instructor": "Keziah Wanajala",
+  "unit": "Basic Book Keeping"
+ },
+ {
+  "identifier": 265,
+  "group": "Library and Information Studies",
+  "year": 3,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "Jackson Junior",
+  "unit": "Books and Information Technology"
+ },
+ {
+  "identifier": 266,
+  "group": "Library and Information Studies",
+  "year": 3,
+  "daytime": "Tuesday at 13:00pm",
+  "instructor": "Jackson Junior",
+  "unit": "Books and Information Technology"
+ },
+ {
+  "identifier": 267,
+  "group": "Library and Information Studies",
+  "year": 3,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "steve Kamau",
+  "unit": "Library Management system"
+ },
+ {
+  "identifier": 268,
+  "group": "Library and Information Studies",
+  "year": 3,
+  "daytime": "Monday at 8:00am",
+  "instructor": "steve Kamau",
+  "unit": "Library Management system"
+ },
+ {
+  "identifier": 269,
+  "group": "Library and Information Studies",
+  "year": 3,
+  "daytime": "Wednesday at 13:00pm",
+  "instructor": "Anastacia Awino",
+  "unit": "Book Annotations"
+ },
+ {
+  "identifier": 270,
+  "group": "Library and Information Studies",
+  "year": 3,
+  "daytime": "Wednesday at 9:00am",
+  "instructor": "Anastacia Awino",
+  "unit": "Book Annotations"
+ },
+ {
+  "identifier": 271,
+  "group": "Library and Information Studies",
+  "year": 3,
+  "daytime": "Monday at 8:00am",
+  "instructor": "Catherine Wangui",
+  "unit": "Shelves and Book Storage"
+ },
+ {
+  "identifier": 272,
+  "group": "Library and Information Studies",
+  "year": 4,
+  "daytime": "Tuesday at 12:00pm",
+  "instructor": "Kala Wanjiru",
+  "unit": "Library and Physical Structures"
+ },
+ {
+  "identifier": 273,
+  "group": "Library and Information Studies",
+  "year": 4,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Kevin Kane",
+  "unit": "Library utilities and using them"
+ },
+ {
+  "identifier": 274,
+  "group": "Library and Information Studies",
+  "year": 4,
+  "daytime": "Monday at 8:00am",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Advanced Writing I"
+ },
+ {
+  "identifier": 275,
+  "group": "Library and Information Studies",
+  "year": 4,
+  "daytime": "Wednesday at 9:00am",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Advanced Writing I"
+ },
+ {
+  "identifier": 276,
+  "group": "Library and Information Studies",
+  "year": 4,
+  "daytime": "Tuesday at 13:00pm",
+  "instructor": "Sam Lena",
+  "unit": "Subjects and Scholastic Categorisation"
+ },
+ {
+  "identifier": 277,
+  "group": "Library and Information Studies",
+  "year": 4,
+  "daytime": "Monday at 14:00pm",
+  "instructor": "Catherine Wangui",
+  "unit": "Basic Computer Skills"
+ },
+ {
+  "identifier": 278,
+  "group": "Library and Information Studies",
+  "year": 4,
+  "daytime": "Wednesday at 8:00am",
+  "instructor": "Doreen Wanjiru",
+  "unit": "Spreadsheets and Workbooks"
+ },
+ {
+  "identifier": 279,
+  "group": "Library and Information Studies",
+  "year": 4,
+  "daytime": "Tuesday at 11:00am",
+  "instructor": "Doreen Wanjiru",
+  "unit": "Spreadsheets and Workbooks"
+ },
+ {
+  "identifier": 280,
+  "group": "Electrical and Electronic Engineering",
+  "year": 1,
+  "daytime": "Tuesday at 15:00pm",
+  "instructor": "Elijah Kane",
+  "unit": "HIV and AIDS"
+ },
+ {
+  "identifier": 281,
+  "group": "Electrical and Electronic Engineering",
+  "year": 1,
+  "daytime": "Wednesday at 16:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 282,
+  "group": "Electrical and Electronic Engineering",
+  "year": 1,
+  "daytime": "Monday at 11:00am",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 283,
+  "group": "Electrical and Electronic Engineering",
+  "year": 1,
+  "daytime": "Tuesday at 10:00am",
+  "instructor": "Saweetie Lena",
+  "unit": "Physics and its Relation to Electronic Engineering"
+ },
+ {
+  "identifier": 284,
+  "group": "Electrical and Electronic Engineering",
+  "year": 1,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "Jackson Junior",
+  "unit": "Electrostatics I"
+ },
+ {
+  "identifier": 285,
+  "group": "Electrical and Electronic Engineering",
+  "year": 1,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Jackson Junior",
+  "unit": "Electrostatics I"
+ },
+ {
+  "identifier": 286,
+  "group": "Electrical and Electronic Engineering",
+  "year": 1,
+  "daytime": "Tuesday at 11:00am",
+  "instructor": "Silas Keino",
+  "unit": "Basic Engineering"
+ },
+ {
+  "identifier": 287,
+  "group": "Electrical and Electronic Engineering",
+  "year": 1,
+  "daytime": "Monday at 15:00pm",
+  "instructor": "Silas Keino",
+  "unit": "Basic Engineering"
+ },
+ {
+  "identifier": 288,
+  "group": "Electrical and Electronic Engineering",
+  "year": 1,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "Angelo Kipchoge",
+  "unit": "Basic Electronics"
+ },
+ {
+  "identifier": 289,
+  "group": "Electrical and Electronic Engineering",
+  "year": 2,
+  "daytime": "Monday at 9:00am",
+  "instructor": "Chris Kamau",
+  "unit": "Electrostatics II"
+ },
+ {
+  "identifier": 290,
+  "group": "Electrical and Electronic Engineering",
+  "year": 2,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Chris Kamau",
+  "unit": "Electrostatics II"
+ },
+ {
+  "identifier": 291,
+  "group": "Electrical and Electronic Engineering",
+  "year": 2,
+  "daytime": "Tuesday at 10:00am",
+  "instructor": "Ariana Wanjiru",
+  "unit": "Foundations of Electronics"
+ },
+ {
+  "identifier": 292,
+  "group": "Electrical and Electronic Engineering",
+  "year": 2,
+  "daytime": "Wednesday at 16:00pm",
+  "instructor": "Richard Owens",
+  "unit": "Introduction to Circuits and Circuitry"
+ },
+ {
+  "identifier": 293,
+  "group": "Electrical and Electronic Engineering",
+  "year": 2,
+  "daytime": "Tuesday at 8:00am",
+  "instructor": "Richard Owens",
+  "unit": "Introduction to Circuits and Circuitry"
+ },
+ {
+  "identifier": 294,
+  "group": "Electrical and Electronic Engineering",
+  "year": 2,
+  "daytime": "Monday at 9:00am",
+  "instructor": "Angelo Kipchoge",
+  "unit": "Wiring and Physical Connections"
+ },
+ {
+  "identifier": 295,
+  "group": "Electrical and Electronic Engineering",
+  "year": 2,
+  "daytime": "Monday at 12:00pm",
+  "instructor": "Elijah Kane",
+  "unit": "Basic Record Keeping"
+ },
+ {
+  "identifier": 296,
+  "group": "Electrical and Electronic Engineering",
+  "year": 2,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Elijah Kane",
+  "unit": "Basic Record Keeping"
+ },
+ {
+  "identifier": 297,
+  "group": "Electrical and Electronic Engineering",
+  "year": 2,
+  "daytime": "Monday at 16:00pm",
+  "instructor": "Ronald Wanjala",
+  "unit": "Introduction to Measurement and Quantification"
+ },
+ {
+  "identifier": 298,
+  "group": "Electrical and Electronic Engineering",
+  "year": 2,
+  "daytime": "Tuesday at 15:00pm",
+  "instructor": "Ronald Wanjala",
+  "unit": "Introduction to Measurement and Quantification"
+ },
+ {
+  "identifier": 299,
+  "group": "Electrical and Electronic Engineering",
+  "year": 3,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Doreen Wanjiru",
+  "unit": "Physics I"
+ },
+ {
+  "identifier": 300,
+  "group": "Electrical and Electronic Engineering",
+  "year": 3,
+  "daytime": "Monday at 16:00pm",
+  "instructor": "Chris Kamau",
+  "unit": "Physics II"
+ },
+ {
+  "identifier": 301,
+  "group": "Electrical and Electronic Engineering",
+  "year": 3,
+  "daytime": "Wednesday at 9:00am",
+  "instructor": "Sam Lena",
+  "unit": "Electrostatics III"
+ },
+ {
+  "identifier": 302,
+  "group": "Electrical and Electronic Engineering",
+  "year": 3,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Bravin Maguire",
+  "unit": "Forms of Energy"
+ },
+ {
+  "identifier": 303,
+  "group": "Electrical and Electronic Engineering",
+  "year": 3,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Conversion of Energy"
+ },
+ {
+  "identifier": 304,
+  "group": "Electrical and Electronic Engineering",
+  "year": 3,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Conversion of Energy"
+ },
+ {
+  "identifier": 305,
+  "group": "Electrical and Electronic Engineering",
+  "year": 3,
+  "daytime": "Tuesday at 13:00pm",
+  "instructor": "kyla Wanjiru",
+  "unit": "Energy and Empirical Measurements"
+ },
+ {
+  "identifier": 306,
+  "group": "Electrical and Electronic Engineering",
+  "year": 4,
+  "daytime": "Tuesday at 13:00pm",
+  "instructor": "Ananias Salvatore",
+  "unit": "Voltage Enhancements"
+ },
+ {
+  "identifier": 307,
+  "group": "Electrical and Electronic Engineering",
+  "year": 4,
+  "daytime": "Tuesday at 9:00am",
+  "instructor": "Kevin Mccdonald",
+  "unit": "National Grid"
+ },
+ {
+  "identifier": 308,
+  "group": "Electrical and Electronic Engineering",
+  "year": 4,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Lilian Okuthe",
+  "unit": "Green Energy and Climate Action"
+ },
+ {
+  "identifier": 309,
+  "group": "Electrical and Electronic Engineering",
+  "year": 4,
+  "daytime": "Tuesday at 14:00pm",
+  "instructor": "Lilian Okuthe",
+  "unit": "Green Energy and Climate Action"
+ },
+ {
+  "identifier": 310,
+  "group": "Electrical and Electronic Engineering",
+  "year": 4,
+  "daytime": "Tuesday at 14:00pm",
+  "instructor": "Ronald Wanjala",
+  "unit": "Solar Radiation and power"
+ },
+ {
+  "identifier": 311,
+  "group": "Electrical and Electronic Engineering",
+  "year": 4,
+  "daytime": "Wednesday at 16:00pm",
+  "instructor": "Ronald Wanjala",
+  "unit": "Solar Radiation and power"
+ },
+ {
+  "identifier": 312,
+  "group": "Electrical and Electronic Engineering",
+  "year": 4,
+  "daytime": "Wednesday at 11:00am",
+  "instructor": "Skala Awino",
+  "unit": "Nuclear, fossil and Steam power"
+ },
+ {
+  "identifier": 313,
+  "group": "Electrical and Electronic Engineering",
+  "year": 4,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Skala Awino",
+  "unit": "Nuclear, fossil and Steam power"
+ },
+ {
+  "identifier": 314,
+  "group": "Electrical and Electronic Engineering",
+  "year": 4,
+  "daytime": "Tuesday at 9:00am",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Basic Forms of Energy Generation"
+ },
+ {
+  "identifier": 315,
+  "group": "Electrical and Electronic Engineering",
+  "year": 4,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Zacharia Kipchoge",
+  "unit": "Basic Forms of Energy Generation"
+ },
+ {
+  "identifier": 316,
+  "group": "Information and Communication Technology",
+  "year": 1,
+  "daytime": "Monday at 12:00pm",
+  "instructor": "Elijah Kane",
+  "unit": "HIV and AIDS"
+ },
+ {
+  "identifier": 317,
+  "group": "Information and Communication Technology",
+  "year": 1,
+  "daytime": "Monday at 8:00am",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 318,
+  "group": "Information and Communication Technology",
+  "year": 1,
+  "daytime": "Monday at 11:00am",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Communication Skills"
+ },
+ {
+  "identifier": 319,
+  "group": "Information and Communication Technology",
+  "year": 1,
+  "daytime": "Monday at 14:00pm",
+  "instructor": "Catherine Wangui",
+  "unit": "Introduction to Data and Information"
+ },
+ {
+  "identifier": 320,
+  "group": "Information and Communication Technology",
+  "year": 1,
+  "daytime": "Monday at 9:00am",
+  "instructor": "Lilian Okuthe",
+  "unit": "Applications of Information and Communication Technology"
+ },
+ {
+  "identifier": 321,
+  "group": "Information and Communication Technology",
+  "year": 1,
+  "daytime": "Tuesday at 16:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Introduction To Computers"
+ },
+ {
+  "identifier": 322,
+  "group": "Information and Communication Technology",
+  "year": 1,
+  "daytime": "Wednesday at 9:00am",
+  "instructor": "Angelo Kipchoge",
+  "unit": "Basic Electronics"
+ },
+ {
+  "identifier": 323,
+  "group": "Information and Communication Technology",
+  "year": 2,
+  "daytime": "Tuesday at 11:00am",
+  "instructor": "Zoe Naliaka",
+  "unit": "Introduction to Systems"
+ },
+ {
+  "identifier": 324,
+  "group": "Information and Communication Technology",
+  "year": 2,
+  "daytime": "Tuesday at 9:00am",
+  "instructor": "Doreen Wanjiru",
+  "unit": "Principles and Practices of Management"
+ },
+ {
+  "identifier": 325,
+  "group": "Information and Communication Technology",
+  "year": 2,
+  "daytime": "Monday at 16:00pm",
+  "instructor": "Doreen Wanjiru",
+  "unit": "Principles and Practices of Management"
+ },
+ {
+  "identifier": 326,
+  "group": "Information and Communication Technology",
+  "year": 2,
+  "daytime": "Wednesday at 11:00am",
+  "instructor": "Zoe Naliaka",
+  "unit": "Cataloguing"
+ },
+ {
+  "identifier": 327,
+  "group": "Information and Communication Technology",
+  "year": 2,
+  "daytime": "Wednesday at 14:00pm",
+  "instructor": "Kevin Kane",
+  "unit": "Introduction to Databases"
+ },
+ {
+  "identifier": 328,
+  "group": "Information and Communication Technology",
+  "year": 2,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "Kevin Kane",
+  "unit": "Introduction to Databases"
+ },
+ {
+  "identifier": 329,
+  "group": "Information and Communication Technology",
+  "year": 2,
+  "daytime": "Monday at 9:00am",
+  "instructor": "Angelo Kipchoge",
+  "unit": "Introduction to Communication in ICT"
+ },
+ {
+  "identifier": 330,
+  "group": "Information and Communication Technology",
+  "year": 2,
+  "daytime": "Tuesday at 12:00pm",
+  "instructor": "Angelo Kane",
+  "unit": "Information as a science"
+ },
+ {
+  "identifier": 331,
+  "group": "Information and Communication Technology",
+  "year": 2,
+  "daytime": "Tuesday at 8:00am",
+  "instructor": "Angelo Kane",
+  "unit": "Information as a science"
+ },
+ {
+  "identifier": 332,
+  "group": "Information and Communication Technology",
+  "year": 3,
+  "daytime": "Tuesday at 10:00am",
+  "instructor": "Doreen Wanjiru",
+  "unit": "Physics I"
+ },
+ {
+  "identifier": 333,
+  "group": "Information and Communication Technology",
+  "year": 3,
+  "daytime": "Monday at 16:00pm",
+  "instructor": "Chris Kamau",
+  "unit": "Physics II"
+ },
+ {
+  "identifier": 334,
+  "group": "Information and Communication Technology",
+  "year": 3,
+  "daytime": "Wednesday at 10:00am",
+  "instructor": "Richard Owens",
+  "unit": "Introduction to Circuits and Circuitry"
+ },
+ {
+  "identifier": 335,
+  "group": "Information and Communication Technology",
+  "year": 3,
+  "daytime": "Tuesday at 8:00am",
+  "instructor": "Richard Owens",
+  "unit": "Introduction to Circuits and Circuitry"
+ },
+ {
+  "identifier": 336,
+  "group": "Information and Communication Technology",
+  "year": 3,
+  "daytime": "Tuesday at 8:00am",
+  "instructor": "Jackson Junior",
+  "unit": "Electrostatics I"
+ },
+ {
+  "identifier": 337,
+  "group": "Information and Communication Technology",
+  "year": 3,
+  "daytime": "Monday at 8:00am",
+  "instructor": "Jackson Junior",
+  "unit": "Electrostatics I"
+ },
+ {
+  "identifier": 338,
+  "group": "Information and Communication Technology",
+  "year": 3,
+  "daytime": "Monday at 8:00am",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Electrostatics II"
+ },
+ {
+  "identifier": 339,
+  "group": "Information and Communication Technology",
+  "year": 3,
+  "daytime": "Wednesday at 12:00pm",
+  "instructor": "Elijah Kipkemboi",
+  "unit": "Electrostatics II"
+ },
+ {
+  "identifier": 340,
+  "group": "Information and Communication Technology",
+  "year": 3,
+  "daytime": "Tuesday at 8:00am",
+  "instructor": "Sam Lena",
+  "unit": "Electrostatics III"
+ },
+ {
+  "identifier": 341,
+  "group": "Information and Communication Technology",
+  "year": 4,
+  "daytime": "Monday at 13:00pm",
+  "instructor": "Petra Ngilu",
+  "unit": "Object Oriented technology"
+ },
+ {
+  "identifier": 342,
+  "group": "Information and Communication Technology",
+  "year": 4,
+  "daytime": "Tuesday at 13:00pm",
+  "instructor": "Malcom Kane",
+  "unit": "Disaster and Risk Management in Information Centers"
+ },
+ {
+  "identifier": 343,
+  "group": "Information and Communication Technology",
+  "year": 4,
+  "daytime": "Monday at 10:00am",
+  "instructor": "Malcom Kane",
+  "unit": "Disaster and Risk Management in Information Centers"
+ },
+ {
+  "identifier": 344,
+  "group": "Information and Communication Technology",
+  "year": 4,
+  "daytime": "Wednesday at 15:00pm",
+  "instructor": "Saweetie Awino",
+  "unit": "Human Computer Interaction"
+ },
+ {
+  "identifier": 345,
+  "group": "Information and Communication Technology",
+  "year": 4,
+  "daytime": "Tuesday at 15:00pm",
+  "instructor": "Nicky Sulpis",
+  "unit": "Decision Support and Expert Systems"
+ },
+ {
+  "identifier": 346,
+  "group": "Information and Communication Technology",
+  "year": 4,
+  "daytime": "Tuesday at 10:00am",
+  "instructor": "Nicky Sulpis",
+  "unit": "Decision Support and Expert Systems"
+ },
+ {
+  "identifier": 347,
+  "group": "Information and Communication Technology",
+  "year": 4,
+  "daytime": "Monday at 11:00am",
+  "instructor": "Lilian Okuthe",
+  "unit": "ICT Security"
+ },
+ {
+  "identifier": 348,
+  "group": "Information and Communication Technology",
+  "year": 4,
+  "daytime": "Monday at 16:00pm",
+  "instructor": "Angelo Kane",
+  "unit": "Law Ethics and Professional Practice in Informatics"
+ }
+]

@@ -28,3 +28,10 @@ class Session:
 
     def __str__(self):
         return f'{self.schedule.unit.title} at {self.daytime} in {self.room.name}'
+
+class NullSession(Session):
+    def __init__(self):
+        self.room = None
+        self.daytime = None
+        self.schedule = None
+        

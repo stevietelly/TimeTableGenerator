@@ -1,0 +1,322 @@
+[
+    {
+        "session_id": 1,
+        "day": "Monday",
+        "time": "08:00",
+        "room": 1,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 2,
+        "day": "Monday",
+        "time": "09:00",
+        "room": 2,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 3,
+        "day": "Monday",
+        "time": "10:00",
+        "room": 3,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 4,
+        "day": "Monday",
+        "time": "11:00",
+        "room": 4,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 5,
+        "day": "Monday",
+        "time": "12:00",
+        "room": 5,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 6,
+        "day": "Monday",
+        "time": "13:00",
+        "room": 6,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 7,
+        "day": "Monday",
+        "time": "14:00",
+        "room": 7,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 8,
+        "day": "Monday",
+        "time": "15:00",
+        "room": 8,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 9,
+        "day": "Tuesday",
+        "time": "16:00",
+        "room": 9,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 10,
+        "day": "Tuesday",
+        "time": "17:00",
+        "room": 10,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 11,
+        "day": "Tuesday",
+        "time": "18:00",
+        "room": 11,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 12,
+        "day": "Tuesday",
+        "time": "19:00",
+        "room": 12,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 13,
+        "day": "Tuesday",
+        "time": "20:00",
+        "room": 13,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 14,
+        "day": "Tuesday",
+        "time": "21:00",
+        "room": 14,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 15,
+        "day": "Tuesday",
+        "time": "22:00",
+        "room": 15,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 16,
+        "day": "Tuesday",
+        "time": "23:00",
+        "room": 16,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 17,
+        "day": "Wednesday",
+        "time": "00:00",
+        "room": 17,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 18,
+        "day": "Wednesday",
+        "time": "01:00",
+        "room": 18,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 19,
+        "day": "Wednesday",
+        "time": "02:00",
+        "room": 19,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 20,
+        "day": "Wednesday",
+        "time": "03:00",
+        "room": 20,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 21,
+        "day": "Wednesday",
+        "time": "04:00",
+        "room": 21,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 22,
+        "day": "Wednesday",
+        "time": "05:00",
+        "room": 22,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 23,
+        "day": "Wednesday",
+        "time": "06:00",
+        "room": 23,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 24,
+        "day": "Wednesday",
+        "time": "07:00",
+        "room": 24,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 25,
+        "day": "Thursday",
+        "time": "08:00",
+        "room": 25,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 26,
+        "day": "Thursday",
+        "time": "09:00",
+        "room": 26,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 27,
+        "day": "Thursday",
+        "time": "10:00",
+        "room": 27,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 28,
+        "day": "Thursday",
+        "time": "11:00",
+        "room": 28,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 29,
+        "day": "Thursday",
+        "time": "12:00",
+        "room": 29,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 30,
+        "day": "Thursday",
+        "time": "13:00",
+        "room": 30,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 31,
+        "day": "Thursday",
+        "time": "14:00",
+        "room": 31,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 32,
+        "day": "Thursday",
+        "time": "15:00",
+        "room": 32,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 33,
+        "day": "Friday",
+        "time": "16:00",
+        "room": 33,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 34,
+        "day": "Friday",
+        "time": "17:00",
+        "room": 34,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 35,
+        "day": "Friday",
+        "time": "18:00",
+        "room": 35,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 36,
+        "day": "Friday",
+        "time": "19:00",
+        "room": 36,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 37,
+        "day": "Friday",
+        "time": "20:00",
+        "room": 37,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 38,
+        "day": "Friday",
+        "time": "21:00",
+        "room": 38,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 39,
+        "day": "Friday",
+        "time": "22:00",
+        "room": 39,
+        "instructor": null,
+        "group": null
+    },
+    {
+        "session_id": 40,
+        "day": "Friday",
+        "time": "23:00",
+        "room": 40,
+        "instructor": null,
+        "group": null
+    }
+]

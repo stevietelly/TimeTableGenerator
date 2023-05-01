@@ -1,0 +1,22 @@
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Python cache folders
+__pycache__/
+
+# Ignore system-specific files and folders
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore testing and coverage files
+.coverage
+.tox/
+nosetests.xml
+htmlcov/
+coverage/

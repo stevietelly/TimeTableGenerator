@@ -1,0 +1,27 @@
+{
+  "configuration": {
+    "name": "Test Instiution",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "priorities": {
+      "room": 3,
+      "instructors": 1,
+      "units": 2,
+      "groups": 4
+    },
+    "start_time": "8:00am",
+    "end_time": "4:00pm",
+    "duration_per_session": 1,
+    "total_duration_for_sessions": 3,
+    "soft_contraints_satisfaction_rate": 0,
+    "consecutive": {
+      "room": 2,
+      "instructor": 3,
+      "group": 1
+    },
+    "system": {
+      "limit": 100,
+      "saturation": true,
+      "tries": 3
+    }
+  }
+}

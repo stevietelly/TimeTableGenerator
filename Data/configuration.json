@@ -1,7 +1,0 @@
-{
-  "name": "Test Institution",
-  "days":  ["Monday", "Tuesday", "Wednesday"],
-  "start-time": "8:00am",
-  "end-time": "4:00pm",
-  "duration-per-session": 1
-}

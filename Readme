@@ -33,7 +33,7 @@ Ther are specific terms used in the entire project that may cause some confusion
 
 **maximum Limit**   The upper limit in number of loops that can be made
 
-**schedule**        this is a capsule(python class) holding the unit, a grpup of students and a single instructor
+**schedule**        this is a capsule(python class) holding the unit, a group of students and a single instructor
 
 **session**         This is a capsule(python calss) holding a schedule, a time and a day
 

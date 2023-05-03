@@ -69,10 +69,12 @@ class DataGenerator:
     def GroupHandling(self, programmes: list):
         count = 1
         result = []
-        for index, program in enumerate(programmes):
-            for level in range(1, program["levels"]):
-                
-                temp = {"identifier": count, "programme": program["title"], "year": level, "total": random.randint(20, 100)}
+        for program in programmes:
+            
+
+            for level in range(program["levels"]):
+              
+                temp = {"identifier": count, "programme": program["title"], "year": level + 1, "total": random.randint(20, 100)}
                 result.append(temp)
                 count += 1
         return result
@@ -92,20 +94,20 @@ class DataGenerator:
         units = random.sample(self.units, total)
         result = []
         for i, unit in enumerate(units):
-            temp = {"identifier": i + 1,"title": unit, "prefrences": self.generateRandomPrefrence(), "instructors": self._UnitInstructorHandling(levels, no_of_instructors), "sessions": random.randrange(1, 3)}
+            temp = {"identifier": i + 1,"title": unit, "prefrences": self.generateRandomPrefrence(), "instructors": self._UnitInstructorHandling(no_of_instructors), "sessions": random.randrange(1, 3)}
             result.append(temp)
         return result
     
-    def _UnitInstructorHandling(self, count: int, total_instructors: int):
+    def _UnitInstructorHandling(self, total_instructors: int):
         result = []
-        for _ in range(count):
-            n = random.randint(2, 9)
-            temp = []
-            for _ in range(n):
-                c = random.randint(1, int(total_instructors))
-                temp.append(c) if not c in temp else None
-            result.append(temp)
-        return result
+     
+        n = random.randint(2, 9)
+        temp = []
+        for _ in range(n):
+            c = random.randint(1, int(total_instructors))
+            temp.append(c) if not c in temp else None
+     
+        return temp
 
     def GenerateAllInputData(self, instructors:int, programmes:int, rooms:int, configuration):
         

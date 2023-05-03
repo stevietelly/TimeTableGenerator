@@ -4,7 +4,9 @@ The process of timetable generation will involve the following process
 
 """
 import random
+import sys
 from typing import Dict, List
+from Assets.Functions.Echo import Echo
 from Logic.DateTime.Time import Time
 from Logic.DateTime.Day import Day
 from Logic.DateTime.DayTime import DayTime
@@ -13,7 +15,6 @@ from Logic.DateTime.Week import Week
 from Logic.Structure.Configuration import Configuration
 
 from Logic.Structure.Timetable import Timetable
-from Objects.Academic.Units import NullUnit
 from Logic.Structure.Schedule import Schedule
 from Logic.Structure.Session import Session
 from Objects.Academic.Programme import Programme
@@ -71,7 +72,8 @@ class Generator:
         self.Timeline()
 
         # Statistics
-        maximum_sessions_possible
+        self.maximum_sessions_possible: int
+        self.maximum_sessions_possible_per_day: int
     
     def Timeline(self):
         current_time = self.configuration.start_time
@@ -105,36 +107,51 @@ class Generator:
         """
         Create all schedules
         """
-        schedule_identifier = 1
- 
-        unit_instructors: Dict[Unit, int] = {}
-        for course in self.programme_holder:
-            for i, unit_holder in enumerate(course.units):
-                year = i + 1
-                for unit_id in unit_holder:
-                    unit: Unit = self.FindUnit(unit_id)
+        # schedule_identifier = 1
+        # unit_instructors: Dict[Unit, int] = {}
+        # for course in self.programme_holder:
+        #     for i, unit_holder in enumerate(course.units):
+        #         year = i + 1
+        #         for unit_id in unit_holder:
+        #             unit: Unit = self.FindUnit(unit_id)
 
-                    group: Group = self.FindGroup(course.title, year)
+        #             group: Group = self.FindGroup(course.title, year)
 
-                    instructor_identifier: int
-                    if str(unit) in unit_instructors:
-                        unit_instructors[str(unit)] += 1
-                    elif str(unit) not in unit_instructors:
-                        unit_instructors[str(unit)] = 0
+        #             instructor_identifier: int
+        #             if str(unit) in unit_instructors:
+        #                 unit_instructors[str(unit)] += 1
+        #             elif str(unit) not in unit_instructors:
+        #                 unit_instructors[str(unit)] = 0
                     
-                    if unit_instructors[str(unit)] + 1 > len(unit.qualified_instructors):
-                        unit_instructors[str(unit)] = 0
+        #             if unit_instructors[str(unit)] + 1 > len(unit.qualified_instructors):
+        #                 unit_instructors[str(unit)] = 0
 
     
-                    instructor_identifier = unit.qualified_instructors[unit_instructors[str(unit)]]
+        #             instructor_identifier = unit.qualified_instructors[unit_instructors[str(unit)]]
 
+        #             instructor: Instructor = self.FindInstructor(instructor_identifier)
+
+        #             for _ in range(unit.sessions):
+        #                 new_schedule = Schedule(schedule_identifier, unit,
+        #                                         group, instructor)
+        #                 self.schedule_holder.append(new_schedule)
+        #             schedule_identifier += 1
+
+        schedule_identifier = 1
+        for programme in self.programme_holder:
+            for i in range(programme.levels):
+                year =  i + 1
+                for unit_id in programme.units[i]:
+                    unit: Unit = self.FindUnit(unit_id)
+                    group: Group = self.FindGroup(programme.title, year)
+                    instructor_identifier = random.choice(unit.qualified_instructors)
                     instructor: Instructor = self.FindInstructor(instructor_identifier)
-
-                    for _ in range(unit.sessions):
-                        new_schedule = Schedule(schedule_identifier, unit,
-                                                group, instructor)
+                    for i in range(unit.sessions):
+                        new_schedule = Schedule(schedule_identifier, unit, group, instructor)
+                        schedule_identifier += 1
                         self.schedule_holder.append(new_schedule)
-                    schedule_identifier += 1
+                    
+
 
     def Accessioning(self):
         """
@@ -157,6 +174,8 @@ class Generator:
         for group in self.group_holder:
             if group.title == course_name and group.year == year:
                 return group
+        sys.exit(f'unit {course_name} {year} not found')   
+        
   
     def FindUnit(self, unit_identifier: int) -> Unit:
         """
@@ -165,7 +184,9 @@ class Generator:
         for unit in self.unit_holder:
             if unit.identifier == unit_identifier:
                 return unit
-        return NullUnit()
+        
+        sys.exit(f'unit {unit_identifier} not found')   
+       
 
     def FindInstructor(self, inst_id: int) -> Instructor:
         """
@@ -174,6 +195,9 @@ class Generator:
         for instructor in self.instructor_holder:
             if instructor.identifier == inst_id:
                 return instructor
+   
+        sys.exit(f'instructor {inst_id} not found')   
+        
         
     def FindSession(self, schedule_identifier: int) -> Session:
         """
@@ -183,7 +207,8 @@ class Generator:
         for session in self.session_holder:
             if session.schedule.identifier == schedule_identifier:
                 return session
-          
+        sys.exit(f'session {schedule_identifier} not found')   
+           
     def ReplaceSession(self, old_session: Session, new_session: Session):
         """
         This is to change a session from a previous state into a new updated one
@@ -206,4 +231,11 @@ class Generator:
         timetable.rooms = self.room_holder
         timetable.instructors = self.instructor_holder
         timetable.statistics = self.stats
+
+        # Calculate statistics
+        maximum_sessions_possible = len(self.daytimes) * len(self.room_holder)
+        minimum_sessions_possible = round(len(self.daytimes) / self.configuration.total_duration_for_sessions) * len(self.room_holder)
+        Echo().print({"maximum_sessions_possible": maximum_sessions_possible, "minimum_sessions_possible": minimum_sessions_possible})
+        Echo().print(self.stats)
+        Echo().print("Programmes: ", len(self.programme_holder), "Units: ", len(self.unit_holder), "Groups: ", len(self.group_holder), "Instructors: ", len(self.instructor_holder), "Rooms: ", len(self.room_holder))
         return timetable

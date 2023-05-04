@@ -20,3 +20,4 @@ Thumbs.db
 nosetests.xml
 htmlcov/
 coverage/
+Objects/Academic/__pycache__/Units.cpython-310.pyc

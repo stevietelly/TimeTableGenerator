@@ -154,6 +154,7 @@ class Timetable:
                 "group": session.consecutive_cost["group"].value,
                 "instructor": session.consecutive_cost["instructor"].value,
             }
+   
             temp = {
                 "session_id": session.identifier,
                 "day": session.day.name,

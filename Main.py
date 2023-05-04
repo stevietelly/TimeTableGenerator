@@ -58,6 +58,7 @@ These are functions usefull in the entire generation process
 
 """
 from Assets.FileHandling.Read import Read
+from Assets.FileHandling.Write import Write
 from Data.Parsers.Data import DataReader
 from Data.Validators.Type import FileTypeValidator
 from Logic.DateTime.Day import Day
@@ -68,12 +69,19 @@ from Logic.DateTime.Time import Time
 from Models.Generator.Generator import Generator
 from Models.Loop.Loop import Loop
 
-reader  =  DataReader()
-# reader.read_data_file("Data/data.json")
 
-print(FileTypeValidator(Read("Data/Defaults/Data.json").extract()).ValidateFile())
-# generator = Generator(reader.configuration, reader.instructors, reader.rooms, reader.units, reader.courses, reader.groups)
-# raw_timetable = generator.process()
+data =  Read("Data/Defaults/data.json").extract()
+reader  =  DataReader(data)
+reader.Encode()
+
+
+
+generator = Generator(reader.configuration, reader.instructors, reader.rooms, reader.units, reader.programmes, reader.groups)
+raw_timetable = generator.Process()
+
+file = Write("Output/", "data.json", raw_timetable.Output(), "json")
+file.dump()
+
 
 # loop = Loop(raw_timetable, reader.rooms, reader.groups, reader.instructors, reader.configuration.priorities)
 # loop.Loop(max_limit=5, saturation=False)

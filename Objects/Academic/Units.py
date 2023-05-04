@@ -34,8 +34,3 @@ class Unit:
     def __ne__(self, unit) -> bool:
         return (self.title != unit.title) or (self.sessions != unit.sessions)
 
-class NullUnit(Unit):
-    def __init__(self):
-        self.title = None
-        self.sessions = None
-        self.qualified_instructors = None

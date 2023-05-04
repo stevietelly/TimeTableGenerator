@@ -33,7 +33,7 @@ class Session:
         
         }
 
-        self.room_capacity_cost: Cost.RoomCapacity
+        self.room_capacity_cost: Cost.RoomCapacity = Cost.RoomCapacity(1, 1)
 
         self.preference_compliance_cost: Dict[str, Cost.PreferenceSatisfacionCost] = {
             "room": Cost.PreferenceSatisfacionCost(0, 0),
@@ -49,7 +49,7 @@ class Session:
             "instructor":  Cost.Consecutive()
         }
 
-        self.overall_cost: Cost = Cost.Cost(0, 0)
+        self.overall_cost: Cost.Cost = Cost.Cost(0, 0)
 
         self.hard_constraint_satisfaction: Cost.ConstraintSatisfaction = Cost.ConstraintSatisfaction()
         self.soft_constraint_satisfaction: Cost.ConstraintSatisfaction = Cost.ConstraintSatisfaction()

@@ -32,122 +32,122 @@
  },
  "instructors": [
   {
-   "name": "Myrna Mateo",
-   "title": "Honorable",
-   "gender": "Genderqueer",
+   "name": "Andy Newling",
+   "title": "Rev",
+   "gender": "Female",
    "identifier": 1
   },
   {
-   "name": "Forbes Rintoul",
+   "name": "Townie Swadon",
    "title": "Ms",
    "gender": "Male",
    "identifier": 2
   },
   {
-   "name": "Edlin Robben",
-   "title": "Ms",
-   "gender": "Male",
+   "name": "Gavra Lovelace",
+   "title": "Mrs",
+   "gender": "Female",
    "identifier": 3
   },
   {
-   "name": "Bevin Osbiston",
-   "title": "Dr",
-   "gender": "Male",
+   "name": "Ami Parysiak",
+   "title": "Ms",
+   "gender": "Female",
    "identifier": 4
   },
   {
-   "name": "Eveline Keightley",
+   "name": "Berty D'Alesio",
    "title": "Ms",
-   "gender": "Female",
+   "gender": "Male",
    "identifier": 5
   },
   {
-   "name": "Zaria Leathley",
-   "title": "Rev",
+   "name": "Tessie Pavkovic",
+   "title": "Dr",
    "gender": "Female",
    "identifier": 6
   },
   {
-   "name": "Dari Froud",
-   "title": "Rev",
+   "name": "Cthrine Halse",
+   "title": "Mrs",
    "gender": "Female",
    "identifier": 7
   },
   {
-   "name": "Hersch Grose",
+   "name": "Sherwin Akester",
    "title": "Honorable",
    "gender": "Male",
    "identifier": 8
   },
   {
-   "name": "Micheal Jahncke",
-   "title": "Mrs",
+   "name": "Lamar Davydkov",
+   "title": "Mr",
    "gender": "Male",
    "identifier": 9
   },
   {
-   "name": "Marius Sheeran",
-   "title": "Mrs",
+   "name": "Freddy Dennitts",
+   "title": "Rev",
    "gender": "Male",
    "identifier": 10
   },
   {
-   "name": "Lance Kemston",
-   "title": "Honorable",
-   "gender": "Male",
+   "name": "Corny McArdell",
+   "title": "Ms",
+   "gender": "Female",
    "identifier": 11
   },
   {
-   "name": "Jedidiah Absalom",
-   "title": "Rev",
+   "name": "Bryce Vaneev",
+   "title": "Ms",
    "gender": "Male",
    "identifier": 12
   },
   {
-   "name": "Margette Midford",
-   "title": "Honorable",
-   "gender": "Female",
+   "name": "Miguel Bourthoumieux",
+   "title": "Ms",
+   "gender": "Male",
    "identifier": 13
   },
   {
-   "name": "Yule Collick",
-   "title": "Rev",
+   "name": "Gannie Adamowitz",
+   "title": "Honorable",
    "gender": "Male",
    "identifier": 14
   },
   {
-   "name": "Alleyn Whifen",
+   "name": "Rourke Derisly",
    "title": "Ms",
    "gender": "Male",
    "identifier": 15
   },
   {
-   "name": "Sileas Le Blond",
-   "title": "Rev",
-   "gender": "Female",
+   "name": "Lutero Shafto",
+   "title": "Mrs",
+   "gender": "Male",
    "identifier": 16
   },
   {
-   "name": "Neala Wardel",
-   "title": "Mr",
-   "gender": "Genderqueer",
+   "name": "Linea Oselton",
+   "title": "Honorable",
+   "gender": "Female",
    "identifier": 17
   },
   {
-   "name": "Kiley Devonish",
+   "name": "Bogey Dorber",
    "title": "Mrs",
    "gender": "Male",
    "identifier": 18
   },
   {
-   "name": "Toiboid Aldersley",
-   "title": "Mrs",
+   "name": "Obadiah Hrinishin",
+   "title": "Mr",
    "gender": "Male",
    "identifier": 19
   },
   {
-   "name": "Sebastian Pentland",
-   "title": "Honorable",
+   "name": "Hartwell Bealton",
+   "title": "Mr",
    "gender": "Male",
    "identifier": 20
   }
@@ -155,399 +155,310 @@
  "rooms": [
   {
    "identifier": 1,
-   "name": "RWNKB",
-   "capacity": 77,
+   "name": "FJZNU",
+   "capacity": 81,
    "preferences": null
   },
   {
    "identifier": 2,
-   "name": "UJLLR",
-   "capacity": 43,
+   "name": "SXTLX",
+   "capacity": 89,
    "preferences": null
   },
   {
    "identifier": 3,
-   "name": "TQOWZ",
-   "capacity": 80,
+   "name": "WMCWK",
+   "capacity": 29,
    "preferences": null
   },
   {
    "identifier": 4,
-   "name": "RHWZU",
-   "capacity": 84,
+   "name": "AMYAZ",
+   "capacity": 58,
    "preferences": null
   },
   {
    "identifier": 5,
-   "name": "HTJHK",
-   "capacity": 39,
+   "name": "FKOFR",
+   "capacity": 60,
    "preferences": null
   },
   {
    "identifier": 6,
-   "name": "PKLQO",
-   "capacity": 35,
+   "name": "JNONI",
+   "capacity": 79,
    "preferences": null
   },
   {
    "identifier": 7,
-   "name": "JVCSY",
-   "capacity": 92,
+   "name": "NVSFL",
+   "capacity": 88,
    "preferences": null
   }
  ],
  "programmes": [
   {
    "identifier": 1,
-   "title": "Statistics",
-   "levels": 2,
+   "title": "Law",
+   "levels": 4,
    "units": [
     [
+     58,
+     71,
+     17,
+     5,
      87,
-     79,
-     10,
-     52,
-     49,
-     51
+     75,
+     37
     ],
     [
-     4,
+     10,
      71,
-     14,
-     65,
-     47,
-     11
+     76,
+     18,
+     60,
+     32,
+     50
+    ],
+    [
+     5,
+     61,
+     3,
+     12,
+     2,
+     68,
+     75
+    ],
+    [
+     78,
+     58,
+     6,
+     11,
+     42,
+     29,
+     43
     ]
    ]
   },
   {
    "identifier": 2,
-   "title": "Pharmacy",
-   "levels": 4,
+   "title": "Sports Management",
+   "levels": 2,
    "units": [
     [
-     58,
-     78,
-     80,
-     81,
-     29,
-     47,
+     20,
+     90,
+     53,
+     72,
+     15
+    ],
+    [
      34,
-     79,
-     3
-    ],
-    [
-     86,
-     6,
-     36,
-     89,
-     64,
-     47,
-     19,
-     33,
-     74
-    ],
-    [
-     49,
-     5,
-     3,
-     16,
-     75,
-     5,
-     59,
-     76,
-     76
-    ],
-    [
-     35,
-     13,
-     44,
-     38,
-     14,
-     18,
-     15,
-     14,
-     77
+     46,
+     37,
+     28,
+     20
     ]
    ]
   },
   {
    "identifier": 3,
-   "title": "Art",
+   "title": "Medicine",
    "levels": 2,
    "units": [
     [
-     45,
-     31,
-     43,
-     68,
-     61,
-     1,
-     10
+     37,
+     72,
+     83,
+     74,
+     32,
+     6
     ],
     [
-     5,
-     77,
-     46,
-     70,
+     43,
+     64,
+     8,
      18,
-     5,
-     52
+     67,
+     66
     ]
    ]
   },
   {
    "identifier": 4,
-   "title": "Physical Therapy",
-   "levels": 4,
+   "title": "Electrical Engineering",
+   "levels": 1,
    "units": [
     [
-     39,
-     17,
-     9,
-     63,
-     80,
+     10,
+     50,
+     8,
+     73,
      49,
-     62,
-     1,
-     78
-    ],
-    [
-     49,
-     66,
-     53,
-     60,
-     48,
-     48,
-     22,
-     36,
-     46
-    ],
-    [
-     59,
-     14,
-     38,
-     82,
-     71,
-     57,
-     66,
-     67,
-     71
-    ],
-    [
-     39,
-     70,
-     13,
-     57,
-     7,
-     39,
-     88,
-     28,
-     84
+     52
     ]
    ]
   },
   {
    "identifier": 5,
-   "title": "Quantum Computing",
+   "title": "Meteorology",
    "levels": 4,
    "units": [
     [
-     62,
-     80,
-     30
+     77,
+     54,
+     28,
+     70,
+     85
     ],
     [
-     79,
-     18,
-     62
+     31,
+     14,
+     38,
+     63,
+     68
     ],
     [
-     3,
-     49,
-     55
+     11,
+     87,
+     88,
+     36,
+     25
     ],
     [
-     53,
-     29,
-     81
+     52,
+     10,
+     82,
+     1,
+     13
     ]
    ]
   },
   {
    "identifier": 6,
-   "title": "Communications",
-   "levels": 4,
+   "title": "Cybersecurity",
+   "levels": 3,
    "units": [
     [
-     14,
-     25,
-     74,
-     87,
-     19,
-     1,
-     79,
-     82,
-     22
-    ],
-    [
-     70,
-     2,
-     58,
-     35,
-     43,
+     66,
      40,
-     59,
-     9,
-     29
-    ],
-    [
-     32,
-     73,
-     9,
-     41,
-     81,
-     35,
-     86,
-     86,
-     40
-    ],
-    [
-     16,
-     33,
-     37,
-     49,
-     10,
      25,
-     42,
-     47,
-     31
+     45,
+     21,
+     15,
+     74,
+     52
+    ],
+    [
+     57,
+     49,
+     49,
+     33,
+     17,
+     28,
+     7,
+     24
+    ],
+    [
+     60,
+     66,
+     15,
+     75,
+     21,
+     11,
+     16,
+     52
     ]
    ]
   },
   {
    "identifier": 7,
-   "title": "Public Health",
-   "levels": 3,
+   "title": "Landscape Architecture",
+   "levels": 2,
    "units": [
     [
-     1,
-     18,
-     9,
-     61,
-     43,
-     44
-    ],
-    [
-     55,
-     5,
      90,
-     8,
-     50,
-     51
+     20,
+     10
     ],
     [
-     13,
-     10,
-     13,
-     1,
-     25,
-     2
+     21,
+     8,
+     31
     ]
    ]
   },
   {
    "identifier": 8,
-   "title": "Environmental Science",
-   "levels": 4,
+   "title": "Public Health",
+   "levels": 2,
    "units": [
     [
-     11,
-     62,
-     13,
-     11,
-     78,
-     29,
-     21,
-     30
-    ],
-    [
-     25,
-     45,
-     66,
-     56,
-     13,
-     77,
      48,
-     39
-    ],
-    [
-     28,
-     10,
-     9,
-     17,
-     49,
-     72,
-     8,
-     75
-    ],
-    [
-     89,
-     48,
+     79,
+     18,
+     67,
+     60,
+     50,
+     60,
      37,
-     87,
+     34
+    ],
+    [
      77,
-     63,
+     80,
+     62,
+     36,
+     90,
+     6,
      88,
-     21
+     45,
+     76
     ]
    ]
   },
   {
    "identifier": 9,
-   "title": "Dance",
-   "levels": 2,
+   "title": "English",
+   "levels": 1,
    "units": [
     [
-     19,
-     57,
-     2,
-     57,
-     19,
+     10,
+     43,
+     65,
+     60,
+     14,
+     15,
+     85,
+     54,
      80
-    ],
-    [
-     6,
-     2,
-     27,
-     55,
-     36,
-     84
     ]
    ]
   },
   {
    "identifier": 10,
-   "title": "Electrical Engineering",
-   "levels": 3,
+   "title": "Nanotechnology",
+   "levels": 4,
    "units": [
     [
-     88,
-     62,
-     71,
-     67
+     67,
+     72,
+     38
     ],
     [
-     87,
-     71,
-     81,
-     17
+     41,
+     1,
+     39
     ],
     [
-     46,
-     60,
-     83,
-     58
+     71,
+     6,
+     84
+    ],
+    [
+     56,
+     74,
+     77
     ]
    ]
   }
@@ -555,2549 +466,1151 @@
  "units": [
   {
    "identifier": 1,
-   "title": "Introduction to Health Management Information system",
+   "title": "Purchasing and Contracting in Healthcare",
    "prefrences": null,
    "instructors": [
-    [
-     2,
-     14,
-     6,
-     13,
-     8,
-     4,
-     20,
-     12
-    ],
-    [
-     17,
-     18,
-     5,
-     13,
-     20,
-     9,
-     3
-    ],
-    [
-     10,
-     16,
-     4,
-     19,
-     8,
-     2,
-     17,
-     20
-    ]
+    12,
+    13
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 2,
-   "title": "Child Development II",
+   "title": "Book Annotations",
    "prefrences": null,
    "instructors": [
-    [
-     11,
-     17,
-     4,
-     12,
-     2,
-     5
-    ],
-    [
-     20,
-     15,
-     16,
-     2
-    ],
-    [
-     5,
-     3
-    ]
+    1,
+    12
    ],
    "sessions": 1
   },
   {
    "identifier": 3,
-   "title": "Decision Support and Expert Systems",
+   "title": "Public Speaking",
    "prefrences": null,
    "instructors": [
-    [
-     12,
-     19
-    ],
-    [
-     19,
-     9,
-     12,
-     6,
-     20,
-     1
-    ],
-    [
-     11,
-     17,
-     8,
-     14,
-     6,
-     16,
-     2,
-     12
-    ]
+    1,
+    15,
+    12,
+    5,
+    3,
+    14
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 4,
-   "title": "History I",
+   "title": "Forms of Media Communication",
    "prefrences": null,
    "instructors": [
-    [
-     19,
-     11,
-     16,
-     6,
-     10
-    ],
-    [
-     9,
-     13,
-     6,
-     11,
-     2,
-     16
-    ],
-    [
-     12,
-     6,
-     10,
-     1,
-     19,
-     15
-    ]
+    16,
+    8,
+    9
    ],
    "sessions": 1
   },
   {
    "identifier": 5,
-   "title": "Carbohydrates and Fats",
+   "title": "Software Engineering",
    "prefrences": null,
    "instructors": [
-    [
-     11,
-     1,
-     2,
-     15,
-     7,
-     8
-    ],
-    [
-     15,
-     13,
-     8,
-     11
-    ],
-    [
-     4,
-     8,
-     20,
-     3,
-     16,
-     13,
-     7
-    ]
+    20,
+    1
    ],
    "sessions": 2
   },
   {
    "identifier": 6,
-   "title": "Speech, Talking and Conversations",
+   "title": "Database Construction and Management",
    "prefrences": null,
    "instructors": [
-    [
-     20,
-     6,
-     9
-    ],
-    [
-     11,
-     15,
-     4
-    ],
-    [
-     9,
-     15,
-     19
-    ]
+    13,
+    10,
+    19,
+    5,
+    18,
+    15
    ],
-   "sessions": 2
+   "sessions": 1
   },
   {
    "identifier": 7,
-   "title": "Introduction to the general Library",
+   "title": "Student teacher Relationship",
    "prefrences": null,
    "instructors": [
-    [
-     10,
-     20,
-     14,
-     15,
-     12,
-     11,
-     4
-    ],
-    [
-     3,
-     7,
-     4,
-     15,
-     20,
-     10
-    ],
-    [
-     4,
-     10,
-     16,
-     9,
-     7
-    ]
+    5,
+    8
    ],
    "sessions": 2
   },
   {
    "identifier": 8,
-   "title": "Health Policy and Planning",
+   "title": "Ethics and professional Practice in Teaching",
    "prefrences": null,
    "instructors": [
-    [
-     20,
-     17,
-     4,
-     2,
-     5,
-     11
-    ],
-    [
-     1,
-     3,
-     12,
-     20,
-     17
-    ],
-    [
-     2,
-     10
-    ]
+    17,
+    8,
+    1
    ],
-   "sessions": 2
+   "sessions": 1
   },
   {
    "identifier": 9,
-   "title": "Engineering as a Science",
+   "title": "Carbohydrates and Fats",
    "prefrences": null,
    "instructors": [
-    [
-     12,
-     13
-    ],
-    [
-     17,
-     15,
-     7
-    ],
-    [
-     4,
-     9,
-     7,
-     3,
-     8
-    ]
+    6,
+    13,
+    7,
+    17
    ],
-   "sessions": 2
+   "sessions": 1
   },
   {
    "identifier": 10,
-   "title": "Human Computer Interaction",
+   "title": "Applications of Information and Communication Technology",
    "prefrences": null,
    "instructors": [
-    [
-     17,
-     11,
-     16,
-     8,
-     19
-    ],
-    [
-     1,
-     8
-    ],
-    [
-     9,
-     7
-    ]
+    16,
+    8,
+    10,
+    17,
+    11,
+    18,
+    20,
+    4
    ],
    "sessions": 2
   },
   {
    "identifier": 11,
-   "title": "Classification of Diseases, coding Diagnoses and Procedures",
+   "title": "Physics and its Relation to Electronic Engineering",
    "prefrences": null,
    "instructors": [
-    [
-     10,
-     11,
-     15,
-     20,
-     1,
-     7,
-     5,
-     4,
-     19
-    ],
-    [
-     13,
-     20
-    ],
-    [
-     2,
-     10,
-     20
-    ]
+    14,
+    12,
+    9
    ],
    "sessions": 1
   },
   {
    "identifier": 12,
-   "title": "Stone Masonry and Metamorphosis",
+   "title": "Statistics I",
    "prefrences": null,
    "instructors": [
-    [
-     14,
-     13,
-     19,
-     8,
-     17,
-     4,
-     2
-    ],
-    [
-     10,
-     1,
-     19,
-     6,
-     8,
-     11,
-     9,
-     15
-    ],
-    [
-     9,
-     18,
-     20,
-     12,
-     7,
-     16
-    ]
+    10,
+    16,
+    18,
+    3,
+    11
    ],
    "sessions": 2
   },
   {
    "identifier": 13,
-   "title": "Mathematics I",
+   "title": "National Grid",
    "prefrences": null,
    "instructors": [
-    [
-     13,
-     5
-    ],
-    [
-     5,
-     6,
-     19
-    ],
-    [
-     7,
-     5,
-     18,
-     20,
-     3,
-     8
-    ]
+    14,
+    9,
+    1,
+    11,
+    3,
+    12
    ],
    "sessions": 1
   },
   {
    "identifier": 14,
-   "title": "Foundations of ICT",
+   "title": "Catalogue and Book Record Management",
    "prefrences": null,
    "instructors": [
-    [
-     2,
-     14,
-     1,
-     4,
-     15,
-     13
-    ],
-    [
-     2,
-     5,
-     4
-    ],
-    [
-     16,
-     2,
-     9,
-     5,
-     13,
-     1
-    ]
+    6,
+    19,
+    7,
+    16,
+    8,
+    11
    ],
    "sessions": 2
   },
   {
    "identifier": 15,
-   "title": "Classification of Buildings",
+   "title": "English II",
    "prefrences": null,
    "instructors": [
-    [
-     17,
-     11,
-     9,
-     10,
-     18,
-     2,
-     6
-    ],
-    [
-     5,
-     11,
-     20,
-     19,
-     2,
-     15
-    ],
-    [
-     4,
-     5
-    ]
+    14,
+    16,
+    12,
+    17
    ],
    "sessions": 2
   },
   {
    "identifier": 16,
-   "title": "Class Management",
+   "title": "Levels of Child Understanding and Comprehension",
    "prefrences": null,
    "instructors": [
-    [
-     6,
-     14,
-     1
-    ],
-    [
-     13
-    ],
-    [
-     7,
-     16
-    ]
+    11,
+    4,
+    14,
+    6,
+    10,
+    16,
+    3,
+    2
    ],
-   "sessions": 2
+   "sessions": 1
   },
   {
    "identifier": 17,
-   "title": "Quantitative Techniques for Information Scientists",
+   "title": "Foundations of Health Systems Management",
    "prefrences": null,
    "instructors": [
-    [
-     15,
-     20,
-     14,
-     18,
-     19
-    ],
-    [
-     18,
-     14,
-     19,
-     9,
-     11
-    ],
-    [
-     4,
-     2,
-     8,
-     3,
-     13,
-     11,
-     18
-    ]
+    10,
+    9
    ],
-   "sessions": 2
+   "sessions": 1
   },
   {
    "identifier": 18,
-   "title": "Law Ethics and Professional Practice in Informatics",
+   "title": "Time Management",
    "prefrences": null,
    "instructors": [
-    [
-     15,
-     1,
-     17,
-     10
-    ],
-    [
-     15,
-     3,
-     16,
-     7
-    ],
-    [
-     6,
-     15,
-     18,
-     5,
-     10,
-     12
-    ]
+    11,
+    5,
+    19
    ],
    "sessions": 2
   },
   {
    "identifier": 19,
-   "title": "Introduction to Food Biology",
+   "title": "English: Language and Grammar",
    "prefrences": null,
    "instructors": [
-    [
-     11,
-     7
-    ],
-    [
-     6,
-     20
-    ],
-    [
-     13,
-     10,
-     19,
-     2
-    ]
+    16,
+    10,
+    9,
+    4,
+    7,
+    20,
+    14,
+    19
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 20,
-   "title": "Time Management For Health System Managers",
+   "title": "Class Management",
    "prefrences": null,
    "instructors": [
-    [
-     17,
-     2,
-     11,
-     1,
-     15,
-     14
-    ],
-    [
-     19,
-     12,
-     11,
-     14,
-     3,
-     13,
-     8,
-     9
-    ],
-    [
-     14,
-     7,
-     3,
-     5,
-     8,
-     6
-    ]
+    13,
+    2,
+    14,
+    12,
+    11
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 21,
-   "title": "Health Risk and Insurance Management",
+   "title": "Electrostatics II",
    "prefrences": null,
    "instructors": [
-    [
-     16,
-     8,
-     6,
-     12
-    ],
-    [
-     15,
-     2,
-     13,
-     9,
-     16,
-     12,
-     18
-    ],
-    [
-     18,
-     3,
-     20,
-     7,
-     4
-    ]
+    16,
+    10,
+    19,
+    12
    ],
    "sessions": 2
   },
   {
    "identifier": 22,
-   "title": "Introduction to Information Processing and Handling",
+   "title": "Foundations of ICT",
    "prefrences": null,
    "instructors": [
-    [
-     9,
-     2,
-     20,
-     16,
-     18
-    ],
-    [
-     4,
-     16,
-     3,
-     15,
-     13,
-     7
-    ],
-    [
-     11,
-     4,
-     2,
-     10,
-     3,
-     5
-    ]
+    6,
+    10,
+    3,
+    15,
+    14,
+    8
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 23,
-   "title": "Cooking Oil Mechanics",
+   "title": "Introduction to Food Chemistry",
    "prefrences": null,
    "instructors": [
-    [
-     9,
-     12,
-     20,
-     5,
-     6,
-     3,
-     11
-    ],
-    [
-     6,
-     5,
-     2,
-     9,
-     13,
-     16,
-     3,
-     17,
-     15
-    ],
-    [
-     3,
-     13,
-     8,
-     5,
-     16,
-     14,
-     19,
-     20
-    ]
+    16,
+    17,
+    6,
+    4,
+    13,
+    9,
+    19,
+    10
    ],
    "sessions": 2
   },
   {
    "identifier": 24,
-   "title": "Civil Engineering",
+   "title": "Introduction to Communication in ICT",
    "prefrences": null,
    "instructors": [
-    [
-     9,
-     7
-    ],
-    [
-     9,
-     3,
-     14,
-     10,
-     12
-    ],
-    [
-     18,
-     19,
-     11
-    ]
+    6,
+    10,
+    12,
+    4,
+    7,
+    13,
+    16
    ],
-   "sessions": 2
+   "sessions": 1
   },
   {
    "identifier": 25,
-   "title": "Teaching Basic Arithmetic",
+   "title": "Medical Terminology, Diagnosis amd Treatments",
    "prefrences": null,
    "instructors": [
-    [
-     18,
-     8,
-     14,
-     7,
-     17,
-     2
-    ],
-    [
-     15,
-     8,
-     6
-    ],
-    [
-     15,
-     7,
-     16,
-     18,
-     12,
-     1
-    ]
+    15,
+    19
    ],
    "sessions": 2
   },
   {
    "identifier": 26,
-   "title": "Programming for Web and Mobile devices",
+   "title": "Graphics",
    "prefrences": null,
    "instructors": [
-    [
-     14,
-     11
-    ],
-    [
-     17,
-     20,
-     7
-    ],
-    [
-     1,
-     19,
-     5,
-     3,
-     14,
-     8
-    ]
+    6,
+    18,
+    1,
+    17,
+    7,
+    15
    ],
-   "sessions": 2
+   "sessions": 1
   },
   {
    "identifier": 27,
-   "title": "Introduction to Architecture",
+   "title": "Basic Record Keeping",
    "prefrences": null,
    "instructors": [
-    [
-     2,
-     1,
-     10,
-     13
-    ],
-    [
-     13,
-     2,
-     6,
-     8
-    ],
-    [
-     1,
-     8,
-     15,
-     12,
-     6,
-     16,
-     18
-    ]
+    16,
+    20,
+    19,
+    8,
+    11
    ],
    "sessions": 2
   },
   {
    "identifier": 28,
-   "title": "Introduction to Psychology",
+   "title": "Voltage Enhancements",
    "prefrences": null,
    "instructors": [
-    [
-     6,
-     9,
-     8
-    ],
-    [
-     9,
-     4
-    ],
-    [
-     14,
-     13,
-     1,
-     15,
-     4,
-     12,
-     2,
-     19
-    ]
-   ],
-   "sessions": 1
-  },
-  {
-   "identifier": 29,
-   "title": "Administrative duties in School",
-   "prefrences": null,
-   "instructors": [
-    [
-     9,
-     3,
-     11,
-     19,
-     7,
-     20
-    ],
-    [
-     15,
-     4,
-     18,
-     20,
-     19
-    ],
-    [
-     2,
-     7,
-     6
-    ]
-   ],
-   "sessions": 1
-  },
-  {
-   "identifier": 30,
-   "title": "Management Information systems",
-   "prefrences": null,
-   "instructors": [
-    [
-     7,
-     3,
-     9,
-     20,
-     2,
-     16
-    ],
-    [
-     15,
-     1,
-     6,
-     20
-    ],
-    [
-     17,
-     12
-    ]
+    19,
+    4,
+    5,
+    17,
+    16
    ],
    "sessions": 2
   },
   {
-   "identifier": 31,
-   "title": "Book Annotations",
+   "identifier": 29,
+   "title": "Anatomy Management for Health Systems Management",
    "prefrences": null,
    "instructors": [
-    [
-     6,
-     5,
-     13,
-     11
-    ],
-    [
-     12,
-     16,
-     14,
-     4,
-     5,
-     15,
-     9
-    ],
-    [
-     13,
-     12,
-     18,
-     5,
-     1
-    ]
+    8,
+    17,
+    20,
+    11,
+    3,
+    19,
+    1,
+    15,
+    14
+   ],
+   "sessions": 2
+  },
+  {
+   "identifier": 30,
+   "title": "Project Management",
+   "prefrences": null,
+   "instructors": [
+    6,
+    1,
+    5,
+    13
+   ],
+   "sessions": 1
+  },
+  {
+   "identifier": 31,
+   "title": "Healthcare Entrepreneurship",
+   "prefrences": null,
+   "instructors": [
+    13,
+    14,
+    1,
+    8,
+    17,
+    5
    ],
    "sessions": 1
   },
   {
    "identifier": 32,
-   "title": "Purchasing and Contracting in Healthcare",
+   "title": "Board Management",
    "prefrences": null,
    "instructors": [
-    [
-     12,
-     2,
-     7,
-     1,
-     17,
-     14,
-     5,
-     10
-    ],
-    [
-     18,
-     9,
-     4,
-     1,
-     19,
-     11,
-     6
-    ],
-    [
-     7,
-     1,
-     5,
-     19,
-     20
-    ]
+    8,
+    7,
+    16,
+    19,
+    14,
+    6
    ],
    "sessions": 2
   },
   {
    "identifier": 33,
-   "title": "History of Civil Engineering",
+   "title": "Basic Teaching Skills",
    "prefrences": null,
    "instructors": [
-    [
-     5,
-     9,
-     6,
-     20
-    ],
-    [
-     7,
-     14,
-     2,
-     18,
-     5,
-     11,
-     19
-    ],
-    [
-     4,
-     20,
-     15,
-     11,
-     7,
-     1,
-     6
-    ]
-   ],
-   "sessions": 2
-  },
-  {
-   "identifier": 34,
-   "title": "Photography for Crime scene",
-   "prefrences": null,
-   "instructors": [
-    [
-     4,
-     7,
-     17
-    ],
-    [
-     1,
-     20,
-     5,
-     3,
-     19,
-     17
-    ],
-    [
-     18,
-     4,
-     12,
-     6,
-     5,
-     7,
-     20,
-     3
-    ]
+    3,
+    15,
+    14,
+    13
    ],
    "sessions": 1
   },
   {
-   "identifier": 35,
-   "title": "Ethics of a Journalist",
+   "identifier": 34,
+   "title": "Spanish Cuisine",
    "prefrences": null,
    "instructors": [
-    [
-     13,
-     1
-    ],
-    [
-     17,
-     2,
-     6,
-     19,
-     18,
-     10
-    ],
-    [
-     2,
-     16,
-     15,
-     10,
-     20
-    ]
+    15,
+    18,
+    2
+   ],
+   "sessions": 2
+  },
+  {
+   "identifier": 35,
+   "title": "Cataloguing",
+   "prefrences": null,
+   "instructors": [
+    6,
+    9
    ],
    "sessions": 2
   },
   {
    "identifier": 36,
-   "title": "Graphics",
+   "title": "Introduction To Computers",
    "prefrences": null,
    "instructors": [
-    [
-     1,
-     17,
-     6,
-     14,
-     19,
-     7
-    ],
-    [
-     5,
-     19,
-     8,
-     9
-    ],
-    [
-     3,
-     19,
-     8,
-     13,
-     16,
-     10,
-     4
-    ]
+    3,
+    1
    ],
    "sessions": 2
   },
   {
    "identifier": 37,
-   "title": "History of Kenyan Journalism",
+   "title": "Introduction to Structured Programming",
    "prefrences": null,
    "instructors": [
-    [
-     3,
-     18,
-     4,
-     12,
-     8
-    ],
-    [
-     13,
-     4,
-     2,
-     5,
-     8
-    ],
-    [
-     14,
-     13,
-     3,
-     9,
-     5
-    ]
-   ],
-   "sessions": 2
-  },
-  {
-   "identifier": 38,
-   "title": "Foundations of Building and Construction",
-   "prefrences": null,
-   "instructors": [
-    [
-     19,
-     5,
-     4,
-     10,
-     2,
-     6
-    ],
-    [
-     9,
-     17,
-     4,
-     20
-    ],
-    [
-     15,
-     4,
-     12,
-     8,
-     14
-    ]
+    7,
+    6,
+    15,
+    4
    ],
    "sessions": 1
   },
   {
-   "identifier": 39,
-   "title": "Statistics I",
+   "identifier": 38,
+   "title": "Listening and Speaking Skills",
    "prefrences": null,
    "instructors": [
-    [
-     4,
-     1,
-     8,
-     14,
-     20
-    ],
-    [
-     20,
-     7,
-     16
-    ],
-    [
-     1,
-     16,
-     4
-    ]
+    12,
+    11,
+    19,
+    2
+   ],
+   "sessions": 2
+  },
+  {
+   "identifier": 39,
+   "title": "Artificial Intelligence",
+   "prefrences": null,
+   "instructors": [
+    6,
+    9,
+    5
    ],
    "sessions": 1
   },
   {
    "identifier": 40,
-   "title": "Civil Systems",
+   "title": "Management Information systems",
    "prefrences": null,
    "instructors": [
-    [
-     7,
-     1,
-     16,
-     13,
-     9,
-     11,
-     12
-    ],
-    [
-     10,
-     1,
-     4,
-     11,
-     18
-    ],
-    [
-     18,
-     16,
-     9
-    ]
+    10,
+    5,
+    11
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 41,
-   "title": "West African Cuisine",
+   "title": "Introduction to Information Processing and Handling",
    "prefrences": null,
    "instructors": [
-    [
-     15,
-     1,
-     19
-    ],
-    [
-     9,
-     11,
-     17
-    ],
-    [
-     19,
-     13,
-     16,
-     8
-    ]
+    5,
+    3,
+    20
    ],
    "sessions": 1
   },
   {
    "identifier": 42,
-   "title": "Public Speaking",
+   "title": "Civil Engineering",
    "prefrences": null,
    "instructors": [
-    [
-     8,
-     11,
-     2,
-     1,
-     14
-    ],
-    [
-     19,
-     13,
-     18,
-     9,
-     15,
-     16
-    ],
-    [
-     11,
-     16,
-     15,
-     9,
-     3
-    ]
+    20,
+    9,
+    13,
+    16,
+    11
    ],
    "sessions": 2
   },
   {
    "identifier": 43,
-   "title": "Health Insurance and Policies",
+   "title": "Architectural Engineering",
    "prefrences": null,
    "instructors": [
-    [
-     18,
-     12,
-     6,
-     7,
-     19,
-     16
-    ],
-    [
-     12,
-     1,
-     19,
-     13,
-     7,
-     14
-    ],
-    [
-     18,
-     1,
-     19,
-     17,
-     13
-    ]
+    7,
+    9,
+    11,
+    3
    ],
-   "sessions": 2
+   "sessions": 1
   },
   {
    "identifier": 44,
-   "title": "Foundations of Electronics",
+   "title": "Library Management system",
    "prefrences": null,
    "instructors": [
-    [
-     16,
-     6,
-     9,
-     19,
-     3,
-     14,
-     7,
-     5
-    ],
-    [
-     8,
-     4,
-     10,
-     3,
-     6
-    ],
-    [
-     12,
-     15,
-     1,
-     13,
-     8,
-     2
-    ]
+    14,
+    16,
+    11,
+    4
    ],
-   "sessions": 2
+   "sessions": 1
   },
   {
    "identifier": 45,
-   "title": "Library Systems",
+   "title": "Introduction to High Level Programming",
    "prefrences": null,
    "instructors": [
-    [
-     15,
-     17,
-     20,
-     9,
-     13,
-     16,
-     19
-    ],
-    [
-     7,
-     14,
-     4,
-     19,
-     9,
-     6
-    ],
-    [
-     15,
-     11,
-     7
-    ]
+    14,
+    9,
+    18,
+    8,
+    11,
+    4
    ],
    "sessions": 2
   },
   {
    "identifier": 46,
-   "title": "Levels of Child Understanding and Comprehension",
+   "title": "Law Ethics and Professional Practice in Informatics",
    "prefrences": null,
    "instructors": [
-    [
-     13,
-     3,
-     10,
-     1,
-     19
-    ],
-    [
-     4,
-     8,
-     14,
-     17
-    ],
-    [
-     14,
-     7,
-     13,
-     12,
-     19,
-     9,
-     17
-    ]
+    19,
+    8,
+    20,
+    1,
+    18
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 47,
-   "title": "Introduction To Computers",
+   "title": "Fruits and Vegetables",
    "prefrences": null,
    "instructors": [
-    [
-     9,
-     18,
-     5,
-     13,
-     19,
-     2
-    ],
-    [
-     18,
-     1
-    ],
-    [
-     13,
-     16
-    ]
+    4,
+    6,
+    19,
+    14,
+    13,
+    15
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 48,
-   "title": "Basic Teaching Skills",
+   "title": "Programming for Web and Mobile devices",
    "prefrences": null,
    "instructors": [
-    [
-     19,
-     5
-    ],
-    [
-     9,
-     20,
-     15,
-     7,
-     13,
-     1,
-     11,
-     19
-    ],
-    [
-     11,
-     17,
-     15,
-     18,
-     9,
-     20,
-     6
-    ]
+    12,
+    17,
+    9,
+    16,
+    14,
+    4,
+    19
    ],
    "sessions": 2
   },
   {
    "identifier": 49,
-   "title": "Advanced Writing II",
+   "title": "Classification of Books",
    "prefrences": null,
    "instructors": [
-    [
-     17,
-     20,
-     10,
-     15
-    ],
-    [
-     14,
-     4,
-     18,
-     20,
-     11
-    ],
-    [
-     2,
-     3,
-     5
-    ]
-   ],
-   "sessions": 2
-  },
-  {
-   "identifier": 50,
-   "title": "Electrostatics I",
-   "prefrences": null,
-   "instructors": [
-    [
-     15,
-     2,
-     3
-    ],
-    [
-     16,
-     2,
-     11,
-     18,
-     10,
-     12
-    ],
-    [
-     20,
-     2,
-     10,
-     12
-    ]
+    7,
+    20,
+    10,
+    8,
+    15,
+    12,
+    9
    ],
    "sessions": 1
   },
   {
-   "identifier": 51,
-   "title": "Supply and Management",
+   "identifier": 50,
+   "title": "Introduction to Software",
    "prefrences": null,
    "instructors": [
-    [
-     3,
-     2,
-     9,
-     5,
-     4,
-     7,
-     8,
-     11
-    ],
-    [
-     3,
-     8,
-     5,
-     15
-    ],
-    [
-     3,
-     1,
-     6,
-     4
-    ]
+    3,
+    13,
+    5,
+    18,
+    1
    ],
    "sessions": 2
   },
   {
-   "identifier": 52,
-   "title": "Introduction to High Level Programming",
+   "identifier": 51,
+   "title": "Drinks and Beverages",
    "prefrences": null,
    "instructors": [
-    [
-     16,
-     20,
-     13
-    ],
-    [
-     14,
-     11,
-     4,
-     19,
-     8,
-     18,
-     2
-    ],
-    [
-     5,
-     6,
-     7,
-     1,
-     9
-    ]
+    4,
+    2,
+    6,
+    8,
+    16,
+    5,
+    19,
+    13
+   ],
+   "sessions": 1
+  },
+  {
+   "identifier": 52,
+   "title": "Green Energy and Climate Action",
+   "prefrences": null,
+   "instructors": [
+    7,
+    11,
+    2,
+    1
    ],
    "sessions": 1
   },
   {
    "identifier": 53,
-   "title": "Introduction to Management",
+   "title": "Introduction to Human Pathology",
    "prefrences": null,
    "instructors": [
-    [
-     10,
-     15,
-     7,
-     6
-    ],
-    [
-     11,
-     3,
-     15,
-     16,
-     13,
-     14
-    ],
-    [
-     9,
-     6,
-     7,
-     17,
-     12,
-     14
-    ]
+    13,
+    10,
+    14
    ],
    "sessions": 2
   },
   {
    "identifier": 54,
-   "title": "Photography 101",
+   "title": "Teaching Basic Grammar",
    "prefrences": null,
    "instructors": [
-    [
-     9,
-     14,
-     5
-    ],
-    [
-     1,
-     9,
-     10,
-     6
-    ],
-    [
-     19,
-     7,
-     6,
-     5
-    ]
+    3,
+    4
    ],
    "sessions": 2
   },
   {
    "identifier": 55,
-   "title": "Introduction to Civil Engineering",
+   "title": "Introduction to Child Care",
    "prefrences": null,
    "instructors": [
-    [
-     20,
-     8,
-     1,
-     4,
-     10,
-     13,
-     17
-    ],
-    [
-     2,
-     10,
-     20,
-     16,
-     12
-    ],
-    [
-     18,
-     3,
-     20
-    ]
+    3,
+    9,
+    11,
+    13,
+    16,
+    1
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 56,
-   "title": "History of Books",
+   "title": "Construction site Management",
    "prefrences": null,
    "instructors": [
-    [
-     7,
-     11,
-     17,
-     19
-    ],
-    [
-     16,
-     12,
-     4,
-     11
-    ],
-    [
-     9,
-     1
-    ]
+    11,
+    13,
+    16,
+    15,
+    1,
+    20
    ],
    "sessions": 2
   },
   {
    "identifier": 57,
-   "title": "Library and Physical Structures",
+   "title": "Basic Catering Services",
    "prefrences": null,
    "instructors": [
-    [
-     1,
-     17
-    ],
-    [
-     3,
-     14,
-     10,
-     16,
-     2,
-     8,
-     17
-    ],
-    [
-     16,
-     15,
-     9,
-     20,
-     10,
-     3
-    ]
+    8,
+    19,
+    17,
+    6
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 58,
-   "title": "Library Management system",
+   "title": "Health Policy and Planning",
    "prefrences": null,
    "instructors": [
-    [
-     7,
-     19,
-     17,
-     5,
-     16
-    ],
-    [
-     18,
-     6,
-     13,
-     17,
-     12,
-     4
-    ],
-    [
-     4,
-     12,
-     11,
-     5,
-     10,
-     20,
-     2,
-     1
-    ]
+    11,
+    16,
+    10
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 59,
-   "title": "Teacher teacher relationship",
+   "title": "Introduction to Food Biology",
    "prefrences": null,
    "instructors": [
-    [
-     20,
-     19,
-     11,
-     14
-    ],
-    [
-     1,
-     14,
-     16,
-     9,
-     19,
-     17
-    ],
-    [
-     10,
-     18,
-     9,
-     6,
-     20,
-     8,
-     17,
-     4,
-     5
-    ]
+    18,
+    20,
+    1,
+    11,
+    6,
+    2,
+    14
    ],
    "sessions": 1
   },
   {
    "identifier": 60,
-   "title": "Information as a science",
+   "title": "Interviewing",
    "prefrences": null,
    "instructors": [
-    [
-     6,
-     13,
-     12,
-     10,
-     2,
-     15,
-     20,
-     14
-    ],
-    [
-     9,
-     11,
-     8,
-     14
-    ],
-    [
-     14,
-     3,
-     2,
-     10,
-     8,
-     6,
-     18,
-     7
-    ]
+    15,
+    13,
+    4,
+    19
    ],
    "sessions": 2
   },
   {
    "identifier": 61,
-   "title": "Green Energy and Climate Action",
+   "title": "Structural Engineering",
    "prefrences": null,
    "instructors": [
-    [
-     1,
-     14
-    ],
-    [
-     17,
-     7,
-     16
-    ],
-    [
-     8,
-     15,
-     14,
-     2
-    ]
+    14,
+    8,
+    11,
+    19,
+    6
    ],
-   "sessions": 2
+   "sessions": 1
   },
   {
    "identifier": 62,
-   "title": "Types of Media Skills",
+   "title": "Energy and Empirical Measurements",
    "prefrences": null,
    "instructors": [
-    [
-     7,
-     11
-    ],
-    [
-     15,
-     17,
-     19
-    ],
-    [
-     1,
-     18
-    ]
+    14,
+    12,
+    19
    ],
    "sessions": 1
   },
   {
    "identifier": 63,
-   "title": "Spanish Cuisine",
+   "title": "Introduction to Systems",
    "prefrences": null,
    "instructors": [
-    [
-     13,
-     5,
-     15,
-     6,
-     3,
-     16
-    ],
-    [
-     17,
-     9
-    ],
-    [
-     2,
-     8,
-     10,
-     13,
-     12,
-     14,
-     4
-    ]
+    3,
+    9,
+    18,
+    7
    ],
    "sessions": 1
   },
   {
    "identifier": 64,
-   "title": "Indian Cuisine",
+   "title": "Library utilities and using them",
    "prefrences": null,
    "instructors": [
-    [
-     5,
-     17
-    ],
-    [
-     7,
-     19
-    ],
-    [
-     16,
-     3,
-     7,
-     6,
-     2
-    ]
+    7,
+    12,
+    17
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 65,
-   "title": "Software Engineering",
+   "title": "Introduction to low level programming",
    "prefrences": null,
    "instructors": [
-    [
-     16,
-     12
-    ],
-    [
-     5,
-     13,
-     18,
-     3,
-     11,
-     6,
-     1,
-     9
-    ],
-    [
-     20,
-     4,
-     12,
-     10,
-     2,
-     17,
-     14
-    ]
+    5,
+    8,
+    15
    ],
    "sessions": 2
   },
   {
    "identifier": 66,
-   "title": "English: Language and Grammar",
+   "title": "Basic Computer Skills",
    "prefrences": null,
    "instructors": [
-    [
-     15,
-     11,
-     3,
-     20,
-     19,
-     8
-    ],
-    [
-     16,
-     3,
-     10,
-     11,
-     19,
-     5
-    ],
-    [
-     1,
-     18,
-     12
-    ]
+    19,
+    9,
+    5,
+    16,
+    6,
+    3,
+    12,
+    20
    ],
    "sessions": 2
   },
   {
    "identifier": 67,
-   "title": "Basic Catering Services",
+   "title": "Civil Systems",
    "prefrences": null,
    "instructors": [
-    [
-     15,
-     19,
-     18,
-     1,
-     8
-    ],
-    [
-     19,
-     20,
-     15
-    ],
-    [
-     3,
-     4,
-     15,
-     20,
-     16,
-     14
-    ]
+    12,
+    10,
+    6,
+    18,
+    20,
+    1
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 68,
-   "title": "Hotel Structure and Administration",
+   "title": "Basic Forms of Energy Generation",
    "prefrences": null,
    "instructors": [
-    [
-     3,
-     7,
-     17,
-     15,
-     10
-    ],
-    [
-     8,
-     20
-    ],
-    [
-     8,
-     11,
-     9
-    ]
+    13,
+    2,
+    11,
+    18,
+    7
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 69,
-   "title": "Introduction to Measurement and Quantification",
+   "title": "Disaster and Risk Management in Information Centers",
    "prefrences": null,
    "instructors": [
-    [
-     6,
-     4,
-     14,
-     7
-    ],
-    [
-     20,
-     14
-    ],
-    [
-     12,
-     11,
-     7,
-     9,
-     15,
-     5
-    ]
+    1,
+    15,
+    13,
+    16,
+    3,
+    4,
+    9
    ],
    "sessions": 1
   },
   {
    "identifier": 70,
-   "title": "Physics and its Relation to Civil Engineering",
+   "title": "Introduction to Hotel Management",
    "prefrences": null,
    "instructors": [
-    [
-     8,
-     1,
-     20,
-     15,
-     11,
-     18,
-     5,
-     19,
-     2
-    ],
-    [
-     2,
-     20,
-     19
-    ],
-    [
-     15,
-     5,
-     19,
-     20,
-     10,
-     18
-    ]
+    20,
+    19,
+    6,
+    3,
+    9,
+    10,
+    15,
+    11
    ],
    "sessions": 2
   },
   {
    "identifier": 71,
-   "title": "Ethics and professional Practice in Teaching",
+   "title": "Class Routines",
    "prefrences": null,
    "instructors": [
-    [
-     9,
-     19,
-     4,
-     16,
-     15,
-     18,
-     1,
-     13
-    ],
-    [
-     5,
-     16
-    ],
-    [
-     13
-    ]
+    20,
+    15,
+    16,
+    1,
+    3,
+    2,
+    17
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 72,
-   "title": "Physics and its relation to Computer Science",
+   "title": "Introduction to Open Source Technologies",
    "prefrences": null,
    "instructors": [
-    [
-     14,
-     3,
-     2,
-     5
-    ],
-    [
-     16,
-     11,
-     12
-    ],
-    [
-     20,
-     4,
-     3,
-     19
-    ]
+    8,
+    9,
+    16,
+    7,
+    14,
+    20
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 73,
-   "title": "Introduction to Child Care",
+   "title": "History of Kenyan Journalism",
    "prefrences": null,
    "instructors": [
-    [
-     16,
-     7,
-     19,
-     10
-    ],
-    [
-     9,
-     12,
-     17
-    ],
-    [
-     12,
-     4,
-     2
-    ]
+    20,
+    19,
+    7,
+    17,
+    14,
+    3
    ],
    "sessions": 2
   },
   {
    "identifier": 74,
-   "title": "Foundations of Health Systems Management",
+   "title": "Introduction to Civil Engineering",
    "prefrences": null,
    "instructors": [
-    [
-     5,
-     17,
-     19,
-     7,
-     13,
-     9,
-     10
-    ],
-    [
-     4,
-     6
-    ],
-    [
-     7,
-     5,
-     3,
-     16,
-     8,
-     15
-    ]
-   ],
-   "sessions": 2
-  },
-  {
-   "identifier": 75,
-   "title": "Teaching and Scholar Activities",
-   "prefrences": null,
-   "instructors": [
-    [
-     15,
-     13,
-     16,
-     6
-    ],
-    [
-     4,
-     10,
-     19,
-     14,
-     6,
-     2,
-     11
-    ],
-    [
-     20,
-     8,
-     17,
-     3,
-     9,
-     12
-    ]
+    20,
+    5,
+    4,
+    9,
+    2,
+    6
    ],
    "sessions": 1
   },
   {
-   "identifier": 76,
-   "title": "Biology I",
+   "identifier": 75,
+   "title": "Electrostatics III",
    "prefrences": null,
    "instructors": [
-    [
-     17,
-     10,
-     11,
-     18,
-     14,
-     4
-    ],
-    [
-     6,
-     1,
-     20,
-     3,
-     2
-    ],
-    [
-     18,
-     8,
-     15,
-     12
-    ]
+    3,
+    10
+   ],
+   "sessions": 2
+  },
+  {
+   "identifier": 76,
+   "title": "History of Civil Engineering",
+   "prefrences": null,
+   "instructors": [
+    9,
+    4,
+    18
    ],
    "sessions": 1
   },
   {
    "identifier": 77,
-   "title": "Healthcare Entrepreneurship",
+   "title": "Introduction to Architecture",
    "prefrences": null,
    "instructors": [
-    [
-     3,
-     16
-    ],
-    [
-     2,
-     18,
-     10,
-     7
-    ],
-    [
-     16,
-     20,
-     2,
-     11,
-     7,
-     3,
-     6
-    ]
+    16,
+    8,
+    1,
+    13,
+    19,
+    20
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 78,
-   "title": "Drinks and Beverages",
+   "title": "Foundations of Building and Construction",
    "prefrences": null,
    "instructors": [
-    [
-     18,
-     13,
-     5,
-     16
-    ],
-    [
-     6,
-     10,
-     20,
-     16,
-     12,
-     8,
-     5
-    ],
-    [
-     19,
-     8,
-     7
-    ]
+    8,
+    1,
+    4,
+    13,
+    20,
+    14
    ],
    "sessions": 1
   },
   {
    "identifier": 79,
-   "title": "Physics I",
+   "title": "Swahili I",
    "prefrences": null,
    "instructors": [
-    [
-     20,
-     6,
-     4,
-     11
-    ],
-    [
-     8,
-     5,
-     19,
-     11
-    ],
-    [
-     19,
-     10,
-     4,
-     12
-    ]
+    5,
+    6,
+    12,
+    15,
+    13
    ],
    "sessions": 1
   },
   {
    "identifier": 80,
-   "title": "The Human Anatomy",
+   "title": "History I",
    "prefrences": null,
    "instructors": [
-    [
-     4,
-     17,
-     16,
-     6,
-     12,
-     13
-    ],
-    [
-     16,
-     17,
-     11,
-     18
-    ],
-    [
-     12,
-     7
-    ]
+    8,
+    7,
+    5,
+    10,
+    11,
+    13,
+    12
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 81,
-   "title": "Kids and Kids Development",
+   "title": "Introduction to Databases",
    "prefrences": null,
    "instructors": [
-    [
-     15,
-     4,
-     6,
-     3
-    ],
-    [
-     6,
-     3,
-     11,
-     16,
-     20
-    ],
-    [
-     8,
-     7,
-     6,
-     11,
-     9,
-     1
-    ]
+    12,
+    9,
+    19,
+    1
    ],
    "sessions": 2
   },
   {
    "identifier": 82,
-   "title": "Conversion of Energy",
+   "title": "Introduction to Measurement and Quantification",
    "prefrences": null,
    "instructors": [
-    [
-     5,
-     10,
-     3,
-     7,
-     20,
-     1
-    ],
-    [
-     7,
-     19
-    ],
-    [
-     10,
-     8,
-     17,
-     2,
-     18,
-     13,
-     6
-    ]
+    16,
+    1
    ],
    "sessions": 1
   },
   {
    "identifier": 83,
-   "title": "Solar Radiation and power",
+   "title": "Teacher teacher relationship",
    "prefrences": null,
    "instructors": [
-    [
-     20,
-     15,
-     16,
-     4
-    ],
-    [
-     14,
-     9,
-     3,
-     5,
-     18
-    ],
-    [
-     19,
-     14,
-     13,
-     12,
-     17,
-     10,
-     3
-    ]
+    19,
+    17,
+    14,
+    12
    ],
    "sessions": 2
   },
   {
    "identifier": 84,
-   "title": "Basic Book Keeping",
+   "title": "Glass Metamorphosis",
    "prefrences": null,
    "instructors": [
-    [
-     18,
-     10,
-     1,
-     4
-    ],
-    [
-     19,
-     2
-    ],
-    [
-     19,
-     4,
-     5,
-     7
-    ]
+    4,
+    3
    ],
    "sessions": 2
   },
   {
    "identifier": 85,
-   "title": "Class Routines",
+   "title": "Kids and Kids Development",
    "prefrences": null,
    "instructors": [
-    [
-     17,
-     14,
-     8,
-     18
-    ],
-    [
-     17,
-     3
-    ],
-    [
-     20,
-     5,
-     19,
-     8,
-     16,
-     11
-    ]
+    20,
+    8,
+    15,
+    11,
+    16,
+    3
    ],
-   "sessions": 2
+   "sessions": 1
   },
   {
    "identifier": 86,
-   "title": "Time Management",
+   "title": "Engineering as an Art",
    "prefrences": null,
    "instructors": [
-    [
-     3,
-     17,
-     1,
-     11,
-     8,
-     4,
-     20
-    ],
-    [
-     14,
-     9,
-     18,
-     6,
-     8,
-     7,
-     4
-    ],
-    [
-     7,
-     6,
-     4,
-     12
-    ]
-   ],
-   "sessions": 1
-  },
-  {
-   "identifier": 87,
-   "title": "Communication Skills",
-   "prefrences": null,
-   "instructors": [
-    [
-     17,
-     10
-    ],
-    [
-     7,
-     13,
-     3,
-     19
-    ],
-    [
-     3,
-     1
-    ]
+    16,
+    8,
+    12,
+    18,
+    13,
+    2
    ],
    "sessions": 2
   },
   {
-   "identifier": 88,
-   "title": "English II",
+   "identifier": 87,
+   "title": "Political Systems and Governance",
    "prefrences": null,
    "instructors": [
-    [
-     18,
-     2,
-     11,
-     17,
-     15
-    ],
-    [
-     9,
-     7,
-     15
-    ],
-    [
-     1,
-     5,
-     2,
-     13,
-     14,
-     10,
-     15,
-     11,
-     16
-    ]
+    16,
+    13,
+    2,
+    17,
+    4,
+    12,
+    6
    ],
    "sessions": 1
+  },
+  {
+   "identifier": 88,
+   "title": "Forms of Energy",
+   "prefrences": null,
+   "instructors": [
+    6
+   ],
+   "sessions": 2
   },
   {
    "identifier": 89,
-   "title": "French Cuisine",
+   "title": "Italian Cuisine",
    "prefrences": null,
    "instructors": [
-    [
-     16,
-     3,
-     18,
-     11,
-     12
-    ],
-    [
-     7,
-     9,
-     20,
-     5,
-     10,
-     12
-    ],
-    [
-     7,
-     11,
-     20,
-     2,
-     12,
-     16,
-     17
-    ]
+    11,
+    16,
+    10,
+    4,
+    18,
+    3
    ],
-   "sessions": 1
+   "sessions": 2
   },
   {
    "identifier": 90,
-   "title": "Swahili I",
+   "title": "Teaching Tools",
    "prefrences": null,
    "instructors": [
-    [
-     12,
-     4,
-     10,
-     15,
-     17,
-     19,
-     8
-    ],
-    [
-     2,
-     12
-    ],
-    [
-     5,
-     4,
-     9
-    ]
+    16,
+    2,
+    13,
+    5,
+    19,
+    20
    ],
    "sessions": 2
   }
@@ -3105,135 +1618,153 @@
  "groups": [
   {
    "identifier": 1,
-   "programme": "Statistics",
+   "programme": "Law",
    "year": 1,
-   "total": 55
+   "total": 77
   },
   {
    "identifier": 2,
-   "programme": "Pharmacy",
-   "year": 1,
-   "total": 60
+   "programme": "Law",
+   "year": 2,
+   "total": 97
   },
   {
    "identifier": 3,
-   "programme": "Pharmacy",
-   "year": 2,
-   "total": 62
+   "programme": "Law",
+   "year": 3,
+   "total": 88
   },
   {
    "identifier": 4,
-   "programme": "Pharmacy",
-   "year": 3,
-   "total": 61
+   "programme": "Law",
+   "year": 4,
+   "total": 52
   },
   {
    "identifier": 5,
-   "programme": "Art",
+   "programme": "Sports Management",
    "year": 1,
-   "total": 87
+   "total": 83
   },
   {
    "identifier": 6,
-   "programme": "Physical Therapy",
-   "year": 1,
-   "total": 84
+   "programme": "Sports Management",
+   "year": 2,
+   "total": 51
   },
   {
    "identifier": 7,
-   "programme": "Physical Therapy",
-   "year": 2,
-   "total": 27
+   "programme": "Medicine",
+   "year": 1,
+   "total": 26
   },
   {
    "identifier": 8,
-   "programme": "Physical Therapy",
-   "year": 3,
-   "total": 59
+   "programme": "Medicine",
+   "year": 2,
+   "total": 72
   },
   {
    "identifier": 9,
-   "programme": "Quantum Computing",
+   "programme": "Electrical Engineering",
    "year": 1,
-   "total": 33
+   "total": 30
   },
   {
    "identifier": 10,
-   "programme": "Quantum Computing",
-   "year": 2,
-   "total": 75
+   "programme": "Meteorology",
+   "year": 1,
+   "total": 53
   },
   {
    "identifier": 11,
-   "programme": "Quantum Computing",
-   "year": 3,
-   "total": 98
+   "programme": "Meteorology",
+   "year": 2,
+   "total": 41
   },
   {
    "identifier": 12,
-   "programme": "Communications",
-   "year": 1,
-   "total": 80
+   "programme": "Meteorology",
+   "year": 3,
+   "total": 55
   },
   {
    "identifier": 13,
-   "programme": "Communications",
-   "year": 2,
-   "total": 58
+   "programme": "Meteorology",
+   "year": 4,
+   "total": 50
   },
   {
    "identifier": 14,
-   "programme": "Communications",
+   "programme": "Cybersecurity",
+   "year": 1,
+   "total": 43
+  },
+  {
+   "identifier": 15,
+   "programme": "Cybersecurity",
+   "year": 2,
+   "total": 51
+  },
+  {
+   "identifier": 16,
+   "programme": "Cybersecurity",
+   "year": 3,
+   "total": 42
+  },
+  {
+   "identifier": 17,
+   "programme": "Landscape Architecture",
+   "year": 1,
+   "total": 89
+  },
+  {
+   "identifier": 18,
+   "programme": "Landscape Architecture",
+   "year": 2,
+   "total": 93
+  },
+  {
+   "identifier": 19,
+   "programme": "Public Health",
+   "year": 1,
+   "total": 20
+  },
+  {
+   "identifier": 20,
+   "programme": "Public Health",
+   "year": 2,
+   "total": 83
+  },
+  {
+   "identifier": 21,
+   "programme": "English",
+   "year": 1,
+   "total": 31
+  },
+  {
+   "identifier": 22,
+   "programme": "Nanotechnology",
+   "year": 1,
+   "total": 36
+  },
+  {
+   "identifier": 23,
+   "programme": "Nanotechnology",
+   "year": 2,
+   "total": 65
+  },
+  {
+   "identifier": 24,
+   "programme": "Nanotechnology",
    "year": 3,
    "total": 32
   },
   {
-   "identifier": 15,
-   "programme": "Public Health",
-   "year": 1,
-   "total": 66
-  },
-  {
-   "identifier": 16,
-   "programme": "Public Health",
-   "year": 2,
-   "total": 92
-  },
-  {
-   "identifier": 17,
-   "programme": "Environmental Science",
-   "year": 1,
-   "total": 68
-  },
-  {
-   "identifier": 18,
-   "programme": "Environmental Science",
-   "year": 2,
-   "total": 78
-  },
-  {
-   "identifier": 19,
-   "programme": "Environmental Science",
-   "year": 3,
-   "total": 27
-  },
-  {
-   "identifier": 20,
-   "programme": "Dance",
-   "year": 1,
-   "total": 59
-  },
-  {
-   "identifier": 21,
-   "programme": "Electrical Engineering",
-   "year": 1,
-   "total": 71
-  },
-  {
-   "identifier": 22,
-   "programme": "Electrical Engineering",
-   "year": 2,
-   "total": 35
+   "identifier": 25,
+   "programme": "Nanotechnology",
+   "year": 4,
+   "total": 63
   }
  ]
 }

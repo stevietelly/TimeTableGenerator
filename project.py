@@ -2,11 +2,13 @@ import sys
 from typing import List, Dict, Any
 from Assets.FileHandling.Read import Read
 from Assets.FileHandling.Write import Write
+from Assets.Functions.Echo import Echo
 from Data.Parsers.Data import DataReader
 from Data.Validators.Structure import INPUT_FILE_UNITS
 from Data.Validators.Type import FileTypeValidator
 from Data.Validators.Utilities import confirm_file_path, is_valid_day, is_valid_formart, is_valid_time, return_list_of_days
 from Data.Generator.Generator import DataGenerator
+from Models.Evaluation.Evaluation import FitnessEvaluation
 from Models.Generator.Generator import Generator
 
 
@@ -29,6 +31,17 @@ custom_config: Dict[str, Any] = {
 }
 
 def main():
+
+    # for echo
+    if "--echo" in sys.argv or "-e" in sys.argv:
+        o_index = sys.argv.index("-e") if "-e" in sys.argv else sys.argv.index("--echo")
+        state = sys.argv[o_index+1]
+        if state == "on":
+            Echo.state = True
+        elif not state == "off":
+            sys.exit("Invalid Echo status: expected values 'on' or 'off' ")
+        sys.argv.pop(o_index)
+        sys.argv.pop(o_index)
 
     # For generating mock data for testing
     if "-dg" in sys.argv or "--data_generator" in sys.argv:
@@ -127,7 +140,7 @@ def Run():
     else:
         output_type = "json"
 
-    print("Validating Input File.........")
+    Echo().print("Validating Input File.........")
 
     if not is_valid_formart(output_type):
         sys.exit("invalid output formart: Please Read Info for specified output formarts")
@@ -142,7 +155,11 @@ def Run():
     timeteable_generator = Generator(reader.configuration, reader.instructors, reader.rooms, reader.units, reader.programmes, reader.groups)
     initial_timetable = timeteable_generator.Process()
 
-    file = Write("Output/", output_file, initial_timetable.Output(), output_type)
+    evaluate = FitnessEvaluation(initial_timetable, reader.rooms, reader.groups, reader.instructors, reader.configuration.priorities)
+    evaluate.Evaluate()
+
+
+    file = Write("", output_file, evaluate.Output().Output(), output_type)
     file.dump()
     sys.exit(0)
   

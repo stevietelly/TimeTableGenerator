@@ -34,3 +34,10 @@ Initial Date: 29th April 2023
 - Initialising dropping the use of `students` as a data entry completely and switching to `groups` to prevent bulk entry of unessecary data to the program
 
 - Depreceated `Interface()` function in `project.py`, no longer supports inputing individual files
+
+## Version 0.0.9
+Author: Stephen Telian Sulpis @ stevietelian@gmail.com
+Initial Date: 1st May 2023
+
+- Introduction of the Echo feature, where information that is crucial to the entire process is printed to command line but
+based on a flag `--echo` which can either be on or off drawing  inspiration from batch scripts `echo` command

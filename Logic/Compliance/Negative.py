@@ -1,3 +1,4 @@
+import sys
 from typing import Union, List
 from Logic.Compliance.Compliance import Compliance
 from Logic.DateTime.DayTime import DayTime
@@ -25,6 +26,10 @@ class Clash(NegativeCompliance):
         super().__init__()
         self.daytime: DayTime = daytime
         self.object_: Union[Group, Room, Instructor] = object_
+    
+    def _confirm_input_values(self):
+        if not type(self.daytime) == DayTime or not type(self.object_) in [Group, Room, Instructor]:
+            sys.exit("Invalid Input Type")
  
 class GroupClash(Clash):
     def __init__(self, group: Group, daytime: DayTime) -> None:

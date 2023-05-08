@@ -6,7 +6,7 @@ from Assets.Functions.Echo import Echo
 from Data.Parsers.Data import DataReader
 from Data.Validators.Structure import INPUT_FILE_UNITS
 from Data.Validators.Type import FileTypeValidator
-from Data.Validators.Utilities import confirm_file_path, is_valid_day, is_valid_formart, is_valid_time, return_list_of_days
+from Data.Validators.Utilities import algorithm_type_validator, confirm_file_path, is_valid_day, is_valid_formart, is_valid_time, return_list_of_days
 from Data.Generator.Generator import DataGenerator
 from Models.Evaluation.Evaluation import FitnessEvaluation
 from Models.Generator.Generator import Generator
@@ -148,6 +148,27 @@ def Run():
     data = Read(input_file).extract()
     if not FileTypeValidator(data):
         sys.exit("Invalid Input File")
+
+    if "-a" in sys.argv or "--algorithm" in sys.argv:
+        o_index = sys.argv.index("-a") if "-tp" in sys.argv else sys.argv.index("--algorithm")
+        algo_type = sys.argv[o_index+1]
+        sys.argv.pop(o_index)
+        sys.argv.pop(o_index)
+    else:
+        algo_type = "constraint_satisfaction"
+    
+    if "-t" in sys.argv or "--times" in sys.argv:
+        _index = sys.argv.index("-a") if "-tp" in sys.argv else sys.argv.index("--algorithm")
+        run_times = sys.argv[o_index+1]
+        try:
+            int(run_times)
+        except Exception as e:
+            sys.exit("Invalid Run time", run_times)
+        sys.argv.pop(o_index)
+        sys.argv.pop(o_index)
+        
+    if not algorithm_type_validator(algo_type):
+        sys.exit("Invalid Algorithm type")
     
     reader = DataReader(data)
     reader.Encode()

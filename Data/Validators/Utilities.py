@@ -1,7 +1,7 @@
 from os import path
 from datetime import datetime
 import re
-from Data.Validators.Structure import VALID_FILE_FOMARTS
+from Data.Validators.Structure import VALID_FILE_FOMARTS, ALGORITHMS
 from Logic.DateTime.Day import Day
 from Logic.DateTime.Time import Time
 from Logic.DateTime.Week import Week
@@ -54,3 +54,8 @@ def is_valid_formart(formart:str):
     if formart in VALID_FILE_FOMARTS:
         return True
     return False
+
+def algorithm_type_validator(algo: str) -> bool:
+    if algo not in ALGORITHMS:
+        return False
+    return True

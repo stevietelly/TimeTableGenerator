@@ -2,7 +2,9 @@
 The Evaluation Function
 """
 
+import sys
 from typing import Dict, List
+from Assets.Functions.Echo import Echo
 from Logic.Compliance.Negative import CapacityInequality, Clash
 from Logic.Compliance.Positive import FreeGroupPeriod, FreeInstructorPeriod, FreePeriod, FreeRoomPeriod
 from Logic.Statistics.Costs.Cost import ClassOnePrioritySatisfaction, ClassTwoPrioritySatisfaction, ConstraintSatisfaction, TotalConstraintCompliance
@@ -20,6 +22,12 @@ class FitnessEvaluation:
     def __init__(self, timetable: Timetable, rooms: List[Room],
                  groups: List[Group], instructors: List[Instructor],
                  priorities: Priorities) -> None:
+        self.rooms = rooms
+        self.groups = groups
+        self.instructors = instructors
+        self.priorities: Priorities = priorities
+
+    
         """"
         This function is used to get the fitness of a solution based on compliance with the constraints
         specified
@@ -44,6 +52,7 @@ class FitnessEvaluation:
         param:
 
         """
+        self.echo = Echo()
         self.timetable: Timetable = timetable
         self.room_holder = rooms
         self.group_holder = groups
@@ -54,9 +63,8 @@ class FitnessEvaluation:
         self.instructor_calculator: List[InstructorCalculator] = []
         self.room_calculator: List[RoomCalculator] = []
 
-        self.priorities: Priorities = priorities
 
-        self.soft_constraint_satisfaction_acceptance: int
+        self.soft_constraint_satisfaction_acceptance: int =  timetable.configuration.soft_constraints_satisfaction_rate
         self.hard_constraints = ConstraintSatisfaction()
         self.soft_constraints = ConstraintSatisfaction()
 
@@ -82,6 +90,7 @@ class FitnessEvaluation:
         }
 
     def Evaluate(self):
+ 
         # Groups
         self.evaluateGroup()
         # Instructor
@@ -250,7 +259,7 @@ class FitnessEvaluation:
         self.timetable.stats = {
             "rooms": {"clashes": len(self.clashes["room"]), "free": len(self.free_periods["room"])},
             "groups": {"clashes": len(self.clashes["group"]), "free": len(self.free_periods["group"])},
-            "instructors": {"clashes": len(self.clashes["instructor"]), "free": len(self.free_periods["instructor"])},
+            "instructors": {"clashes": len(self.clashes["instructor"]), "free": len(self.free_periods["instructor"])}
           
         }
 
@@ -258,6 +267,10 @@ class FitnessEvaluation:
         self.timetable.capacity_inequality = self.capacity_inequality
 
         self.timetable.clashes = self.clashes
+
+        self.echo.print({"rooms": {"clashes": len(self.clashes["room"]), "free": len(self.free_periods["room"])},
+            "groups": {"clashes": len(self.clashes["group"]), "free": len(self.free_periods["group"])},
+            "instructors": {"clashes": len(self.clashes["instructor"]), "free": len(self.free_periods["instructor"])}})
 
     def Output(self) -> Timetable:
 
@@ -267,6 +280,7 @@ class FitnessEvaluation:
         for group_calculator in self.group_calculator:
             if group_calculator.object_.identifier == group_identifier:
                 return group_calculator
+        sys.exit("Unable to find Group Calculator")
 
     def FindRoomCalculator(self, room_identifier: int) -> RoomCalculator:
 

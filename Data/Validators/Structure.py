@@ -65,3 +65,5 @@ VALID_FILE_FOMARTS = ["json", "txt"]
 INPUT_FILE_UNITS = ["configuration", "instructors", "units", "programmes", "rooms", "groups"]
 
 INPUT_FILE_STRUCTURE = {"configuration": CONFIGURATION, "instructors": INSTRUCTOR, "units": UNIT, "programmes": PROGRAMME, "rooms": ROOM, "groups": GROUP}
+
+ALGORITHMS = ["constraint_satisfaction", "genetic", "annealing"]

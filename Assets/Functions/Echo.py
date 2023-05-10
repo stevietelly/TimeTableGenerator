@@ -9,4 +9,4 @@ class Echo:
         pass
     def print(self, *value: Any):
         if self.state:
-            print(value)
+            print(*value)

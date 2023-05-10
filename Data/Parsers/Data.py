@@ -19,7 +19,8 @@ class DataReader:
         """
         DataReader Takes in the input file and converts
         everything into python objects to be used by the program.
-        It essentially Encodes everything into the right Object
+        It essentially Encodes everything into the right python 
+        Object
         """
         self.configuration: Configuration
         self.programmes: List[Programme] = []

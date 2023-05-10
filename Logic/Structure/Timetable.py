@@ -11,9 +11,12 @@ from Logic.Structure.Session import Session
 
 
 class Timetable:
-
+    """
+        The end result of the entire scheduling process
+    """
     def __init__(self, configuration: Configuration, periods: List[DayTime],
                  sessions: List[Session], times: List[Time]):
+       
         self.configuration: Configuration = configuration
         self.week: Week = self.configuration.week
         self.periods: List[DayTime] = periods

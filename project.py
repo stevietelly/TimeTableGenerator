@@ -8,8 +8,9 @@ from Data.Validators.Structure import INPUT_FILE_UNITS
 from Data.Validators.Type import FileTypeValidator
 from Data.Validators.Utilities import algorithm_type_validator, confirm_file_path, is_valid_day, is_valid_formart, is_valid_time, return_list_of_days
 from Data.Generator.Generator import DataGenerator
-from Models.Evaluation.Evaluation import FitnessEvaluation
+from Models.Evaluation.Fitness import FitnessEvaluation
 from Models.Generator.Generator import Generator
+from Models.Optimization.Genetic import Genetic
 
 
 #  Input Files holder
@@ -150,40 +151,63 @@ def Run():
         sys.exit("Invalid Input File")
 
     if "-a" in sys.argv or "--algorithm" in sys.argv:
-        o_index = sys.argv.index("-a") if "-tp" in sys.argv else sys.argv.index("--algorithm")
+        o_index = sys.argv.index("-a") if "-a" in sys.argv else sys.argv.index("--algorithm")
         algo_type = sys.argv[o_index+1]
         sys.argv.pop(o_index)
         sys.argv.pop(o_index)
     else:
         algo_type = "constraint_satisfaction"
     
-    if "-t" in sys.argv or "--times" in sys.argv:
-        _index = sys.argv.index("-a") if "-tp" in sys.argv else sys.argv.index("--algorithm")
-        run_times = sys.argv[o_index+1]
-        try:
-            int(run_times)
-        except Exception as e:
-            sys.exit("Invalid Run time", run_times)
-        sys.argv.pop(o_index)
-        sys.argv.pop(o_index)
+   
         
     if not algorithm_type_validator(algo_type):
         sys.exit("Invalid Algorithm type")
     
     reader = DataReader(data)
     reader.Encode()
+ 
 
-    timeteable_generator = Generator(reader.configuration, reader.instructors, reader.rooms, reader.units, reader.programmes, reader.groups)
+    if algo_type == "genetic":
+        if "-t" in sys.argv or "--iterations" in sys.argv:
+            _index = sys.argv.index("-t") if "-t" in sys.argv else sys.argv.index("--iterations")
+            run_times = sys.argv[_index+1]
+            try:
+                int(run_times)
+            except Exception as e:
+                sys.exit(f"Invalid Run time \"{run_times}\"")
+            sys.argv.pop(_index)
+            sys.argv.pop(_index)
+            RunGeneticAlgorithim(reader, run_times) 
+        else:
+            RunGeneticAlgorithim(reader)
+
+
+    timeteable_generator = Generator(reader)
     initial_timetable = timeteable_generator.Process()
 
-    evaluate = FitnessEvaluation(initial_timetable, reader.rooms, reader.groups, reader.instructors, reader.configuration.priorities)
+    evaluate = FitnessEvaluation(initial_timetable, reader)
     evaluate.Evaluate()
 
 
     file = Write("", output_file, evaluate.Output().Output(), output_type)
     file.dump()
     sys.exit(0)
-  
+
+def RunGeneticAlgorithim(inputData: DataReader, initial: int=10):
+    genetic = Genetic(inputData, initial)
+    genetic.Intialise()
+    genetic.Fitness()
+    genetic.Selection()
+    genetic.Crossover()
+    # genetic.Mutation()
+    tt = genetic.population[0]
+    print("final")
+    evaluation = FitnessEvaluation(tt, inputData)
+    evaluation.Evaluate()
+    evaluation.Redefine()
+    print(evaluation.Output().stats)
+    sys.exit(1)
+    
 def generateData():
     print("Genarate mock data")
     input_file:str|None = None

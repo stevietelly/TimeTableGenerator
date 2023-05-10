@@ -20,13 +20,40 @@
  "sessions": [
   {
    "session_id": 1,
-   "day": "Friday",
+   "day": "Wednesday",
    "time": "14:00pm",
-   "room": 2,
-   "instructor": 10,
+   "room": 4,
+   "instructor": 11,
    "group": 1,
    "clash_costs": {
     "room": 33.33333333333333,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.007532467532467533,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 2,
+   "day": "Tuesday",
+   "time": "16:00pm",
+   "room": 2,
+   "instructor": 11,
+   "group": 1,
+   "clash_costs": {
+    "room": 25.0,
     "instructor": 50.0,
     "group": 50.0
    },
@@ -46,18 +73,18 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 2,
-   "day": "Thursday",
-   "time": "11:00am",
-   "room": 6,
-   "instructor": 10,
+   "session_id": 3,
+   "day": "Monday",
+   "time": "13:00pm",
+   "room": 1,
+   "instructor": 20,
    "group": 1,
    "clash_costs": {
     "room": 100,
-    "instructor": 100,
-    "group": 100
+    "instructor": 33.33333333333333,
+    "group": 50.0
    },
-   "room_capacity_cost": 0.01025974025974026,
+   "room_capacity_cost": 0.010519480519480519,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -73,14 +100,95 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 3,
-   "day": "Thursday",
-   "time": "9:00am",
+   "session_id": 4,
+   "day": "Tuesday",
+   "time": "16:00pm",
    "room": 2,
-   "instructor": 16,
+   "instructor": 20,
+   "group": 1,
+   "clash_costs": {
+    "room": 25.0,
+    "instructor": 100,
+    "group": 50.0
+   },
+   "room_capacity_cost": 0.01155844155844156,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 5,
+   "day": "Monday",
+   "time": "15:00pm",
+   "room": 3,
+   "instructor": 10,
    "group": 1,
    "clash_costs": {
     "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.0037662337662337664,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 6,
+   "day": "Monday",
+   "time": "8:00am",
+   "room": 1,
+   "instructor": 1,
+   "group": 1,
+   "clash_costs": {
+    "room": 20.0,
+    "instructor": 50.0,
+    "group": 100
+   },
+   "room_capacity_cost": 0.010519480519480519,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 7,
+   "day": "Friday",
+   "time": "13:00pm",
+   "room": 2,
+   "instructor": 1,
+   "group": 1,
+   "clash_costs": {
+    "room": 50.0,
     "instructor": 100,
     "group": 100
    },
@@ -100,11 +208,65 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 4,
+   "session_id": 8,
    "day": "Friday",
-   "time": "13:00pm",
+   "time": "10:00am",
+   "room": 5,
+   "instructor": 4,
+   "group": 1,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.007792207792207792,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 9,
+   "day": "Monday",
+   "time": "16:00pm",
+   "room": 6,
+   "instructor": 3,
+   "group": 1,
+   "clash_costs": {
+    "room": 25.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.01025974025974026,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 10,
+   "day": "Thursday",
+   "time": "14:00pm",
    "room": 4,
-   "instructor": 16,
+   "instructor": 3,
    "group": 1,
    "clash_costs": {
     "room": 100,
@@ -127,178 +289,16 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 5,
-   "day": "Friday",
-   "time": "14:00pm",
-   "room": 3,
-   "instructor": 10,
+   "session_id": 11,
+   "day": "Monday",
+   "time": "13:00pm",
+   "room": 2,
+   "instructor": 15,
    "group": 1,
    "clash_costs": {
-    "room": 50.0,
+    "room": 33.33333333333333,
     "instructor": 50.0,
     "group": 50.0
-   },
-   "room_capacity_cost": 0.0037662337662337664,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 6,
-   "day": "Friday",
-   "time": "15:00pm",
-   "room": 2,
-   "instructor": 1,
-   "group": 1,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.01155844155844156,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 7,
-   "day": "Wednesday",
-   "time": "11:00am",
-   "room": 3,
-   "instructor": 1,
-   "group": 1,
-   "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.0037662337662337664,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 8,
-   "day": "Wednesday",
-   "time": "14:00pm",
-   "room": 2,
-   "instructor": 4,
-   "group": 1,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.01155844155844156,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 9,
-   "day": "Monday",
-   "time": "8:00am",
-   "room": 6,
-   "instructor": 3,
-   "group": 1,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.01025974025974026,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 10,
-   "day": "Wednesday",
-   "time": "16:00pm",
-   "room": 7,
-   "instructor": 3,
-   "group": 1,
-   "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.011428571428571429,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 11,
-   "day": "Wednesday",
-   "time": "12:00pm",
-   "room": 2,
-   "instructor": 4,
-   "group": 1,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 100,
-    "group": 100
    },
    "room_capacity_cost": 0.01155844155844156,
    "preference_compliance_cost": {
@@ -317,17 +317,17 @@
   },
   {
    "session_id": 12,
-   "day": "Friday",
-   "time": "14:00pm",
-   "room": 2,
-   "instructor": 8,
+   "day": "Wednesday",
+   "time": "16:00pm",
+   "room": 4,
+   "instructor": 18,
    "group": 2,
    "clash_costs": {
-    "room": 33.33333333333333,
+    "room": 100,
     "instructor": 50.0,
     "group": 100
    },
-   "room_capacity_cost": 0.009175257731958762,
+   "room_capacity_cost": 0.005979381443298969,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -344,17 +344,17 @@
   },
   {
    "session_id": 13,
-   "day": "Thursday",
-   "time": "12:00pm",
-   "room": 2,
-   "instructor": 8,
+   "day": "Monday",
+   "time": "11:00am",
+   "room": 1,
+   "instructor": 18,
    "group": 2,
    "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
+    "room": 33.33333333333333,
+    "instructor": 50.0,
+    "group": 50.0
    },
-   "room_capacity_cost": 0.009175257731958762,
+   "room_capacity_cost": 0.008350515463917525,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -372,14 +372,14 @@
   {
    "session_id": 14,
    "day": "Wednesday",
-   "time": "8:00am",
+   "time": "10:00am",
    "room": 4,
    "instructor": 1,
    "group": 2,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
     "instructor": 100,
-    "group": 50.0
+    "group": 100
    },
    "room_capacity_cost": 0.005979381443298969,
    "preference_compliance_cost": {
@@ -398,17 +398,17 @@
   },
   {
    "session_id": 15,
-   "day": "Tuesday",
-   "time": "9:00am",
-   "room": 3,
+   "day": "Wednesday",
+   "time": "15:00pm",
+   "room": 2,
    "instructor": 1,
    "group": 2,
    "clash_costs": {
-    "room": 50.0,
-    "instructor": 33.33333333333333,
+    "room": 100,
+    "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.0029896907216494847,
+   "room_capacity_cost": 0.009175257731958762,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -425,17 +425,17 @@
   },
   {
    "session_id": 16,
-   "day": "Thursday",
+   "day": "Monday",
    "time": "9:00am",
-   "room": 3,
+   "room": 1,
    "instructor": 18,
    "group": 2,
    "clash_costs": {
-    "room": 100,
+    "room": 33.33333333333333,
     "instructor": 100,
     "group": 50.0
    },
-   "room_capacity_cost": 0.0029896907216494847,
+   "room_capacity_cost": 0.008350515463917525,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -452,15 +452,42 @@
   },
   {
    "session_id": 17,
-   "day": "Friday",
+   "day": "Monday",
    "time": "9:00am",
+   "room": 1,
+   "instructor": 19,
+   "group": 2,
+   "clash_costs": {
+    "room": 33.33333333333333,
+    "instructor": 100,
+    "group": 50.0
+   },
+   "room_capacity_cost": 0.008350515463917525,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 100,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 18,
+   "day": "Monday",
+   "time": "8:00am",
    "room": 3,
    "instructor": 19,
    "group": 2,
    "clash_costs": {
-    "room": 50.0,
-    "instructor": 100,
-    "group": 100
+    "room": 33.33333333333333,
+    "instructor": 33.33333333333333,
+    "group": 50.0
    },
    "room_capacity_cost": 0.0029896907216494847,
    "preference_compliance_cost": {
@@ -478,45 +505,18 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 18,
-   "day": "Thursday",
-   "time": "15:00pm",
-   "room": 4,
-   "instructor": 19,
+   "session_id": 19,
+   "day": "Tuesday",
+   "time": "10:00am",
+   "room": 5,
+   "instructor": 13,
    "group": 2,
    "clash_costs": {
     "room": 50.0,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.005979381443298969,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 19,
-   "day": "Wednesday",
-   "time": "8:00am",
-   "room": 7,
-   "instructor": 13,
-   "group": 2,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 100,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.009072164948453608,
+   "room_capacity_cost": 0.006185567010309279,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -533,17 +533,17 @@
   },
   {
    "session_id": 20,
-   "day": "Thursday",
-   "time": "9:00am",
-   "room": 7,
+   "day": "Monday",
+   "time": "16:00pm",
+   "room": 5,
    "instructor": 13,
    "group": 2,
    "clash_costs": {
-    "room": 33.33333333333333,
+    "room": 100,
     "instructor": 100,
-    "group": 50.0
+    "group": 100
    },
-   "room_capacity_cost": 0.009072164948453608,
+   "room_capacity_cost": 0.006185567010309279,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -560,17 +560,17 @@
   },
   {
    "session_id": 21,
-   "day": "Thursday",
-   "time": "13:00pm",
-   "room": 6,
-   "instructor": 14,
+   "day": "Monday",
+   "time": "8:00am",
+   "room": 1,
+   "instructor": 7,
    "group": 2,
    "clash_costs": {
-    "room": 100,
-    "instructor": 50.0,
-    "group": 100
+    "room": 20.0,
+    "instructor": 100,
+    "group": 50.0
    },
-   "room_capacity_cost": 0.008144329896907216,
+   "room_capacity_cost": 0.008350515463917525,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -587,10 +587,10 @@
   },
   {
    "session_id": 22,
-   "day": "Tuesday",
-   "time": "11:00am",
+   "day": "Monday",
+   "time": "10:00am",
    "room": 6,
-   "instructor": 14,
+   "instructor": 7,
    "group": 2,
    "clash_costs": {
     "room": 100,
@@ -614,13 +614,13 @@
   },
   {
    "session_id": 23,
-   "day": "Friday",
-   "time": "13:00pm",
+   "day": "Tuesday",
+   "time": "8:00am",
    "room": 2,
-   "instructor": 13,
+   "instructor": 18,
    "group": 2,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
@@ -641,44 +641,17 @@
   },
   {
    "session_id": 24,
-   "day": "Tuesday",
-   "time": "14:00pm",
+   "day": "Monday",
+   "time": "11:00am",
    "room": 1,
-   "instructor": 13,
+   "instructor": 18,
    "group": 2,
    "clash_costs": {
-    "room": 100,
+    "room": 33.33333333333333,
     "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.008350515463917525,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 100
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 25,
-   "day": "Thursday",
-   "time": "8:00am",
-   "room": 6,
-   "instructor": 1,
-   "group": 3,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 100,
     "group": 50.0
    },
-   "room_capacity_cost": 0.008977272727272728,
+   "room_capacity_cost": 0.008350515463917525,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -694,9 +667,9 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 26,
-   "day": "Monday",
-   "time": "16:00pm",
+   "session_id": 25,
+   "day": "Friday",
+   "time": "12:00pm",
    "room": 7,
    "instructor": 1,
    "group": 3,
@@ -721,18 +694,45 @@
    "soft_constraint": 0
   },
   {
+   "session_id": 26,
+   "day": "Tuesday",
+   "time": "14:00pm",
+   "room": 4,
+   "instructor": 1,
+   "group": 3,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.006590909090909091,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
    "session_id": 27,
-   "day": "Thursday",
-   "time": "8:00am",
-   "room": 2,
-   "instructor": 11,
+   "day": "Monday",
+   "time": "11:00am",
+   "room": 6,
+   "instructor": 14,
    "group": 3,
    "clash_costs": {
     "room": 50.0,
-    "instructor": 100,
+    "instructor": 50.0,
     "group": 50.0
    },
-   "room_capacity_cost": 0.010113636363636365,
+   "room_capacity_cost": 0.008977272727272728,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -749,64 +749,10 @@
   },
   {
    "session_id": 28,
-   "day": "Thursday",
-   "time": "13:00pm",
-   "room": 2,
-   "instructor": 3,
-   "group": 3,
-   "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.010113636363636365,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 29,
-   "day": "Thursday",
+   "day": "Friday",
    "time": "10:00am",
    "room": 1,
-   "instructor": 3,
-   "group": 3,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.009204545454545455,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 100
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 30,
-   "day": "Friday",
-   "time": "9:00am",
-   "room": 1,
-   "instructor": 18,
+   "instructor": 15,
    "group": 3,
    "clash_costs": {
     "room": 100,
@@ -829,70 +775,16 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 31,
-   "day": "Friday",
-   "time": "14:00pm",
-   "room": 3,
-   "instructor": 18,
-   "group": 3,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.0032954545454545454,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 32,
+   "session_id": 29,
    "day": "Monday",
    "time": "11:00am",
-   "room": 3,
-   "instructor": 1,
-   "group": 3,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 100,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.0032954545454545454,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 33,
-   "day": "Wednesday",
-   "time": "13:00pm",
    "room": 4,
-   "instructor": 11,
+   "instructor": 15,
    "group": 3,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
     "instructor": 50.0,
-    "group": 100
+    "group": 50.0
    },
    "room_capacity_cost": 0.006590909090909091,
    "preference_compliance_cost": {
@@ -903,18 +795,18 @@
    "consecutive_cost": {
     "room": 0,
     "group": 0,
-    "instructor": 100
+    "instructor": 0
    },
    "overall_cost": 0,
    "hard_constraint": 0,
    "soft_constraint": 0
   },
   {
-   "session_id": 34,
-   "day": "Wednesday",
-   "time": "12:00pm",
+   "session_id": 30,
+   "day": "Thursday",
+   "time": "8:00am",
    "room": 2,
-   "instructor": 11,
+   "instructor": 18,
    "group": 3,
    "clash_costs": {
     "room": 50.0,
@@ -937,16 +829,16 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 35,
-   "day": "Monday",
+   "session_id": 31,
+   "day": "Friday",
    "time": "11:00am",
    "room": 6,
-   "instructor": 3,
+   "instructor": 18,
    "group": 3,
    "clash_costs": {
-    "room": 33.33333333333333,
+    "room": 100,
     "instructor": 100,
-    "group": 50.0
+    "group": 100
    },
    "room_capacity_cost": 0.008977272727272728,
    "preference_compliance_cost": {
@@ -964,14 +856,122 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 36,
+   "session_id": 32,
+   "day": "Monday",
+   "time": "13:00pm",
+   "room": 7,
+   "instructor": 12,
+   "group": 3,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.01,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 33,
+   "day": "Wednesday",
+   "time": "16:00pm",
+   "room": 3,
+   "instructor": 18,
+   "group": 3,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 50.0,
+    "group": 100
+   },
+   "room_capacity_cost": 0.0032954545454545454,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 34,
    "day": "Thursday",
+   "time": "9:00am",
+   "room": 7,
+   "instructor": 18,
+   "group": 3,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.01,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 35,
+   "day": "Friday",
    "time": "9:00am",
    "room": 7,
    "instructor": 3,
    "group": 3,
    "clash_costs": {
-    "room": 33.33333333333333,
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.01,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 36,
+   "day": "Tuesday",
+   "time": "11:00am",
+   "room": 7,
+   "instructor": 3,
+   "group": 3,
+   "clash_costs": {
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
@@ -992,15 +992,15 @@
   },
   {
    "session_id": 37,
-   "day": "Thursday",
-   "time": "10:00am",
+   "day": "Wednesday",
+   "time": "11:00am",
    "room": 6,
-   "instructor": 14,
+   "instructor": 20,
    "group": 4,
    "clash_costs": {
     "room": 100,
     "instructor": 100,
-    "group": 33.33333333333333
+    "group": 100
    },
    "room_capacity_cost": 0.015192307692307692,
    "preference_compliance_cost": {
@@ -1020,16 +1020,16 @@
   {
    "session_id": 38,
    "day": "Thursday",
-   "time": "10:00am",
-   "room": 2,
-   "instructor": 11,
+   "time": "14:00pm",
+   "room": 5,
+   "instructor": 16,
    "group": 4,
    "clash_costs": {
-    "room": 50.0,
-    "instructor": 50.0,
-    "group": 33.33333333333333
+    "room": 33.33333333333333,
+    "instructor": 100,
+    "group": 50.0
    },
-   "room_capacity_cost": 0.017115384615384616,
+   "room_capacity_cost": 0.011538461538461537,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -1046,123 +1046,15 @@
   },
   {
    "session_id": 39,
-   "day": "Tuesday",
-   "time": "15:00pm",
-   "room": 2,
-   "instructor": 11,
-   "group": 4,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.017115384615384616,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 40,
-   "day": "Tuesday",
-   "time": "11:00am",
-   "room": 7,
-   "instructor": 18,
-   "group": 4,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 50.0,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.016923076923076923,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 41,
-   "day": "Friday",
-   "time": "8:00am",
-   "room": 4,
-   "instructor": 14,
-   "group": 4,
-   "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.011153846153846155,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 42,
    "day": "Monday",
-   "time": "16:00pm",
-   "room": 4,
-   "instructor": 16,
-   "group": 4,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.011153846153846155,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 43,
-   "day": "Tuesday",
-   "time": "11:00am",
+   "time": "8:00am",
    "room": 3,
    "instructor": 16,
    "group": 4,
    "clash_costs": {
-    "room": 50.0,
+    "room": 33.33333333333333,
     "instructor": 100,
-    "group": 50.0
+    "group": 100
    },
    "room_capacity_cost": 0.005576923076923077,
    "preference_compliance_cost": {
@@ -1180,70 +1072,70 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 44,
-   "day": "Wednesday",
+   "session_id": 40,
+   "day": "Monday",
    "time": "13:00pm",
-   "room": 2,
-   "instructor": 17,
-   "group": 4,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.017115384615384616,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 45,
-   "day": "Wednesday",
-   "time": "11:00am",
-   "room": 2,
-   "instructor": 17,
-   "group": 4,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.017115384615384616,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 46,
-   "day": "Thursday",
-   "time": "10:00am",
-   "room": 1,
-   "instructor": 7,
+   "room": 3,
+   "instructor": 19,
    "group": 4,
    "clash_costs": {
     "room": 50.0,
     "instructor": 100,
-    "group": 33.33333333333333
+    "group": 100
+   },
+   "room_capacity_cost": 0.005576923076923077,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 41,
+   "day": "Thursday",
+   "time": "14:00pm",
+   "room": 5,
+   "instructor": 12,
+   "group": 4,
+   "clash_costs": {
+    "room": 33.33333333333333,
+    "instructor": 50.0,
+    "group": 50.0
+   },
+   "room_capacity_cost": 0.011538461538461537,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 42,
+   "day": "Thursday",
+   "time": "8:00am",
+   "room": 1,
+   "instructor": 20,
+   "group": 4,
+   "clash_costs": {
+    "room": 25.0,
+    "instructor": 100,
+    "group": 100
    },
    "room_capacity_cost": 0.015576923076923077,
    "preference_compliance_cost": {
@@ -1261,18 +1153,126 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 47,
+   "session_id": 43,
+   "day": "Monday",
+   "time": "9:00am",
+   "room": 5,
+   "instructor": 20,
+   "group": 4,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.011538461538461537,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 44,
    "day": "Friday",
-   "time": "13:00pm",
+   "time": "9:00am",
+   "room": 4,
+   "instructor": 20,
+   "group": 4,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.011153846153846155,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 45,
+   "day": "Tuesday",
+   "time": "9:00am",
+   "room": 6,
+   "instructor": 20,
+   "group": 4,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.015192307692307692,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 46,
+   "day": "Monday",
+   "time": "10:00am",
    "room": 2,
+   "instructor": 9,
+   "group": 4,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.017115384615384616,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 47,
+   "day": "Thursday",
+   "time": "11:00am",
+   "room": 7,
    "instructor": 12,
    "group": 5,
    "clash_costs": {
     "room": 50.0,
-    "instructor": 50.0,
-    "group": 100
+    "instructor": 100,
+    "group": 50.0
    },
-   "room_capacity_cost": 0.010722891566265061,
+   "room_capacity_cost": 0.010602409638554218,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -1289,24 +1289,24 @@
   },
   {
    "session_id": 48,
-   "day": "Thursday",
-   "time": "8:00am",
-   "room": 4,
+   "day": "Friday",
+   "time": "12:00pm",
+   "room": 5,
    "instructor": 12,
    "group": 5,
    "clash_costs": {
-    "room": 33.33333333333333,
+    "room": 50.0,
     "instructor": 100,
     "group": 50.0
    },
-   "room_capacity_cost": 0.006987951807228916,
+   "room_capacity_cost": 0.007228915662650603,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
     "instructor": 100.0
    },
    "consecutive_cost": {
-    "room": 0,
+    "room": 100,
     "group": 0,
     "instructor": 0
    },
@@ -1316,14 +1316,14 @@
   },
   {
    "session_id": 49,
-   "day": "Tuesday",
-   "time": "14:00pm",
+   "day": "Monday",
+   "time": "16:00pm",
    "room": 6,
-   "instructor": 20,
+   "instructor": 5,
    "group": 5,
    "clash_costs": {
-    "room": 100,
-    "instructor": 100,
+    "room": 25.0,
+    "instructor": 33.33333333333333,
     "group": 100
    },
    "room_capacity_cost": 0.009518072289156626,
@@ -1344,12 +1344,93 @@
   {
    "session_id": 50,
    "day": "Friday",
-   "time": "14:00pm",
-   "room": 1,
-   "instructor": 20,
+   "time": "16:00pm",
+   "room": 2,
+   "instructor": 5,
    "group": 5,
    "clash_costs": {
     "room": 50.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.010722891566265061,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 51,
+   "day": "Monday",
+   "time": "9:00am",
+   "room": 4,
+   "instructor": 14,
+   "group": 5,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.006987951807228916,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 52,
+   "day": "Friday",
+   "time": "12:00pm",
+   "room": 3,
+   "instructor": 14,
+   "group": 5,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 50.0
+   },
+   "room_capacity_cost": 0.003493975903614458,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 53,
+   "day": "Wednesday",
+   "time": "8:00am",
+   "room": 1,
+   "instructor": 14,
+   "group": 5,
+   "clash_costs": {
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
@@ -1369,16 +1450,16 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 51,
-   "day": "Friday",
-   "time": "8:00am",
+   "session_id": 54,
+   "day": "Thursday",
+   "time": "11:00am",
    "room": 7,
-   "instructor": 13,
+   "instructor": 14,
    "group": 5,
    "clash_costs": {
-    "room": 100,
+    "room": 50.0,
     "instructor": 100,
-    "group": 100
+    "group": 50.0
    },
    "room_capacity_cost": 0.010602409638554218,
    "preference_compliance_cost": {
@@ -1396,99 +1477,18 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 52,
-   "day": "Monday",
-   "time": "11:00am",
-   "room": 6,
-   "instructor": 13,
-   "group": 5,
-   "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 50.0,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.009518072289156626,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 100,
-    "group": 0,
-    "instructor": 100
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 53,
-   "day": "Tuesday",
+   "session_id": 55,
+   "day": "Thursday",
    "time": "12:00pm",
-   "room": 4,
-   "instructor": 9,
+   "room": 2,
+   "instructor": 12,
    "group": 5,
    "clash_costs": {
     "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.006987951807228916,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 54,
-   "day": "Thursday",
-   "time": "8:00am",
-   "room": 6,
-   "instructor": 9,
-   "group": 5,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 100,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.009518072289156626,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 55,
-   "day": "Monday",
-   "time": "11:00am",
-   "room": 5,
-   "instructor": 17,
-   "group": 5,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 50.0,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.007228915662650603,
+   "room_capacity_cost": 0.010722891566265061,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -1505,17 +1505,17 @@
   },
   {
    "session_id": 56,
-   "day": "Monday",
+   "day": "Tuesday",
    "time": "15:00pm",
-   "room": 4,
-   "instructor": 17,
+   "room": 1,
+   "instructor": 12,
    "group": 5,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.006987951807228916,
+   "room_capacity_cost": 0.009759036144578313,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -1532,10 +1532,10 @@
   },
   {
    "session_id": 57,
-   "day": "Tuesday",
-   "time": "11:00am",
+   "day": "Wednesday",
+   "time": "8:00am",
    "room": 5,
-   "instructor": 18,
+   "instructor": 2,
    "group": 6,
    "clash_costs": {
     "room": 100,
@@ -1559,17 +1559,17 @@
   },
   {
    "session_id": 58,
-   "day": "Thursday",
-   "time": "14:00pm",
-   "room": 6,
-   "instructor": 18,
+   "day": "Tuesday",
+   "time": "11:00am",
+   "room": 3,
+   "instructor": 2,
    "group": 6,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
     "instructor": 100,
-    "group": 50.0
+    "group": 100
    },
-   "room_capacity_cost": 0.015490196078431374,
+   "room_capacity_cost": 0.005686274509803921,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -1587,117 +1587,9 @@
   {
    "session_id": 59,
    "day": "Tuesday",
-   "time": "15:00pm",
-   "room": 4,
-   "instructor": 8,
-   "group": 6,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 33.33333333333333,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.011372549019607842,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 60,
-   "day": "Tuesday",
-   "time": "15:00pm",
-   "room": 7,
-   "instructor": 8,
-   "group": 6,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 33.33333333333333,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.017254901960784316,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 61,
-   "day": "Thursday",
    "time": "13:00pm",
-   "room": 2,
-   "instructor": 7,
-   "group": 6,
-   "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.017450980392156864,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 62,
-   "day": "Thursday",
-   "time": "16:00pm",
-   "room": 3,
-   "instructor": 19,
-   "group": 6,
-   "clash_costs": {
-    "room": 25.0,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.005686274509803921,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 100
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 63,
-   "day": "Tuesday",
-   "time": "12:00pm",
    "room": 1,
-   "instructor": 19,
+   "instructor": 18,
    "group": 6,
    "clash_costs": {
     "room": 50.0,
@@ -1720,16 +1612,43 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 64,
-   "day": "Thursday",
-   "time": "14:00pm",
-   "room": 4,
-   "instructor": 13,
+   "session_id": 60,
+   "day": "Wednesday",
+   "time": "12:00pm",
+   "room": 7,
+   "instructor": 18,
    "group": 6,
    "clash_costs": {
-    "room": 100,
+    "room": 50.0,
     "instructor": 100,
-    "group": 50.0
+    "group": 100
+   },
+   "room_capacity_cost": 0.017254901960784316,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 61,
+   "day": "Tuesday",
+   "time": "10:00am",
+   "room": 4,
+   "instructor": 4,
+   "group": 6,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 100
    },
    "room_capacity_cost": 0.011372549019607842,
    "preference_compliance_cost": {
@@ -1747,18 +1666,99 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 65,
-   "day": "Wednesday",
-   "time": "9:00am",
-   "room": 4,
-   "instructor": 13,
+   "session_id": 62,
+   "day": "Thursday",
+   "time": "11:00am",
+   "room": 1,
+   "instructor": 19,
    "group": 6,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.011372549019607842,
+   "room_capacity_cost": 0.01588235294117647,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 63,
+   "day": "Friday",
+   "time": "15:00pm",
+   "room": 3,
+   "instructor": 19,
+   "group": 6,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.005686274509803921,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 64,
+   "day": "Tuesday",
+   "time": "14:00pm",
+   "room": 3,
+   "instructor": 11,
+   "group": 6,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 50.0,
+    "group": 100
+   },
+   "room_capacity_cost": 0.005686274509803921,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 65,
+   "day": "Thursday",
+   "time": "14:00pm",
+   "room": 6,
+   "instructor": 11,
+   "group": 6,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.015490196078431374,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -1776,23 +1776,23 @@
   {
    "session_id": 66,
    "day": "Wednesday",
-   "time": "10:00am",
-   "room": 5,
-   "instructor": 6,
+   "time": "9:00am",
+   "room": 4,
+   "instructor": 4,
    "group": 7,
    "clash_costs": {
-    "room": 100,
+    "room": 50.0,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.023076923076923075,
+   "room_capacity_cost": 0.02230769230769231,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
     "instructor": 100.0
    },
    "consecutive_cost": {
-    "room": 0,
+    "room": 100,
     "group": 0,
     "instructor": 0
    },
@@ -1802,17 +1802,17 @@
   },
   {
    "session_id": 67,
-   "day": "Wednesday",
-   "time": "8:00am",
-   "room": 1,
-   "instructor": 9,
+   "day": "Friday",
+   "time": "12:00pm",
+   "room": 3,
+   "instructor": 8,
    "group": 7,
    "clash_costs": {
     "room": 50.0,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.031153846153846153,
+   "room_capacity_cost": 0.011153846153846155,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -1831,15 +1831,15 @@
    "session_id": 68,
    "day": "Wednesday",
    "time": "11:00am",
-   "room": 5,
-   "instructor": 9,
+   "room": 4,
+   "instructor": 8,
    "group": 7,
    "clash_costs": {
     "room": 50.0,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.023076923076923075,
+   "room_capacity_cost": 0.02230769230769231,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -1856,13 +1856,13 @@
   },
   {
    "session_id": 69,
-   "day": "Monday",
-   "time": "12:00pm",
+   "day": "Friday",
+   "time": "11:00am",
    "room": 5,
    "instructor": 12,
    "group": 7,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
@@ -1883,13 +1883,13 @@
   },
   {
    "session_id": 70,
-   "day": "Thursday",
-   "time": "12:00pm",
+   "day": "Tuesday",
+   "time": "13:00pm",
    "room": 5,
    "instructor": 12,
    "group": 7,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
@@ -1910,13 +1910,13 @@
   },
   {
    "session_id": 71,
-   "day": "Thursday",
-   "time": "8:00am",
+   "day": "Wednesday",
+   "time": "14:00pm",
    "room": 2,
-   "instructor": 2,
+   "instructor": 5,
    "group": 7,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
@@ -1937,13 +1937,67 @@
   },
   {
    "session_id": 72,
-   "day": "Friday",
-   "time": "13:00pm",
-   "room": 6,
-   "instructor": 14,
+   "day": "Wednesday",
+   "time": "12:00pm",
+   "room": 1,
+   "instructor": 8,
    "group": 7,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
+    "instructor": 50.0,
+    "group": 100
+   },
+   "room_capacity_cost": 0.031153846153846153,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 100
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 73,
+   "day": "Wednesday",
+   "time": "13:00pm",
+   "room": 2,
+   "instructor": 8,
+   "group": 7,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.03423076923076923,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 100,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 74,
+   "day": "Monday",
+   "time": "16:00pm",
+   "room": 6,
+   "instructor": 10,
+   "group": 7,
+   "clash_costs": {
+    "room": 25.0,
     "instructor": 100,
     "group": 100
    },
@@ -1963,79 +2017,25 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 73,
-   "day": "Tuesday",
-   "time": "16:00pm",
-   "room": 1,
-   "instructor": 14,
-   "group": 7,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.031153846153846153,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 74,
-   "day": "Thursday",
-   "time": "9:00am",
-   "room": 7,
-   "instructor": 19,
-   "group": 7,
-   "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.033846153846153845,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
    "session_id": 75,
    "day": "Monday",
-   "time": "8:00am",
-   "room": 4,
+   "time": "13:00pm",
+   "room": 5,
    "instructor": 3,
    "group": 8,
    "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 50.0,
-    "group": 50.0
+    "room": 50.0,
+    "instructor": 100,
+    "group": 100
    },
-   "room_capacity_cost": 0.008055555555555555,
+   "room_capacity_cost": 0.008333333333333333,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
     "instructor": 100.0
    },
    "consecutive_cost": {
-    "room": 0,
+    "room": 100,
     "group": 0,
     "instructor": 0
    },
@@ -2045,122 +2045,14 @@
   },
   {
    "session_id": 76,
-   "day": "Friday",
-   "time": "16:00pm",
-   "room": 5,
-   "instructor": 17,
-   "group": 8,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.008333333333333333,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 77,
    "day": "Monday",
-   "time": "11:00am",
-   "room": 6,
-   "instructor": 17,
-   "group": 8,
-   "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.010972222222222223,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 78,
-   "day": "Friday",
-   "time": "12:00pm",
-   "room": 7,
-   "instructor": 1,
-   "group": 8,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.012222222222222223,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 79,
-   "day": "Friday",
-   "time": "8:00am",
-   "room": 5,
-   "instructor": 11,
-   "group": 8,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.008333333333333333,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 80,
-   "day": "Thursday",
    "time": "10:00am",
    "room": 2,
-   "instructor": 11,
+   "instructor": 17,
    "group": 8,
    "clash_costs": {
     "room": 50.0,
-    "instructor": 50.0,
+    "instructor": 100,
     "group": 100
    },
    "room_capacity_cost": 0.012361111111111111,
@@ -2179,14 +2071,68 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 81,
-   "day": "Monday",
-   "time": "10:00am",
-   "room": 6,
-   "instructor": 6,
+   "session_id": 77,
+   "day": "Thursday",
+   "time": "8:00am",
+   "room": 1,
+   "instructor": 17,
    "group": 8,
    "clash_costs": {
-    "room": 33.33333333333333,
+    "room": 25.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.01125,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 78,
+   "day": "Wednesday",
+   "time": "10:00am",
+   "room": 5,
+   "instructor": 8,
+   "group": 8,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.008333333333333333,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 79,
+   "day": "Friday",
+   "time": "13:00pm",
+   "room": 6,
+   "instructor": 11,
+   "group": 8,
+   "clash_costs": {
+    "room": 50.0,
     "instructor": 100,
     "group": 100
    },
@@ -2206,18 +2152,72 @@
    "soft_constraint": 0
   },
   {
+   "session_id": 80,
+   "day": "Monday",
+   "time": "9:00am",
+   "room": 7,
+   "instructor": 11,
+   "group": 8,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 50.0,
+    "group": 100
+   },
+   "room_capacity_cost": 0.012222222222222223,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 81,
+   "day": "Wednesday",
+   "time": "13:00pm",
+   "room": 5,
+   "instructor": 12,
+   "group": 8,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 50.0,
+    "group": 100
+   },
+   "room_capacity_cost": 0.008333333333333333,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
    "session_id": 82,
-   "day": "Thursday",
-   "time": "12:00pm",
-   "room": 4,
-   "instructor": 6,
+   "day": "Monday",
+   "time": "14:00pm",
+   "room": 5,
+   "instructor": 12,
    "group": 8,
    "clash_costs": {
     "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.008055555555555555,
+   "room_capacity_cost": 0.008333333333333333,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -2234,17 +2234,17 @@
   },
   {
    "session_id": 83,
-   "day": "Friday",
-   "time": "11:00am",
-   "room": 5,
-   "instructor": 5,
+   "day": "Monday",
+   "time": "15:00pm",
+   "room": 1,
+   "instructor": 6,
    "group": 8,
    "clash_costs": {
     "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.008333333333333333,
+   "room_capacity_cost": 0.01125,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -2262,16 +2262,16 @@
   {
    "session_id": 84,
    "day": "Monday",
-   "time": "8:00am",
-   "room": 5,
-   "instructor": 5,
+   "time": "16:00pm",
+   "room": 3,
+   "instructor": 6,
    "group": 8,
    "clash_costs": {
-    "room": 25.0,
+    "room": 50.0,
     "instructor": 100,
-    "group": 50.0
+    "group": 100
    },
-   "room_capacity_cost": 0.008333333333333333,
+   "room_capacity_cost": 0.004027777777777778,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -2290,15 +2290,15 @@
    "session_id": 85,
    "day": "Tuesday",
    "time": "16:00pm",
-   "room": 7,
-   "instructor": 16,
+   "room": 1,
+   "instructor": 4,
    "group": 9,
    "clash_costs": {
-    "room": 33.33333333333333,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.029333333333333333,
+   "room_capacity_cost": 0.027000000000000003,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -2315,15 +2315,15 @@
   },
   {
    "session_id": 86,
-   "day": "Thursday",
-   "time": "14:00pm",
+   "day": "Friday",
+   "time": "8:00am",
    "room": 6,
-   "instructor": 16,
+   "instructor": 4,
    "group": 9,
    "clash_costs": {
     "room": 50.0,
-    "instructor": 50.0,
-    "group": 50.0
+    "instructor": 100,
+    "group": 100
    },
    "room_capacity_cost": 0.026333333333333334,
    "preference_compliance_cost": {
@@ -2342,17 +2342,17 @@
   },
   {
    "session_id": 87,
-   "day": "Thursday",
-   "time": "14:00pm",
-   "room": 3,
-   "instructor": 3,
+   "day": "Tuesday",
+   "time": "10:00am",
+   "room": 7,
+   "instructor": 1,
    "group": 9,
    "clash_costs": {
-    "room": 100,
+    "room": 50.0,
     "instructor": 100,
-    "group": 50.0
+    "group": 100
    },
-   "room_capacity_cost": 0.009666666666666667,
+   "room_capacity_cost": 0.029333333333333333,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -2370,25 +2370,25 @@
   {
    "session_id": 88,
    "day": "Thursday",
-   "time": "10:00am",
-   "room": 7,
-   "instructor": 3,
+   "time": "8:00am",
+   "room": 2,
+   "instructor": 1,
    "group": 9,
    "clash_costs": {
-    "room": 100,
-    "instructor": 50.0,
+    "room": 50.0,
+    "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.029333333333333333,
+   "room_capacity_cost": 0.029666666666666668,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
     "instructor": 100.0
    },
    "consecutive_cost": {
-    "room": 100,
+    "room": 0,
     "group": 0,
-    "instructor": 100
+    "instructor": 0
    },
    "overall_cost": 0,
    "hard_constraint": 0,
@@ -2396,17 +2396,17 @@
   },
   {
    "session_id": 89,
-   "day": "Monday",
-   "time": "8:00am",
-   "room": 7,
-   "instructor": 8,
+   "day": "Thursday",
+   "time": "13:00pm",
+   "room": 6,
+   "instructor": 17,
    "group": 9,
    "clash_costs": {
     "room": 100,
-    "instructor": 100,
+    "instructor": 50.0,
     "group": 100
    },
-   "room_capacity_cost": 0.029333333333333333,
+   "room_capacity_cost": 0.026333333333333334,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -2425,15 +2425,15 @@
    "session_id": 90,
    "day": "Monday",
    "time": "16:00pm",
-   "room": 2,
-   "instructor": 7,
+   "room": 7,
+   "instructor": 17,
    "group": 9,
    "clash_costs": {
     "room": 50.0,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.029666666666666668,
+   "room_capacity_cost": 0.029333333333333333,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -2450,17 +2450,17 @@
   },
   {
    "session_id": 91,
-   "day": "Monday",
-   "time": "9:00am",
-   "room": 4,
-   "instructor": 7,
+   "day": "Wednesday",
+   "time": "11:00am",
+   "room": 1,
+   "instructor": 17,
    "group": 9,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
     "instructor": 50.0,
     "group": 100
    },
-   "room_capacity_cost": 0.019333333333333334,
+   "room_capacity_cost": 0.027000000000000003,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -2469,7 +2469,7 @@
    "consecutive_cost": {
     "room": 0,
     "group": 0,
-    "instructor": 100
+    "instructor": 0
    },
    "overall_cost": 0,
    "hard_constraint": 0,
@@ -2477,17 +2477,17 @@
   },
   {
    "session_id": 92,
-   "day": "Monday",
-   "time": "14:00pm",
-   "room": 2,
-   "instructor": 8,
+   "day": "Wednesday",
+   "time": "13:00pm",
+   "room": 7,
+   "instructor": 7,
    "group": 9,
    "clash_costs": {
-    "room": 100,
+    "room": 50.0,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.029666666666666668,
+   "room_capacity_cost": 0.029333333333333333,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -2504,17 +2504,17 @@
   },
   {
    "session_id": 93,
-   "day": "Monday",
-   "time": "12:00pm",
-   "room": 5,
-   "instructor": 11,
+   "day": "Tuesday",
+   "time": "15:00pm",
+   "room": 3,
+   "instructor": 2,
    "group": 9,
    "clash_costs": {
     "room": 50.0,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.02,
+   "room_capacity_cost": 0.009666666666666667,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -2532,16 +2532,16 @@
   {
    "session_id": 94,
    "day": "Monday",
-   "time": "10:00am",
-   "room": 6,
-   "instructor": 13,
+   "time": "13:00pm",
+   "room": 3,
+   "instructor": 20,
    "group": 10,
    "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 100,
+    "room": 50.0,
+    "instructor": 33.33333333333333,
     "group": 100
    },
-   "room_capacity_cost": 0.01490566037735849,
+   "room_capacity_cost": 0.005471698113207547,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -2560,15 +2560,15 @@
    "session_id": 95,
    "day": "Monday",
    "time": "16:00pm",
-   "room": 7,
-   "instructor": 13,
+   "room": 3,
+   "instructor": 20,
    "group": 10,
    "clash_costs": {
     "room": 50.0,
     "instructor": 100,
-    "group": 100
+    "group": 50.0
    },
-   "room_capacity_cost": 0.01660377358490566,
+   "room_capacity_cost": 0.005471698113207547,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -2586,16 +2586,16 @@
   {
    "session_id": 96,
    "day": "Friday",
-   "time": "14:00pm",
-   "room": 4,
-   "instructor": 3,
+   "time": "15:00pm",
+   "room": 1,
+   "instructor": 4,
    "group": 10,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.010943396226415094,
+   "room_capacity_cost": 0.01528301886792453,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -2613,9 +2613,9 @@
   {
    "session_id": 97,
    "day": "Wednesday",
-   "time": "11:00am",
+   "time": "8:00am",
    "room": 4,
-   "instructor": 3,
+   "instructor": 4,
    "group": 10,
    "clash_costs": {
     "room": 100,
@@ -2639,94 +2639,13 @@
   },
   {
    "session_id": 98,
-   "day": "Tuesday",
-   "time": "9:00am",
-   "room": 4,
-   "instructor": 17,
-   "group": 10,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.010943396226415094,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 99,
    "day": "Friday",
-   "time": "16:00pm",
-   "room": 3,
-   "instructor": 17,
-   "group": 10,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.005471698113207547,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 100,
-   "day": "Monday",
-   "time": "8:00am",
-   "room": 4,
-   "instructor": 6,
-   "group": 10,
-   "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.010943396226415094,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 101,
-   "day": "Tuesday",
    "time": "12:00pm",
    "room": 1,
-   "instructor": 6,
+   "instructor": 5,
    "group": 10,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
@@ -2746,16 +2665,16 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 102,
-   "day": "Thursday",
-   "time": "14:00pm",
+   "session_id": 99,
+   "day": "Monday",
+   "time": "16:00pm",
    "room": 7,
-   "instructor": 8,
+   "instructor": 5,
    "group": 10,
    "clash_costs": {
     "room": 50.0,
-    "instructor": 100,
-    "group": 100
+    "instructor": 33.33333333333333,
+    "group": 50.0
    },
    "room_capacity_cost": 0.01660377358490566,
    "preference_compliance_cost": {
@@ -2773,18 +2692,99 @@
    "soft_constraint": 0
   },
   {
+   "session_id": 100,
+   "day": "Tuesday",
+   "time": "16:00pm",
+   "room": 4,
+   "instructor": 10,
+   "group": 10,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.010943396226415094,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 101,
+   "day": "Wednesday",
+   "time": "9:00am",
+   "room": 4,
+   "instructor": 10,
+   "group": 10,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.010943396226415094,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 102,
+   "day": "Wednesday",
+   "time": "16:00pm",
+   "room": 1,
+   "instructor": 11,
+   "group": 10,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 50.0,
+    "group": 100
+   },
+   "room_capacity_cost": 0.01528301886792453,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
    "session_id": 103,
-   "day": "Monday",
-   "time": "15:00pm",
-   "room": 3,
-   "instructor": 13,
+   "day": "Tuesday",
+   "time": "13:00pm",
+   "room": 1,
+   "instructor": 5,
    "group": 11,
    "clash_costs": {
     "room": 50.0,
     "instructor": 100,
-    "group": 50.0
+    "group": 100
    },
-   "room_capacity_cost": 0.007073170731707316,
+   "room_capacity_cost": 0.01975609756097561,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -2801,14 +2801,41 @@
   },
   {
    "session_id": 104,
-   "day": "Friday",
-   "time": "14:00pm",
+   "day": "Monday",
+   "time": "16:00pm",
+   "room": 1,
+   "instructor": 8,
+   "group": 11,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.01975609756097561,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 105,
+   "day": "Thursday",
+   "time": "15:00pm",
    "room": 2,
    "instructor": 8,
    "group": 11,
    "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 50.0,
+    "room": 50.0,
+    "instructor": 100,
     "group": 100
    },
    "room_capacity_cost": 0.021707317073170734,
@@ -2827,15 +2854,69 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 105,
-   "day": "Thursday",
-   "time": "16:00pm",
-   "room": 3,
-   "instructor": 8,
+   "session_id": 106,
+   "day": "Monday",
+   "time": "8:00am",
+   "room": 1,
+   "instructor": 2,
    "group": 11,
    "clash_costs": {
-    "room": 25.0,
+    "room": 20.0,
     "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.01975609756097561,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 107,
+   "day": "Friday",
+   "time": "8:00am",
+   "room": 5,
+   "instructor": 2,
+   "group": 11,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.014634146341463414,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 108,
+   "day": "Thursday",
+   "time": "9:00am",
+   "room": 3,
+   "instructor": 3,
+   "group": 11,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 50.0,
     "group": 100
    },
    "room_capacity_cost": 0.007073170731707316,
@@ -2854,18 +2935,18 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 106,
-   "day": "Friday",
-   "time": "8:00am",
-   "room": 4,
-   "instructor": 12,
+   "session_id": 109,
+   "day": "Thursday",
+   "time": "14:00pm",
+   "room": 1,
+   "instructor": 18,
    "group": 11,
    "clash_costs": {
-    "room": 33.33333333333333,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.014146341463414633,
+   "room_capacity_cost": 0.01975609756097561,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -2881,16 +2962,16 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 107,
+   "session_id": 110,
    "day": "Monday",
-   "time": "15:00pm",
+   "time": "14:00pm",
    "room": 6,
-   "instructor": 12,
+   "instructor": 18,
    "group": 11,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
     "instructor": 100,
-    "group": 50.0
+    "group": 100
    },
    "room_capacity_cost": 0.01926829268292683,
    "preference_compliance_cost": {
@@ -2908,99 +2989,18 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 108,
-   "day": "Monday",
-   "time": "8:00am",
-   "room": 5,
-   "instructor": 7,
-   "group": 11,
-   "clash_costs": {
-    "room": 25.0,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.014634146341463414,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 109,
-   "day": "Tuesday",
-   "time": "14:00pm",
-   "room": 5,
-   "instructor": 13,
-   "group": 11,
-   "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.014634146341463414,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 100
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 110,
+   "session_id": 111,
    "day": "Monday",
    "time": "11:00am",
    "room": 3,
-   "instructor": 13,
-   "group": 11,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.007073170731707316,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 100
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 111,
-   "day": "Friday",
-   "time": "8:00am",
-   "room": 4,
    "instructor": 14,
    "group": 12,
    "clash_costs": {
-    "room": 33.33333333333333,
+    "room": 100,
     "instructor": 50.0,
-    "group": 100
+    "group": 50.0
    },
-   "room_capacity_cost": 0.010545454545454545,
+   "room_capacity_cost": 0.005272727272727273,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -3017,15 +3017,15 @@
   },
   {
    "session_id": 112,
-   "day": "Tuesday",
-   "time": "9:00am",
+   "day": "Monday",
+   "time": "11:00am",
    "room": 6,
-   "instructor": 16,
+   "instructor": 13,
    "group": 12,
    "clash_costs": {
-    "room": 100,
+    "room": 50.0,
     "instructor": 100,
-    "group": 100
+    "group": 50.0
    },
    "room_capacity_cost": 0.014363636363636363,
    "preference_compliance_cost": {
@@ -3044,14 +3044,14 @@
   },
   {
    "session_id": 113,
-   "day": "Monday",
-   "time": "14:00pm",
+   "day": "Wednesday",
+   "time": "12:00pm",
    "room": 5,
    "instructor": 6,
    "group": 12,
    "clash_costs": {
     "room": 100,
-    "instructor": 100,
+    "instructor": 50.0,
     "group": 100
    },
    "room_capacity_cost": 0.010909090909090908,
@@ -3071,9 +3071,9 @@
   },
   {
    "session_id": 114,
-   "day": "Tuesday",
-   "time": "14:00pm",
-   "room": 3,
+   "day": "Thursday",
+   "time": "13:00pm",
+   "room": 2,
    "instructor": 6,
    "group": 12,
    "clash_costs": {
@@ -3081,7 +3081,7 @@
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.005272727272727273,
+   "room_capacity_cost": 0.016181818181818183,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -3099,12 +3099,12 @@
   {
    "session_id": 115,
    "day": "Friday",
-   "time": "11:00am",
+   "time": "10:00am",
    "room": 7,
-   "instructor": 3,
+   "instructor": 1,
    "group": 12,
    "clash_costs": {
-    "room": 25.0,
+    "room": 50.0,
     "instructor": 100,
     "group": 100
    },
@@ -3126,39 +3126,12 @@
   {
    "session_id": 116,
    "day": "Thursday",
-   "time": "8:00am",
-   "room": 5,
-   "instructor": 3,
+   "time": "16:00pm",
+   "room": 3,
+   "instructor": 1,
    "group": 12,
    "clash_costs": {
     "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.010909090909090908,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 117,
-   "day": "Tuesday",
-   "time": "11:00am",
-   "room": 3,
-   "instructor": 19,
-   "group": 12,
-   "clash_costs": {
-    "room": 50.0,
     "instructor": 100,
     "group": 100
    },
@@ -3178,15 +3151,42 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 118,
-   "day": "Wednesday",
-   "time": "11:00am",
-   "room": 5,
-   "instructor": 19,
+   "session_id": 117,
+   "day": "Thursday",
+   "time": "14:00pm",
+   "room": 7,
+   "instructor": 15,
    "group": 12,
    "clash_costs": {
     "room": 50.0,
-    "instructor": 50.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.016,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 118,
+   "day": "Friday",
+   "time": "12:00pm",
+   "room": 5,
+   "instructor": 15,
+   "group": 12,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
     "group": 100
    },
    "room_capacity_cost": 0.010909090909090908,
@@ -3206,17 +3206,17 @@
   },
   {
    "session_id": 119,
-   "day": "Tuesday",
-   "time": "10:00am",
-   "room": 4,
-   "instructor": 11,
+   "day": "Thursday",
+   "time": "9:00am",
+   "room": 3,
+   "instructor": 7,
    "group": 13,
    "clash_costs": {
-    "room": 100,
+    "room": 50.0,
     "instructor": 100,
-    "group": 50.0
+    "group": 100
    },
-   "room_capacity_cost": 0.0116,
+   "room_capacity_cost": 0.0058,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -3233,13 +3233,13 @@
   },
   {
    "session_id": 120,
-   "day": "Wednesday",
-   "time": "16:00pm",
+   "day": "Thursday",
+   "time": "8:00am",
    "room": 1,
-   "instructor": 20,
+   "instructor": 11,
    "group": 13,
    "clash_costs": {
-    "room": 100,
+    "room": 25.0,
     "instructor": 100,
     "group": 100
    },
@@ -3260,24 +3260,24 @@
   },
   {
    "session_id": 121,
-   "day": "Thursday",
-   "time": "13:00pm",
-   "room": 4,
-   "instructor": 20,
+   "day": "Friday",
+   "time": "14:00pm",
+   "room": 6,
+   "instructor": 11,
    "group": 13,
    "clash_costs": {
     "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.0116,
+   "room_capacity_cost": 0.0158,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
     "instructor": 100.0
    },
    "consecutive_cost": {
-    "room": 0,
+    "room": 100,
     "group": 0,
     "instructor": 0
    },
@@ -3289,15 +3289,15 @@
    "session_id": 122,
    "day": "Friday",
    "time": "8:00am",
-   "room": 6,
+   "room": 3,
    "instructor": 1,
    "group": 13,
    "clash_costs": {
     "room": 100,
     "instructor": 100,
-    "group": 100
+    "group": 50.0
    },
-   "room_capacity_cost": 0.0158,
+   "room_capacity_cost": 0.0058,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -3314,17 +3314,17 @@
   },
   {
    "session_id": 123,
-   "day": "Wednesday",
-   "time": "11:00am",
-   "room": 3,
-   "instructor": 12,
+   "day": "Friday",
+   "time": "8:00am",
+   "room": 7,
+   "instructor": 13,
    "group": 13,
    "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 50.0,
-    "group": 100
+    "room": 50.0,
+    "instructor": 100,
+    "group": 50.0
    },
-   "room_capacity_cost": 0.0058,
+   "room_capacity_cost": 0.0176,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -3333,7 +3333,7 @@
    "consecutive_cost": {
     "room": 0,
     "group": 0,
-    "instructor": 100
+    "instructor": 0
    },
    "overall_cost": 0,
    "hard_constraint": 0,
@@ -3341,17 +3341,17 @@
   },
   {
    "session_id": 124,
-   "day": "Friday",
-   "time": "10:00am",
-   "room": 4,
-   "instructor": 12,
+   "day": "Tuesday",
+   "time": "16:00pm",
+   "room": 2,
+   "instructor": 13,
    "group": 13,
    "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 33.33333333333333,
+    "room": 25.0,
+    "instructor": 50.0,
     "group": 100
    },
-   "room_capacity_cost": 0.0116,
+   "room_capacity_cost": 0.0178,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -3368,17 +3368,17 @@
   },
   {
    "session_id": 125,
-   "day": "Tuesday",
-   "time": "10:00am",
-   "room": 1,
-   "instructor": 3,
+   "day": "Wednesday",
+   "time": "12:00pm",
+   "room": 4,
+   "instructor": 9,
    "group": 13,
    "clash_costs": {
-    "room": 25.0,
-    "instructor": 100,
-    "group": 50.0
+    "room": 50.0,
+    "instructor": 50.0,
+    "group": 100
    },
-   "room_capacity_cost": 0.016200000000000003,
+   "room_capacity_cost": 0.0116,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -3396,13 +3396,148 @@
   {
    "session_id": 126,
    "day": "Wednesday",
-   "time": "14:00pm",
-   "room": 6,
+   "time": "12:00pm",
+   "room": 2,
+   "instructor": 19,
+   "group": 14,
+   "clash_costs": {
+    "room": 33.33333333333333,
+    "instructor": 100,
+    "group": 50.0
+   },
+   "room_capacity_cost": 0.020697674418604654,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 127,
+   "day": "Tuesday",
+   "time": "15:00pm",
+   "room": 5,
    "instructor": 19,
    "group": 14,
    "clash_costs": {
     "room": 100,
     "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.013953488372093023,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 100,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 128,
+   "day": "Thursday",
+   "time": "14:00pm",
+   "room": 7,
+   "instructor": 5,
+   "group": 14,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.02046511627906977,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 129,
+   "day": "Friday",
+   "time": "8:00am",
+   "room": 7,
+   "instructor": 5,
+   "group": 14,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.02046511627906977,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 130,
+   "day": "Monday",
+   "time": "8:00am",
+   "room": 5,
+   "instructor": 19,
+   "group": 14,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 33.33333333333333,
+    "group": 100
+   },
+   "room_capacity_cost": 0.013953488372093023,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 131,
+   "day": "Monday",
+   "time": "15:00pm",
+   "room": 6,
+   "instructor": 19,
+   "group": 14,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 50.0,
     "group": 100
    },
    "room_capacity_cost": 0.018372093023255813,
@@ -3421,18 +3556,18 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 127,
-   "day": "Tuesday",
-   "time": "10:00am",
-   "room": 1,
-   "instructor": 19,
+   "session_id": 132,
+   "day": "Wednesday",
+   "time": "12:00pm",
+   "room": 2,
+   "instructor": 8,
    "group": 14,
    "clash_costs": {
-    "room": 25.0,
-    "instructor": 100,
-    "group": 100
+    "room": 33.33333333333333,
+    "instructor": 50.0,
+    "group": 50.0
    },
-   "room_capacity_cost": 0.018837209302325582,
+   "room_capacity_cost": 0.020697674418604654,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -3441,18 +3576,45 @@
    "consecutive_cost": {
     "room": 0,
     "group": 0,
-    "instructor": 0
+    "instructor": 100
    },
    "overall_cost": 0,
    "hard_constraint": 0,
    "soft_constraint": 0
   },
   {
-   "session_id": 128,
-   "day": "Wednesday",
-   "time": "12:00pm",
+   "session_id": 133,
+   "day": "Friday",
+   "time": "13:00pm",
+   "room": 6,
+   "instructor": 8,
+   "group": 14,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 50.0,
+    "group": 100
+   },
+   "room_capacity_cost": 0.018372093023255813,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 100
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 134,
+   "day": "Thursday",
+   "time": "16:00pm",
    "room": 4,
-   "instructor": 10,
+   "instructor": 19,
    "group": 14,
    "clash_costs": {
     "room": 100,
@@ -3475,180 +3637,18 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 129,
-   "day": "Tuesday",
-   "time": "16:00pm",
-   "room": 6,
-   "instructor": 10,
-   "group": 14,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.018372093023255813,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 130,
-   "day": "Monday",
-   "time": "12:00pm",
-   "room": 6,
-   "instructor": 15,
-   "group": 14,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.018372093023255813,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 131,
-   "day": "Thursday",
-   "time": "12:00pm",
-   "room": 3,
-   "instructor": 15,
-   "group": 14,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.006744186046511628,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 132,
-   "day": "Monday",
-   "time": "14:00pm",
-   "room": 3,
-   "instructor": 18,
-   "group": 14,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.006744186046511628,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 133,
-   "day": "Wednesday",
-   "time": "13:00pm",
-   "room": 6,
-   "instructor": 18,
-   "group": 14,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.018372093023255813,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 134,
-   "day": "Monday",
-   "time": "12:00pm",
-   "room": 3,
-   "instructor": 16,
-   "group": 14,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.006744186046511628,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
    "session_id": 135,
-   "day": "Thursday",
-   "time": "11:00am",
-   "room": 7,
-   "instructor": 16,
+   "day": "Friday",
+   "time": "10:00am",
+   "room": 4,
+   "instructor": 19,
    "group": 14,
    "clash_costs": {
     "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.02046511627906977,
+   "room_capacity_cost": 0.013488372093023256,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -3665,17 +3665,17 @@
   },
   {
    "session_id": 136,
-   "day": "Thursday",
-   "time": "16:00pm",
-   "room": 3,
+   "day": "Wednesday",
+   "time": "11:00am",
+   "room": 4,
    "instructor": 17,
    "group": 14,
    "clash_costs": {
-    "room": 25.0,
-    "instructor": 100,
+    "room": 50.0,
+    "instructor": 50.0,
     "group": 100
    },
-   "room_capacity_cost": 0.006744186046511628,
+   "room_capacity_cost": 0.013488372093023256,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -3692,14 +3692,14 @@
   },
   {
    "session_id": 137,
-   "day": "Wednesday",
-   "time": "16:00pm",
+   "day": "Thursday",
+   "time": "13:00pm",
    "room": 7,
    "instructor": 17,
    "group": 14,
    "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 100,
+    "room": 100,
+    "instructor": 50.0,
     "group": 100
    },
    "room_capacity_cost": 0.02046511627906977,
@@ -3720,16 +3720,16 @@
   {
    "session_id": 138,
    "day": "Monday",
-   "time": "8:00am",
-   "room": 5,
-   "instructor": 6,
+   "time": "11:00am",
+   "room": 2,
+   "instructor": 20,
    "group": 14,
    "clash_costs": {
-    "room": 25.0,
-    "instructor": 50.0,
+    "room": 50.0,
+    "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.013953488372093023,
+   "room_capacity_cost": 0.020697674418604654,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -3746,17 +3746,17 @@
   },
   {
    "session_id": 139,
-   "day": "Friday",
-   "time": "10:00am",
-   "room": 4,
-   "instructor": 1,
+   "day": "Tuesday",
+   "time": "13:00pm",
+   "room": 2,
+   "instructor": 7,
    "group": 14,
    "clash_costs": {
-    "room": 33.33333333333333,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.013488372093023256,
+   "room_capacity_cost": 0.020697674418604654,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -3773,17 +3773,17 @@
   },
   {
    "session_id": 140,
-   "day": "Wednesday",
-   "time": "12:00pm",
-   "room": 1,
-   "instructor": 6,
+   "day": "Monday",
+   "time": "15:00pm",
+   "room": 7,
+   "instructor": 8,
    "group": 15,
    "clash_costs": {
     "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.01588235294117647,
+   "room_capacity_cost": 0.017254901960784316,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -3800,10 +3800,91 @@
   },
   {
    "session_id": 141,
-   "day": "Wednesday",
-   "time": "14:00pm",
+   "day": "Friday",
+   "time": "13:00pm",
+   "room": 4,
+   "instructor": 8,
+   "group": 15,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 50.0,
+    "group": 100
+   },
+   "room_capacity_cost": 0.011372549019607842,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 100
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 142,
+   "day": "Friday",
+   "time": "8:00am",
+   "room": 6,
+   "instructor": 7,
+   "group": 15,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.015490196078431374,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 143,
+   "day": "Tuesday",
+   "time": "15:00pm",
+   "room": 6,
+   "instructor": 7,
+   "group": 15,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.015490196078431374,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 144,
+   "day": "Tuesday",
+   "time": "9:00am",
    "room": 2,
-   "instructor": 6,
+   "instructor": 14,
    "group": 15,
    "clash_costs": {
     "room": 50.0,
@@ -3826,14 +3907,14 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 142,
-   "day": "Wednesday",
-   "time": "16:00pm",
+   "session_id": 145,
+   "day": "Tuesday",
+   "time": "14:00pm",
    "room": 7,
-   "instructor": 12,
+   "instructor": 10,
    "group": 15,
    "clash_costs": {
-    "room": 33.33333333333333,
+    "room": 50.0,
     "instructor": 100,
     "group": 100
    },
@@ -3853,14 +3934,41 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 143,
+   "session_id": 146,
    "day": "Monday",
-   "time": "9:00am",
-   "room": 4,
-   "instructor": 7,
+   "time": "12:00pm",
+   "room": 2,
+   "instructor": 19,
    "group": 15,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.017450980392156864,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 147,
+   "day": "Tuesday",
+   "time": "12:00pm",
+   "room": 4,
+   "instructor": 19,
+   "group": 15,
+   "clash_costs": {
+    "room": 100,
     "instructor": 50.0,
     "group": 100
    },
@@ -3880,11 +3988,11 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 144,
-   "day": "Friday",
-   "time": "10:00am",
+   "session_id": 148,
+   "day": "Wednesday",
+   "time": "9:00am",
    "room": 3,
-   "instructor": 15,
+   "instructor": 5,
    "group": 15,
    "clash_costs": {
     "room": 50.0,
@@ -3907,122 +4015,14 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 145,
-   "day": "Monday",
-   "time": "10:00am",
-   "room": 6,
-   "instructor": 9,
-   "group": 15,
-   "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.015490196078431374,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 146,
-   "day": "Wednesday",
-   "time": "8:00am",
-   "room": 6,
-   "instructor": 16,
-   "group": 15,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.015490196078431374,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 147,
-   "day": "Monday",
-   "time": "16:00pm",
-   "room": 2,
-   "instructor": 16,
-   "group": 15,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 50.0,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.017450980392156864,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 148,
-   "day": "Monday",
-   "time": "16:00pm",
-   "room": 1,
-   "instructor": 5,
-   "group": 15,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.01588235294117647,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
    "session_id": 149,
-   "day": "Tuesday",
-   "time": "10:00am",
+   "day": "Wednesday",
+   "time": "15:00pm",
    "room": 1,
    "instructor": 5,
    "group": 15,
    "clash_costs": {
-    "room": 25.0,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
@@ -4045,15 +4045,15 @@
    "session_id": 150,
    "day": "Tuesday",
    "time": "8:00am",
-   "room": 3,
-   "instructor": 4,
+   "room": 1,
+   "instructor": 7,
    "group": 15,
    "clash_costs": {
     "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.005686274509803921,
+   "room_capacity_cost": 0.01588235294117647,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4071,16 +4071,16 @@
   {
    "session_id": 151,
    "day": "Monday",
-   "time": "9:00am",
-   "room": 6,
+   "time": "15:00pm",
+   "room": 4,
    "instructor": 4,
    "group": 16,
    "clash_costs": {
-    "room": 100,
+    "room": 50.0,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.01880952380952381,
+   "room_capacity_cost": 0.01380952380952381,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4097,176 +4097,14 @@
   },
   {
    "session_id": 152,
-   "day": "Thursday",
-   "time": "8:00am",
-   "room": 4,
+   "day": "Friday",
+   "time": "16:00pm",
+   "room": 2,
    "instructor": 4,
    "group": 16,
    "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.01380952380952381,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 153,
-   "day": "Monday",
-   "time": "11:00am",
-   "room": 7,
-   "instructor": 12,
-   "group": 16,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.020952380952380955,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 154,
-   "day": "Friday",
-   "time": "10:00am",
-   "room": 4,
-   "instructor": 12,
-   "group": 16,
-   "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 33.33333333333333,
-    "group": 100
-   },
-   "room_capacity_cost": 0.01380952380952381,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 155,
-   "day": "Thursday",
-   "time": "13:00pm",
-   "room": 3,
-   "instructor": 14,
-   "group": 16,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.006904761904761905,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 156,
-   "day": "Friday",
-   "time": "11:00am",
-   "room": 7,
-   "instructor": 14,
-   "group": 16,
-   "clash_costs": {
-    "room": 25.0,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.020952380952380955,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 157,
-   "day": "Monday",
-   "time": "13:00pm",
-   "room": 3,
-   "instructor": 10,
-   "group": 16,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.006904761904761905,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 158,
-   "day": "Tuesday",
-   "time": "16:00pm",
-   "room": 2,
-   "instructor": 10,
-   "group": 16,
-   "clash_costs": {
     "room": 50.0,
-    "instructor": 50.0,
+    "instructor": 100,
     "group": 100
    },
    "room_capacity_cost": 0.02119047619047619,
@@ -4285,11 +4123,173 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 159,
+   "session_id": 153,
    "day": "Wednesday",
-   "time": "13:00pm",
+   "time": "9:00am",
+   "room": 3,
+   "instructor": 3,
+   "group": 16,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 50.0
+   },
+   "room_capacity_cost": 0.006904761904761905,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 154,
+   "day": "Thursday",
+   "time": "11:00am",
+   "room": 3,
+   "instructor": 3,
+   "group": 16,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.006904761904761905,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 155,
+   "day": "Thursday",
+   "time": "14:00pm",
+   "room": 5,
+   "instructor": 12,
+   "group": 16,
+   "clash_costs": {
+    "room": 33.33333333333333,
+    "instructor": 50.0,
+    "group": 100
+   },
+   "room_capacity_cost": 0.014285714285714285,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 156,
+   "day": "Monday",
+   "time": "12:00pm",
    "room": 4,
    "instructor": 12,
+   "group": 16,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.01380952380952381,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 157,
+   "day": "Friday",
+   "time": "14:00pm",
+   "room": 2,
+   "instructor": 10,
+   "group": 16,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.02119047619047619,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 158,
+   "day": "Monday",
+   "time": "10:00am",
+   "room": 4,
+   "instructor": 10,
+   "group": 16,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.01380952380952381,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 159,
+   "day": "Friday",
+   "time": "12:00pm",
+   "room": 4,
+   "instructor": 16,
    "group": 16,
    "clash_costs": {
     "room": 50.0,
@@ -4313,40 +4313,13 @@
   },
   {
    "session_id": 160,
-   "day": "Thursday",
-   "time": "11:00am",
-   "room": 3,
-   "instructor": 12,
-   "group": 16,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.006904761904761905,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 161,
    "day": "Monday",
-   "time": "15:00pm",
+   "time": "16:00pm",
    "room": 6,
-   "instructor": 14,
+   "instructor": 16,
    "group": 16,
    "clash_costs": {
-    "room": 50.0,
+    "room": 25.0,
     "instructor": 100,
     "group": 100
    },
@@ -4366,18 +4339,45 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 162,
-   "day": "Wednesday",
-   "time": "8:00am",
-   "room": 1,
-   "instructor": 2,
+   "session_id": 161,
+   "day": "Tuesday",
+   "time": "12:00pm",
+   "room": 5,
+   "instructor": 14,
    "group": 16,
    "clash_costs": {
     "room": 50.0,
-    "instructor": 100,
-    "group": 100
+    "instructor": 50.0,
+    "group": 50.0
    },
-   "room_capacity_cost": 0.019285714285714285,
+   "room_capacity_cost": 0.014285714285714285,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 162,
+   "day": "Tuesday",
+   "time": "12:00pm",
+   "room": 3,
+   "instructor": 14,
+   "group": 16,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 50.0,
+    "group": 50.0
+   },
+   "room_capacity_cost": 0.006904761904761905,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4396,15 +4396,15 @@
    "session_id": 163,
    "day": "Wednesday",
    "time": "9:00am",
-   "room": 6,
-   "instructor": 7,
+   "room": 5,
+   "instructor": 1,
    "group": 16,
    "clash_costs": {
     "room": 100,
     "instructor": 100,
-    "group": 100
+    "group": 50.0
    },
-   "room_capacity_cost": 0.01880952380952381,
+   "room_capacity_cost": 0.014285714285714285,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4421,17 +4421,17 @@
   },
   {
    "session_id": 164,
-   "day": "Thursday",
-   "time": "8:00am",
-   "room": 4,
-   "instructor": 19,
+   "day": "Wednesday",
+   "time": "15:00pm",
+   "room": 6,
+   "instructor": 16,
    "group": 17,
    "clash_costs": {
-    "room": 33.33333333333333,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.00651685393258427,
+   "room_capacity_cost": 0.008876404494382022,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4448,17 +4448,17 @@
   },
   {
    "session_id": 165,
-   "day": "Friday",
+   "day": "Monday",
    "time": "14:00pm",
-   "room": 4,
-   "instructor": 19,
+   "room": 2,
+   "instructor": 16,
    "group": 17,
    "clash_costs": {
-    "room": 50.0,
-    "instructor": 50.0,
+    "room": 100,
+    "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.00651685393258427,
+   "room_capacity_cost": 0.01,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4475,13 +4475,13 @@
   },
   {
    "session_id": 166,
-   "day": "Thursday",
-   "time": "13:00pm",
+   "day": "Friday",
+   "time": "10:00am",
    "room": 2,
-   "instructor": 12,
+   "instructor": 2,
    "group": 17,
    "clash_costs": {
-    "room": 33.33333333333333,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
@@ -4502,17 +4502,17 @@
   },
   {
    "session_id": 167,
-   "day": "Friday",
-   "time": "13:00pm",
-   "room": 1,
-   "instructor": 12,
+   "day": "Wednesday",
+   "time": "8:00am",
+   "room": 3,
+   "instructor": 2,
    "group": 17,
    "clash_costs": {
     "room": 100,
     "instructor": 50.0,
     "group": 100
    },
-   "room_capacity_cost": 0.009101123595505618,
+   "room_capacity_cost": 0.003258426966292135,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4529,13 +4529,13 @@
   },
   {
    "session_id": 168,
-   "day": "Friday",
-   "time": "10:00am",
+   "day": "Wednesday",
+   "time": "12:00pm",
    "room": 2,
-   "instructor": 20,
+   "instructor": 17,
    "group": 17,
    "clash_costs": {
-    "room": 100,
+    "room": 33.33333333333333,
     "instructor": 100,
     "group": 100
    },
@@ -4556,17 +4556,17 @@
   },
   {
    "session_id": 169,
-   "day": "Tuesday",
+   "day": "Thursday",
    "time": "16:00pm",
-   "room": 7,
-   "instructor": 20,
+   "room": 6,
+   "instructor": 17,
    "group": 17,
    "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 50.0,
+    "room": 100,
+    "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.009887640449438202,
+   "room_capacity_cost": 0.008876404494382022,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4583,17 +4583,17 @@
   },
   {
    "session_id": 170,
-   "day": "Wednesday",
-   "time": "11:00am",
-   "room": 6,
+   "day": "Tuesday",
+   "time": "8:00am",
+   "room": 5,
    "instructor": 19,
    "group": 18,
    "clash_costs": {
-    "room": 50.0,
-    "instructor": 50.0,
+    "room": 100,
+    "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.00849462365591398,
+   "room_capacity_cost": 0.0064516129032258064,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4610,9 +4610,9 @@
   },
   {
    "session_id": 171,
-   "day": "Friday",
-   "time": "14:00pm",
-   "room": 1,
+   "day": "Tuesday",
+   "time": "12:00pm",
+   "room": 5,
    "instructor": 19,
    "group": 18,
    "clash_costs": {
@@ -4620,7 +4620,7 @@
     "instructor": 50.0,
     "group": 100
    },
-   "room_capacity_cost": 0.008709677419354838,
+   "room_capacity_cost": 0.0064516129032258064,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4629,7 +4629,7 @@
    "consecutive_cost": {
     "room": 0,
     "group": 0,
-    "instructor": 0
+    "instructor": 100
    },
    "overall_cost": 0,
    "hard_constraint": 0,
@@ -4638,16 +4638,16 @@
   {
    "session_id": 172,
    "day": "Friday",
-   "time": "13:00pm",
-   "room": 6,
-   "instructor": 1,
+   "time": "12:00pm",
+   "room": 4,
+   "instructor": 17,
    "group": 18,
    "clash_costs": {
     "room": 50.0,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.00849462365591398,
+   "room_capacity_cost": 0.006236559139784947,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4666,15 +4666,15 @@
    "session_id": 173,
    "day": "Tuesday",
    "time": "13:00pm",
-   "room": 3,
-   "instructor": 13,
+   "room": 6,
+   "instructor": 17,
    "group": 18,
    "clash_costs": {
     "room": 100,
-    "instructor": 100,
+    "instructor": 50.0,
     "group": 100
    },
-   "room_capacity_cost": 0.0031182795698924733,
+   "room_capacity_cost": 0.00849462365591398,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4691,17 +4691,17 @@
   },
   {
    "session_id": 174,
-   "day": "Friday",
-   "time": "10:00am",
-   "room": 1,
-   "instructor": 12,
+   "day": "Wednesday",
+   "time": "14:00pm",
+   "room": 5,
+   "instructor": 16,
    "group": 19,
    "clash_costs": {
     "room": 100,
-    "instructor": 33.33333333333333,
-    "group": 100
+    "instructor": 100,
+    "group": 50.0
    },
-   "room_capacity_cost": 0.0405,
+   "room_capacity_cost": 0.03,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4718,17 +4718,17 @@
   },
   {
    "session_id": 175,
-   "day": "Tuesday",
-   "time": "14:00pm",
-   "room": 5,
-   "instructor": 12,
+   "day": "Thursday",
+   "time": "10:00am",
+   "room": 4,
+   "instructor": 16,
    "group": 19,
    "clash_costs": {
-    "room": 33.33333333333333,
+    "room": 100,
     "instructor": 100,
-    "group": 33.33333333333333
+    "group": 100
    },
-   "room_capacity_cost": 0.03,
+   "room_capacity_cost": 0.028999999999999998,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4745,17 +4745,17 @@
   },
   {
    "session_id": 176,
-   "day": "Thursday",
-   "time": "12:00pm",
-   "room": 5,
-   "instructor": 13,
+   "day": "Tuesday",
+   "time": "16:00pm",
+   "room": 2,
+   "instructor": 15,
    "group": 19,
    "clash_costs": {
-    "room": 50.0,
+    "room": 25.0,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.03,
+   "room_capacity_cost": 0.044500000000000005,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4772,14 +4772,14 @@
   },
   {
    "session_id": 177,
-   "day": "Thursday",
+   "day": "Monday",
    "time": "15:00pm",
    "room": 4,
-   "instructor": 5,
+   "instructor": 19,
    "group": 19,
    "clash_costs": {
     "room": 50.0,
-    "instructor": 100,
+    "instructor": 50.0,
     "group": 100
    },
    "room_capacity_cost": 0.028999999999999998,
@@ -4799,17 +4799,17 @@
   },
   {
    "session_id": 178,
-   "day": "Tuesday",
-   "time": "14:00pm",
-   "room": 5,
-   "instructor": 5,
+   "day": "Monday",
+   "time": "8:00am",
+   "room": 1,
+   "instructor": 19,
    "group": 19,
    "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 100,
-    "group": 33.33333333333333
+    "room": 20.0,
+    "instructor": 33.33333333333333,
+    "group": 50.0
    },
-   "room_capacity_cost": 0.03,
+   "room_capacity_cost": 0.0405,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4826,17 +4826,17 @@
   },
   {
    "session_id": 179,
-   "day": "Tuesday",
-   "time": "14:00pm",
-   "room": 7,
-   "instructor": 10,
+   "day": "Monday",
+   "time": "13:00pm",
+   "room": 2,
+   "instructor": 20,
    "group": 19,
    "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 33.33333333333333
+    "room": 33.33333333333333,
+    "instructor": 33.33333333333333,
+    "group": 50.0
    },
-   "room_capacity_cost": 0.044000000000000004,
+   "room_capacity_cost": 0.044500000000000005,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4853,15 +4853,42 @@
   },
   {
    "session_id": 180,
-   "day": "Friday",
-   "time": "12:00pm",
-   "room": 4,
-   "instructor": 10,
+   "day": "Wednesday",
+   "time": "8:00am",
+   "room": 2,
+   "instructor": 20,
    "group": 19,
    "clash_costs": {
     "room": 100,
     "instructor": 100,
     "group": 100
+   },
+   "room_capacity_cost": 0.044500000000000005,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 181,
+   "day": "Wednesday",
+   "time": "14:00pm",
+   "room": 4,
+   "instructor": 19,
+   "group": 19,
+   "clash_costs": {
+    "room": 33.33333333333333,
+    "instructor": 100,
+    "group": 50.0
    },
    "room_capacity_cost": 0.028999999999999998,
    "preference_compliance_cost": {
@@ -4879,45 +4906,18 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 181,
-   "day": "Tuesday",
-   "time": "10:00am",
-   "room": 7,
-   "instructor": 13,
-   "group": 19,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.044000000000000004,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
    "session_id": 182,
-   "day": "Wednesday",
-   "time": "15:00pm",
-   "room": 5,
-   "instructor": 13,
+   "day": "Tuesday",
+   "time": "11:00am",
+   "room": 2,
+   "instructor": 19,
    "group": 19,
    "clash_costs": {
     "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.03,
+   "room_capacity_cost": 0.044500000000000005,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -4935,41 +4935,14 @@
   {
    "session_id": 183,
    "day": "Monday",
-   "time": "12:00pm",
-   "room": 7,
-   "instructor": 3,
-   "group": 19,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.044000000000000004,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 184,
-   "day": "Friday",
    "time": "8:00am",
    "room": 1,
    "instructor": 3,
    "group": 19,
    "clash_costs": {
-    "room": 100,
+    "room": 20.0,
     "instructor": 100,
-    "group": 100
+    "group": 50.0
    },
    "room_capacity_cost": 0.0405,
    "preference_compliance_cost": {
@@ -4987,11 +4960,11 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 185,
-   "day": "Wednesday",
-   "time": "13:00pm",
+   "session_id": 184,
+   "day": "Monday",
+   "time": "12:00pm",
    "room": 5,
-   "instructor": 4,
+   "instructor": 3,
    "group": 19,
    "clash_costs": {
     "room": 50.0,
@@ -5014,11 +4987,119 @@
    "soft_constraint": 0
   },
   {
+   "session_id": 185,
+   "day": "Monday",
+   "time": "11:00am",
+   "room": 1,
+   "instructor": 15,
+   "group": 19,
+   "clash_costs": {
+    "room": 33.33333333333333,
+    "instructor": 50.0,
+    "group": 100
+   },
+   "room_capacity_cost": 0.0405,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
    "session_id": 186,
    "day": "Wednesday",
-   "time": "9:00am",
+   "time": "16:00pm",
+   "room": 5,
+   "instructor": 15,
+   "group": 19,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.03,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 187,
+   "day": "Monday",
+   "time": "13:00pm",
+   "room": 2,
+   "instructor": 15,
+   "group": 19,
+   "clash_costs": {
+    "room": 33.33333333333333,
+    "instructor": 50.0,
+    "group": 50.0
+   },
+   "room_capacity_cost": 0.044500000000000005,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 188,
+   "day": "Thursday",
+   "time": "16:00pm",
+   "room": 2,
+   "instructor": 2,
+   "group": 19,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.044500000000000005,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 189,
+   "day": "Tuesday",
+   "time": "10:00am",
    "room": 4,
-   "instructor": 4,
+   "instructor": 2,
    "group": 19,
    "clash_costs": {
     "room": 50.0,
@@ -5041,18 +5122,18 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 187,
-   "day": "Tuesday",
-   "time": "8:00am",
-   "room": 1,
-   "instructor": 6,
-   "group": 19,
+   "session_id": 190,
+   "day": "Friday",
+   "time": "15:00pm",
+   "room": 7,
+   "instructor": 13,
+   "group": 20,
    "clash_costs": {
     "room": 100,
-    "instructor": 100,
-    "group": 100
+    "instructor": 50.0,
+    "group": 50.0
    },
-   "room_capacity_cost": 0.0405,
+   "room_capacity_cost": 0.010602409638554218,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -5068,18 +5149,18 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 188,
-   "day": "Wednesday",
-   "time": "8:00am",
-   "room": 7,
-   "instructor": 15,
-   "group": 19,
+   "session_id": 191,
+   "day": "Tuesday",
+   "time": "16:00pm",
+   "room": 4,
+   "instructor": 13,
+   "group": 20,
    "clash_costs": {
     "room": 50.0,
-    "instructor": 100,
+    "instructor": 50.0,
     "group": 100
    },
-   "room_capacity_cost": 0.044000000000000004,
+   "room_capacity_cost": 0.006987951807228916,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -5095,38 +5176,11 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 189,
-   "day": "Wednesday",
-   "time": "11:00am",
-   "room": 3,
-   "instructor": 15,
-   "group": 19,
-   "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.014499999999999999,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 190,
+   "session_id": 192,
    "day": "Monday",
-   "time": "9:00am",
+   "time": "12:00pm",
    "room": 1,
-   "instructor": 1,
+   "instructor": 13,
    "group": 20,
    "clash_costs": {
     "room": 100,
@@ -5149,70 +5203,16 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 191,
-   "day": "Monday",
-   "time": "10:00am",
-   "room": 4,
-   "instructor": 1,
-   "group": 20,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.006987951807228916,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 192,
-   "day": "Monday",
-   "time": "10:00am",
-   "room": 5,
-   "instructor": 5,
-   "group": 20,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.007228915662650603,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
    "session_id": 193,
-   "day": "Wednesday",
-   "time": "13:00pm",
+   "day": "Friday",
+   "time": "15:00pm",
    "room": 5,
-   "instructor": 5,
+   "instructor": 13,
    "group": 20,
    "clash_costs": {
-    "room": 50.0,
-    "instructor": 100,
-    "group": 100
+    "room": 100,
+    "instructor": 50.0,
+    "group": 50.0
    },
    "room_capacity_cost": 0.007228915662650603,
    "preference_compliance_cost": {
@@ -5231,15 +5231,15 @@
   },
   {
    "session_id": 194,
-   "day": "Wednesday",
-   "time": "8:00am",
+   "day": "Tuesday",
+   "time": "9:00am",
    "room": 2,
-   "instructor": 14,
+   "instructor": 19,
    "group": 20,
    "clash_costs": {
-    "room": 100,
+    "room": 50.0,
     "instructor": 100,
-    "group": 100
+    "group": 50.0
    },
    "room_capacity_cost": 0.010722891566265061,
    "preference_compliance_cost": {
@@ -5258,15 +5258,15 @@
   },
   {
    "session_id": 195,
-   "day": "Tuesday",
-   "time": "9:00am",
+   "day": "Monday",
+   "time": "8:00am",
    "room": 3,
    "instructor": 1,
    "group": 20,
    "clash_costs": {
-    "room": 50.0,
-    "instructor": 33.33333333333333,
-    "group": 50.0
+    "room": 33.33333333333333,
+    "instructor": 50.0,
+    "group": 100
    },
    "room_capacity_cost": 0.003493975903614458,
    "preference_compliance_cost": {
@@ -5285,64 +5285,10 @@
   },
   {
    "session_id": 196,
-   "day": "Tuesday",
+   "day": "Thursday",
    "time": "9:00am",
-   "room": 5,
-   "instructor": 1,
-   "group": 20,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 33.33333333333333,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.007228915662650603,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 197,
-   "day": "Thursday",
-   "time": "16:00pm",
-   "room": 3,
-   "instructor": 19,
-   "group": 20,
-   "clash_costs": {
-    "room": 25.0,
-    "instructor": 50.0,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.003493975903614458,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 100
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 198,
-   "day": "Thursday",
-   "time": "14:00pm",
    "room": 7,
-   "instructor": 19,
+   "instructor": 1,
    "group": 20,
    "clash_costs": {
     "room": 50.0,
@@ -5365,122 +5311,14 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 199,
+   "session_id": 197,
    "day": "Thursday",
-   "time": "16:00pm",
-   "room": 1,
-   "instructor": 5,
-   "group": 20,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 50.0
-   },
-   "room_capacity_cost": 0.009759036144578313,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 200,
-   "day": "Tuesday",
    "time": "13:00pm",
-   "room": 6,
-   "instructor": 6,
-   "group": 20,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.009518072289156626,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 201,
-   "day": "Monday",
-   "time": "11:00am",
-   "room": 1,
-   "instructor": 6,
-   "group": 20,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.009759036144578313,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 202,
-   "day": "Friday",
-   "time": "9:00am",
-   "room": 3,
-   "instructor": 18,
-   "group": 20,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.003493975903614458,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 203,
-   "day": "Monday",
-   "time": "8:00am",
    "room": 5,
-   "instructor": 18,
+   "instructor": 13,
    "group": 20,
    "clash_costs": {
-    "room": 25.0,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
@@ -5500,11 +5338,173 @@
    "soft_constraint": 0
   },
   {
+   "session_id": 198,
+   "day": "Tuesday",
+   "time": "9:00am",
+   "room": 3,
+   "instructor": 13,
+   "group": 20,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 50.0
+   },
+   "room_capacity_cost": 0.003493975903614458,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 199,
+   "day": "Thursday",
+   "time": "14:00pm",
+   "room": 2,
+   "instructor": 10,
+   "group": 20,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.010722891566265061,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 200,
+   "day": "Friday",
+   "time": "11:00am",
+   "room": 3,
+   "instructor": 6,
+   "group": 20,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.003493975903614458,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 201,
+   "day": "Wednesday",
+   "time": "12:00pm",
+   "room": 4,
+   "instructor": 6,
+   "group": 20,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 50.0,
+    "group": 50.0
+   },
+   "room_capacity_cost": 0.006987951807228916,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 202,
+   "day": "Wednesday",
+   "time": "12:00pm",
+   "room": 7,
+   "instructor": 9,
+   "group": 20,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 50.0,
+    "group": 50.0
+   },
+   "room_capacity_cost": 0.010602409638554218,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 203,
+   "day": "Friday",
+   "time": "12:00pm",
+   "room": 7,
+   "instructor": 9,
+   "group": 20,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.010602409638554218,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
    "session_id": 204,
    "day": "Wednesday",
-   "time": "10:00am",
+   "time": "13:00pm",
    "room": 3,
-   "instructor": 4,
+   "instructor": 9,
    "group": 20,
    "clash_costs": {
     "room": 100,
@@ -5528,17 +5528,17 @@
   },
   {
    "session_id": 205,
-   "day": "Friday",
-   "time": "15:00pm",
-   "room": 2,
-   "instructor": 4,
+   "day": "Wednesday",
+   "time": "16:00pm",
+   "room": 3,
+   "instructor": 11,
    "group": 21,
    "clash_costs": {
     "room": 50.0,
-    "instructor": 100,
+    "instructor": 50.0,
     "group": 100
    },
-   "room_capacity_cost": 0.02870967741935484,
+   "room_capacity_cost": 0.009354838709677418,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -5555,17 +5555,17 @@
   },
   {
    "session_id": 206,
-   "day": "Friday",
-   "time": "11:00am",
-   "room": 7,
-   "instructor": 4,
+   "day": "Tuesday",
+   "time": "14:00pm",
+   "room": 5,
+   "instructor": 11,
    "group": 21,
    "clash_costs": {
-    "room": 25.0,
-    "instructor": 100,
-    "group": 100
+    "room": 50.0,
+    "instructor": 50.0,
+    "group": 50.0
    },
-   "room_capacity_cost": 0.02838709677419355,
+   "room_capacity_cost": 0.01935483870967742,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -5582,14 +5582,14 @@
   },
   {
    "session_id": 207,
-   "day": "Wednesday",
-   "time": "8:00am",
+   "day": "Thursday",
+   "time": "9:00am",
    "room": 4,
-   "instructor": 7,
+   "instructor": 3,
    "group": 21,
    "clash_costs": {
-    "room": 50.0,
-    "instructor": 100,
+    "room": 100,
+    "instructor": 50.0,
     "group": 100
    },
    "room_capacity_cost": 0.018709677419354837,
@@ -5609,13 +5609,40 @@
   },
   {
    "session_id": 208,
-   "day": "Monday",
-   "time": "15:00pm",
+   "day": "Friday",
+   "time": "16:00pm",
    "room": 3,
    "instructor": 8,
    "group": 21,
    "clash_costs": {
-    "room": 50.0,
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.009354838709677418,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 209,
+   "day": "Thursday",
+   "time": "8:00am",
+   "room": 3,
+   "instructor": 8,
+   "group": 21,
+   "clash_costs": {
+    "room": 100,
     "instructor": 100,
     "group": 50.0
    },
@@ -5635,70 +5662,16 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 209,
-   "day": "Tuesday",
-   "time": "10:00am",
-   "room": 2,
-   "instructor": 8,
-   "group": 21,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.02870967741935484,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
    "session_id": 210,
-   "day": "Monday",
-   "time": "11:00am",
-   "room": 2,
-   "instructor": 19,
+   "day": "Wednesday",
+   "time": "14:00pm",
+   "room": 4,
+   "instructor": 13,
    "group": 21,
    "clash_costs": {
-    "room": 100,
+    "room": 33.33333333333333,
     "instructor": 100,
     "group": 100
-   },
-   "room_capacity_cost": 0.02870967741935484,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 211,
-   "day": "Monday",
-   "time": "15:00pm",
-   "room": 4,
-   "instructor": 19,
-   "group": 21,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 100,
-    "group": 50.0
    },
    "room_capacity_cost": 0.018709677419354837,
    "preference_compliance_cost": {
@@ -5716,11 +5689,200 @@
    "soft_constraint": 0
   },
   {
+   "session_id": 211,
+   "day": "Wednesday",
+   "time": "8:00am",
+   "room": 6,
+   "instructor": 13,
+   "group": 21,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.025483870967741934,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
    "session_id": 212,
-   "day": "Friday",
-   "time": "12:00pm",
+   "day": "Tuesday",
+   "time": "14:00pm",
    "room": 5,
-   "instructor": 8,
+   "instructor": 19,
+   "group": 21,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 50.0
+   },
+   "room_capacity_cost": 0.01935483870967742,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 213,
+   "day": "Thursday",
+   "time": "8:00am",
+   "room": 1,
+   "instructor": 19,
+   "group": 21,
+   "clash_costs": {
+    "room": 25.0,
+    "instructor": 100,
+    "group": 50.0
+   },
+   "room_capacity_cost": 0.026129032258064514,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 214,
+   "day": "Friday",
+   "time": "8:00am",
+   "room": 4,
+   "instructor": 12,
+   "group": 21,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.018709677419354837,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 215,
+   "day": "Wednesday",
+   "time": "13:00pm",
+   "room": 7,
+   "instructor": 12,
+   "group": 21,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 50.0,
+    "group": 100
+   },
+   "room_capacity_cost": 0.02838709677419355,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 216,
+   "day": "Friday",
+   "time": "10:00am",
+   "room": 5,
+   "instructor": 15,
+   "group": 21,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 50.0,
+    "group": 100
+   },
+   "room_capacity_cost": 0.01935483870967742,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 217,
+   "day": "Friday",
+   "time": "13:00pm",
+   "room": 2,
+   "instructor": 3,
+   "group": 21,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.02870967741935484,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 218,
+   "day": "Thursday",
+   "time": "15:00pm",
+   "room": 5,
+   "instructor": 3,
    "group": 21,
    "clash_costs": {
     "room": 100,
@@ -5743,72 +5905,18 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 213,
-   "day": "Tuesday",
-   "time": "15:00pm",
-   "room": 3,
-   "instructor": 8,
-   "group": 21,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 33.33333333333333,
-    "group": 100
-   },
-   "room_capacity_cost": 0.009354838709677418,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 214,
+   "session_id": 219,
    "day": "Wednesday",
    "time": "11:00am",
-   "room": 6,
-   "instructor": 12,
-   "group": 21,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.025483870967741934,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 100,
-    "group": 0,
-    "instructor": 100
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 215,
-   "day": "Wednesday",
-   "time": "15:00pm",
-   "room": 6,
-   "instructor": 12,
+   "room": 7,
+   "instructor": 10,
    "group": 21,
    "clash_costs": {
     "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.025483870967741934,
+   "room_capacity_cost": 0.02838709677419355,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -5816,114 +5924,6 @@
    },
    "consecutive_cost": {
     "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 216,
-   "day": "Monday",
-   "time": "14:00pm",
-   "room": 6,
-   "instructor": 11,
-   "group": 21,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.025483870967741934,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 217,
-   "day": "Thursday",
-   "time": "15:00pm",
-   "room": 1,
-   "instructor": 3,
-   "group": 21,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.026129032258064514,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 218,
-   "day": "Wednesday",
-   "time": "12:00pm",
-   "room": 3,
-   "instructor": 3,
-   "group": 21,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.009354838709677418,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 219,
-   "day": "Tuesday",
-   "time": "16:00pm",
-   "room": 2,
-   "instructor": 11,
-   "group": 21,
-   "clash_costs": {
-    "room": 50.0,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.02870967741935484,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 100,
     "group": 0,
     "instructor": 0
    },
@@ -5933,17 +5933,17 @@
   },
   {
    "session_id": 220,
-   "day": "Wednesday",
+   "day": "Monday",
    "time": "14:00pm",
-   "room": 3,
-   "instructor": 11,
+   "room": 4,
+   "instructor": 10,
    "group": 21,
    "clash_costs": {
-    "room": 100,
+    "room": 50.0,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.009354838709677418,
+   "room_capacity_cost": 0.018709677419354837,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -5961,12 +5961,12 @@
   {
    "session_id": 221,
    "day": "Tuesday",
-   "time": "10:00am",
+   "time": "9:00am",
    "room": 1,
-   "instructor": 12,
+   "instructor": 1,
    "group": 22,
    "clash_costs": {
-    "room": 25.0,
+    "room": 100,
     "instructor": 100,
     "group": 100
    },
@@ -5987,40 +5987,13 @@
   },
   {
    "session_id": 222,
-   "day": "Wednesday",
-   "time": "10:00am",
-   "room": 6,
-   "instructor": 12,
-   "group": 22,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.021944444444444447,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 223,
-   "day": "Wednesday",
-   "time": "9:00am",
+   "day": "Thursday",
+   "time": "15:00pm",
    "room": 2,
-   "instructor": 8,
+   "instructor": 1,
    "group": 22,
    "clash_costs": {
-    "room": 100,
+    "room": 50.0,
     "instructor": 100,
     "group": 100
    },
@@ -6040,18 +6013,18 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 224,
-   "day": "Friday",
-   "time": "8:00am",
-   "room": 3,
-   "instructor": 8,
+   "session_id": 223,
+   "day": "Monday",
+   "time": "12:00pm",
+   "room": 5,
+   "instructor": 9,
    "group": 22,
    "clash_costs": {
-    "room": 100,
+    "room": 50.0,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.008055555555555555,
+   "room_capacity_cost": 0.016666666666666666,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -6067,41 +6040,14 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 225,
-   "day": "Monday",
-   "time": "8:00am",
-   "room": 4,
-   "instructor": 12,
-   "group": 22,
-   "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.01611111111111111,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 226,
-   "day": "Friday",
-   "time": "11:00am",
+   "session_id": 224,
+   "day": "Tuesday",
+   "time": "10:00am",
    "room": 7,
-   "instructor": 12,
+   "instructor": 9,
    "group": 22,
    "clash_costs": {
-    "room": 25.0,
+    "room": 50.0,
     "instructor": 100,
     "group": 100
    },
@@ -6121,15 +6067,96 @@
    "soft_constraint": 0
   },
   {
+   "session_id": 225,
+   "day": "Friday",
+   "time": "10:00am",
+   "room": 6,
+   "instructor": 11,
+   "group": 22,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.021944444444444447,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 226,
+   "day": "Monday",
+   "time": "11:00am",
+   "room": 2,
+   "instructor": 11,
+   "group": 22,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.024722222222222222,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
    "session_id": 227,
-   "day": "Tuesday",
+   "day": "Wednesday",
    "time": "16:00pm",
-   "room": 7,
-   "instructor": 20,
+   "room": 1,
+   "instructor": 5,
    "group": 23,
    "clash_costs": {
-    "room": 33.33333333333333,
-    "instructor": 50.0,
+    "room": 50.0,
+    "instructor": 100,
+    "group": 100
+   },
+   "room_capacity_cost": 0.012461538461538461,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 100,
+    "group": 0,
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 228,
+   "day": "Friday",
+   "time": "10:00am",
+   "room": 7,
+   "instructor": 12,
+   "group": 23,
+   "clash_costs": {
+    "room": 50.0,
+    "instructor": 100,
     "group": 100
    },
    "room_capacity_cost": 0.01353846153846154,
@@ -6148,45 +6175,18 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 228,
-   "day": "Wednesday",
-   "time": "10:00am",
-   "room": 1,
-   "instructor": 12,
-   "group": 23,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 50.0,
-    "group": 100
-   },
-   "room_capacity_cost": 0.012461538461538461,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
    "session_id": 229,
-   "day": "Monday",
-   "time": "8:00am",
-   "room": 2,
+   "day": "Tuesday",
+   "time": "10:00am",
+   "room": 5,
    "instructor": 12,
    "group": 23,
    "clash_costs": {
-    "room": 100,
-    "instructor": 50.0,
+    "room": 50.0,
+    "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.013692307692307693,
+   "room_capacity_cost": 0.009230769230769232,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -6203,17 +6203,17 @@
   },
   {
    "session_id": 230,
-   "day": "Thursday",
-   "time": "11:00am",
-   "room": 1,
+   "day": "Monday",
+   "time": "13:00pm",
+   "room": 5,
    "instructor": 5,
    "group": 23,
    "clash_costs": {
-    "room": 100,
+    "room": 50.0,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.012461538461538461,
+   "room_capacity_cost": 0.009230769230769232,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -6230,17 +6230,17 @@
   },
   {
    "session_id": 231,
-   "day": "Thursday",
-   "time": "14:00pm",
-   "room": 2,
-   "instructor": 16,
+   "day": "Tuesday",
+   "time": "13:00pm",
+   "room": 7,
+   "instructor": 17,
    "group": 24,
    "clash_costs": {
     "room": 100,
     "instructor": 50.0,
     "group": 100
    },
-   "room_capacity_cost": 0.0278125,
+   "room_capacity_cost": 0.0275,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -6257,17 +6257,17 @@
   },
   {
    "session_id": 232,
-   "day": "Friday",
-   "time": "10:00am",
-   "room": 3,
-   "instructor": 16,
+   "day": "Monday",
+   "time": "9:00am",
+   "room": 1,
+   "instructor": 17,
    "group": 24,
    "clash_costs": {
-    "room": 50.0,
+    "room": 33.33333333333333,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.0090625,
+   "room_capacity_cost": 0.0253125,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -6284,17 +6284,17 @@
   },
   {
    "session_id": 233,
-   "day": "Thursday",
-   "time": "10:00am",
-   "room": 5,
-   "instructor": 10,
+   "day": "Monday",
+   "time": "14:00pm",
+   "room": 4,
+   "instructor": 13,
    "group": 24,
    "clash_costs": {
-    "room": 100,
+    "room": 50.0,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.01875,
+   "room_capacity_cost": 0.018125,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -6311,35 +6311,8 @@
   },
   {
    "session_id": 234,
-   "day": "Monday",
-   "time": "16:00pm",
-   "room": 3,
-   "instructor": 4,
-   "group": 24,
-   "clash_costs": {
-    "room": 100,
-    "instructor": 100,
-    "group": 100
-   },
-   "room_capacity_cost": 0.0090625,
-   "preference_compliance_cost": {
-    "room": 100.0,
-    "group": 100.0,
-    "instructor": 100.0
-   },
-   "consecutive_cost": {
-    "room": 0,
-    "group": 0,
-    "instructor": 0
-   },
-   "overall_cost": 0,
-   "hard_constraint": 0,
-   "soft_constraint": 0
-  },
-  {
-   "session_id": 235,
    "day": "Tuesday",
-   "time": "11:00am",
+   "time": "14:00pm",
    "room": 7,
    "instructor": 4,
    "group": 24,
@@ -6364,18 +6337,18 @@
    "soft_constraint": 0
   },
   {
-   "session_id": 236,
-   "day": "Wednesday",
-   "time": "13:00pm",
-   "room": 6,
-   "instructor": 11,
-   "group": 25,
+   "session_id": 235,
+   "day": "Thursday",
+   "time": "12:00pm",
+   "room": 1,
+   "instructor": 4,
+   "group": 24,
    "clash_costs": {
-    "room": 50.0,
-    "instructor": 50.0,
+    "room": 100,
+    "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.01253968253968254,
+   "room_capacity_cost": 0.0253125,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -6384,7 +6357,34 @@
    "consecutive_cost": {
     "room": 0,
     "group": 0,
-    "instructor": 100
+    "instructor": 0
+   },
+   "overall_cost": 0,
+   "hard_constraint": 0,
+   "soft_constraint": 0
+  },
+  {
+   "session_id": 236,
+   "day": "Tuesday",
+   "time": "16:00pm",
+   "room": 7,
+   "instructor": 11,
+   "group": 25,
+   "clash_costs": {
+    "room": 100,
+    "instructor": 50.0,
+    "group": 100
+   },
+   "room_capacity_cost": 0.013968253968253968,
+   "preference_compliance_cost": {
+    "room": 100.0,
+    "group": 100.0,
+    "instructor": 100.0
+   },
+   "consecutive_cost": {
+    "room": 0,
+    "group": 0,
+    "instructor": 0
    },
    "overall_cost": 0,
    "hard_constraint": 0,
@@ -6392,17 +6392,17 @@
   },
   {
    "session_id": 237,
-   "day": "Friday",
-   "time": "10:00am",
-   "room": 5,
+   "day": "Monday",
+   "time": "9:00am",
+   "room": 4,
    "instructor": 11,
    "group": 25,
    "clash_costs": {
-    "room": 100,
-    "instructor": 100,
+    "room": 50.0,
+    "instructor": 50.0,
     "group": 100
    },
-   "room_capacity_cost": 0.009523809523809523,
+   "room_capacity_cost": 0.009206349206349206,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -6419,17 +6419,17 @@
   },
   {
    "session_id": 238,
-   "day": "Wednesday",
-   "time": "15:00pm",
-   "room": 2,
+   "day": "Monday",
+   "time": "16:00pm",
+   "room": 4,
    "instructor": 5,
    "group": 25,
    "clash_costs": {
     "room": 100,
-    "instructor": 100,
+    "instructor": 33.33333333333333,
     "group": 100
    },
-   "room_capacity_cost": 0.014126984126984128,
+   "room_capacity_cost": 0.009206349206349206,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
@@ -6447,23 +6447,23 @@
   {
    "session_id": 239,
    "day": "Friday",
-   "time": "14:00pm",
-   "room": 6,
-   "instructor": 1,
+   "time": "11:00am",
+   "room": 7,
+   "instructor": 8,
    "group": 25,
    "clash_costs": {
     "room": 100,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.01253968253968254,
+   "room_capacity_cost": 0.013968253968253968,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,
     "instructor": 100.0
    },
    "consecutive_cost": {
-    "room": 100,
+    "room": 0,
     "group": 0,
     "instructor": 0
    },
@@ -6474,16 +6474,16 @@
   {
    "session_id": 240,
    "day": "Tuesday",
-   "time": "12:00pm",
-   "room": 6,
-   "instructor": 1,
+   "time": "15:00pm",
+   "room": 3,
+   "instructor": 8,
    "group": 25,
    "clash_costs": {
-    "room": 100,
+    "room": 50.0,
     "instructor": 100,
     "group": 100
    },
-   "room_capacity_cost": 0.01253968253968254,
+   "room_capacity_cost": 0.004603174603174603,
    "preference_compliance_cost": {
     "room": 100.0,
     "group": 100.0,

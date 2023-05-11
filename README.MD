@@ -1,9 +1,12 @@
-# Timetable Software Project
----
+# Timetable Generator Using Genetic Algorithim
 
+#### Video Demo:  `<URL HERE>`
+
+#### Description:
 
 ## Introduction
-A simple Timetable generator software based on an ongoing personal project. 
+
+A simple Timetable generator software based on an ongoing personal project.
 
 The project is geared at developing an application that deveolops timetables based on input data and recommendations given,
 finding the most optimum solution to a timetable that has the most minimum number of clashes and meets user demands to the
@@ -11,8 +14,8 @@ most physically possible.
 
 It takes use of costs and evaluation function to find the optimum solution by satisfying constratints(prferences and priorities)
 
-
 ## Definition of Terms
+
 Ther are specific terms used in the entire project that may cause some confusion, the following are ther definitions
 
 **Instructors**     This term is used to encompass any individual that teaches i.e lecturers, professors
@@ -44,27 +47,31 @@ Ther are specific terms used in the entire project that may cause some confusion
 **priorities**      This refers to the preferences levels and which will be considered first to last
 
 ## Development Methodology
-There are different mehods for handling timetable generation and each comes with its strengths and weaknesses but i preferred 
+
+There are different mehods for handling timetable generation and each comes with its strengths and weaknesses but i preferred
 to develop a hybrid algorithim that takes concepts from three other algorithims
 
 - **Genetic Algorithims**                   -is a search heuristic that is inspired by the process of natural selection, involving creating a population of candidate solutions and using evelutionary operaters such as selection, crossover and mutation to eveolve towards an optimal solution
-
 - **Tabu Search Algorithim**                -Is a metaheuristic algorithim that uses local search to iteratively explore the neighbourhood for a better solution. a tabu list is kept for the moves that have been tried before and deemed unproductive.
-
 - **Constraint Satisfaction Algorithim**    -Is is an algorithim that is used to optimize problem subject to a set of constraints while minimizing and maximizing the ibjective function
 
-The algorithim is to use the following techniques
-- **Encoding**                -Representing concepts as a data structure that can be manipuated algorithimically
 
+I opted to use `genetic algorithim` to challenge myself on data algorithims
+
+The algorithim is to use the following techniques
+
+- **Encoding**                -Representing concepts as a data structure that can be manipuated algorithimically
 - **Fitness Evaluation**      -It is a function that evaluates how well a acandidate solution satisfies the requirements
 - **Constraint Satisfaction** -Finding a solution that meets a specific set of constraints
 - **selection**               -It is the process of selecting candidate solutions from the population for further evolution
 - **crossover**               -It is a geneetic operator that comines two parent solutions to comeup with a new child solution
-- **mutation**                -It is a genetic opeartor that 
+- **mutation**                -It is a genetic opeartor that
 
 ### Constraints
+
 Constraints will be a list of rules that define the generation of the final timetable
 they will be divided into two type of constraints
+
 1. *soft*
 2. *hard*
 
@@ -72,34 +79,42 @@ The constraints will be hard encoded to the algorithim or some will be expexted 
 in form of preferences
 
 #### Hard Constraints
+
 These are constraints thar must be strictly satisfied for the timetable to be satisfied, they are non-neogotiable
+
 1. Minimise Conflicts(clashes)
-    > - *Each Teacher can only teach one class at a time*
-    > - *Each Room can only be used one session at a time*
-    > - *Each Group of students can only attend one session at a time*
+   > - *Each Teacher can only teach one class at a time*
+   > - *Each Room can only be used one session at a time*
+   > - *Each Group of students can only attend one session at a time*
+   >
 2. Class Capacity - All sessions must happen in a room that can fit the number of students available in a group
 3. Class one priorities - the preferences set as level one priorit and level two priority must be met
 
 #### Soft Constraints
+
 1. Level Three and Level Four Priorities - the preferrnces set as level three and four priority
-2. Consecetive classes 
-    > - *Minimize student consecutive classes*
-    > - *Minimize teacher consecutive classes*
-    > - *Minimize room consecutive classes*
+2. Consecetive classes
+   > - *Minimize student consecutive classes*
+   > - *Minimize teacher consecutive classes*
+   > - *Minimize room consecutive classes*
+   >
 
 ### Priorities and Preferences
+
 Both are crucial in timetable generation and play an important role in constraint satisffaction to objective evaluation
 
 priorities define order of preferences, that is whose preferences come firts while preferences are a list of rules that are encoded to
 define what the user wants.
 
 ### Preference Handling
+
 for the sake of representing preferences, classes have been made to hard encode them into the program.
 
-But issue come when we have to represent them in the json files, so i have to find a way to standardise the rules for 
+But issue come when we have to represent them in the json files, so i have to find a way to standardise the rules for
 compatibility with a parser that will convert them to python objects.
 
 The following rules are present in the current system
+
 > - **Before** - this was made to represent periods before a specific period
 > - **After** -     This was made to represent periods after a spacific period
 > - **Except** -    All Except the list passed in the argument
@@ -107,10 +122,12 @@ The following rules are present in the current system
 > - **Only** - Only use the values passed
 
 The below are conjuctions that supplement the above rules
+
 > - **And** - used to join two rules that are to be satisfied together
 > - **Or** - used to join two rules that one can be satisfied instead of the other
 
 ### Preference Syntaxing
+
 The following is the syntax for encoding prefernce on json files
 
 ```
@@ -144,18 +161,19 @@ Only rooms A15 and A20
 {ONLY [ROOM:->'A15'], [ROOM:'A20']}
 ```
 
-
-
 ### Inputs
+
 currently the program only supports entry of data in json files. for the purpose of standardization input data
 has to be formarted for it to be used by the program.
 
 the following are the guide principles for structural formation and data type formation
 
 #### Configuration Data
+
 Configuration data is just basic attributes needed for the program to work
 
 Below is the formart
+
 ```
 {
   "name": "string",
@@ -170,11 +188,14 @@ Below is the formart
   }
 }
 ```
+
 #### Instructors  Data
+
 Instructors data is just data on the proffessors, lecturers e.t.c
 More fields can be added but this is the standard formart
 
 Below is the fomart
+
 ```
 [
  {
@@ -214,6 +235,7 @@ Below is the fomart
 ```
 
 #### Programmes Data
+
 This is how programmes should be formatted
 
 ```
@@ -235,7 +257,7 @@ This is how programmes should be formatted
                         "preference" string of valid preference
                     }
                 ]
-              
+            
             }
         ]
     }
@@ -243,4 +265,5 @@ This is how programmes should be formatted
 ```
 
 ## Command Line Interface
+
 The `cli` is built as an access to the functionalities of the entire program. The commands are explained in `use.md` file in the project but below are some of the cmommnads

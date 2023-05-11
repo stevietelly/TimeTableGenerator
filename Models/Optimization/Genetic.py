@@ -6,13 +6,7 @@ from Data.Parsers.Data import DataReader
 from Logic.Structure.Configuration import Configuration
 from Logic.Structure.Session import Session
 from Models.Evaluation.Fitness import FitnessEvaluation
-from Models.Optimization.Annealing import Annealing
 from Models.Randomizer.Randomizer import Randomizer
-from Objects.Persons.Students import Group
-from Objects.Academic.Units import Unit
-from Objects.Physical.Rooms import Room
-from Objects.Persons.Instructor import Instructor
-from Objects.Academic.Programme import Programme
 from Logic.Structure.Timetable import Timetable
 from typing import List
 from Models.Generator.Generator import Generator

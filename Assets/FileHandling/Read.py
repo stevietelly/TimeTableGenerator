@@ -3,10 +3,6 @@ import os
 import sys
 
 from Data.Validators.Structure import VALID_FILE_FOMARTS
-
-
-
-
 class Read:
     def __init__(self, filename: str):
         """

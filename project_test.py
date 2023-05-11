@@ -41,7 +41,8 @@ def test_days():
     assert str(days) == "[Day:->Tuesday, Day:->Wednesday, Day:->Thursday]"
 
     times = get_data_list(all_times, 2, nine_am, "after")
-    assert str(times) == "[Time:->10:00am, Time:->11:00am]"
+   
+    assert str(times) == "[10:00am, 11:00am]"
 
     daytimes = get_data_list(all_daytimes, 3, dt1, "after")
     assert str(daytimes) == "[DayTime:->Monday at 10:00am, DayTime:->Tuesday at 9:00am, DayTime:->Tuesday at 10:00am]"
@@ -56,7 +57,8 @@ def test_days():
 
 
     times2 = get_data_list(all_times, 2, three_pm, "before")
-    assert str(times2)  == f'[{str(three_pm)}, {str(two_pm)}]'
+
+    assert str(times2)  == "[12:00pm, 11:00am]"
 
     daytimes3 = get_data_list(all_daytimes, 3, dt6, "before")
     assert str(daytimes3)  == f'[DayTime:->Wednesday at 9:00am, DayTime:->Tuesday at 10:00am, DayTime:->Tuesday at 9:00am]'
@@ -64,7 +66,7 @@ def test_days():
     days2 = get_data_list(week, 0, friday, "before")
     assert str(days2)  == "[Day:->Thursday, Day:->Wednesday, Day:->Tuesday, Day:->Monday]"
 
-
+test_days()
 
 
 

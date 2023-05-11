@@ -7,6 +7,7 @@ import random
 import sys
 from typing import Dict, List
 from Assets.Functions.Echo import Echo
+from Data.Parsers.Data import DataReader
 from Logic.DateTime.Time import Time
 from Logic.DateTime.Day import Day
 from Logic.DateTime.DayTime import DayTime
@@ -33,9 +34,9 @@ class Generator:
     all_units: dict
     all_courses: dict
 
-    def __init__(self, configuration: Configuration, instructors: List[Instructor], rooms: List[Room], units: List[Unit], programmes: List[Programme], groups: List[Group]):
+    def __init__(self, inputData: DataReader):
         
-        self.configuration = configuration
+        self.configuration = inputData.configuration
         self.stats = {
             "rooms": {"clashes": 0, "free": 0},
             "groups": {"clashes": 0, "free": 0},
@@ -54,11 +55,11 @@ class Generator:
         self.session_holder: List[Session] = []
 
         # Holders
-        self.group_holder = groups
-        self.instructor_holder = instructors
-        self.room_holder = rooms
-        self.unit_holder: List[Unit] = units
-        self.programme_holder: List[Programme] = programmes
+        self.group_holder = inputData.groups
+        self.instructor_holder = inputData.instructors
+        self.room_holder = inputData.rooms
+        self.unit_holder: List[Unit] = inputData.units
+        self.programme_holder: List[Programme] = inputData.programmes
 
         # Free Periods
         self.free_room_periods = []

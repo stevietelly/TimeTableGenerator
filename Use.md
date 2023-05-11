@@ -57,7 +57,7 @@ optionally used for similar operations.
 | `--configuration`  | `-c`        | Specify configuration file Ussually a json file, if not defined then a prompt to create one on the command line will be initiated | *`filename`*                                                   |
 | `--write_config`   | `-wc`       | This will initite a prompt to manually write the configuration data                                                               | *`None`*                                                       |
 | `--algorithm`      | `-a`        | This defines what algorithm to use from the ones available                                                                        | Either of<br />constraint_satisfaction<br />genetic<br />annelaing |
-| `--times`          | `-t`        | Defines the number of run times                                                                                                   | `any number`                                                     |
+| `--iterations`     | `-t`        | Defines the number of run times or iterations                                                                                     | `any number`                                                     |
 | `--limit`          | `-l`        | The limit which the program cannot exceed, bydefault it is `0` which means no limit                                             | `any number`                                                     |
 | `--saturation`     | `-s`        | Continue until saturation is reached                                                                                              |                                                                    |
 

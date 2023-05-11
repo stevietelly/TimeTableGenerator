@@ -1,11 +1,5 @@
-from typing import Callable, List
-from Logic.Structure.Timetable import Timetable
-from Models.Evaluation.Evaluation import FitnessEvaluation
-from Models.Optimization.Annealing import Annealing
-from Objects.Persons.Instructor import Instructor
-from Objects.Persons.Students import Group
-from Objects.Physical.Rooms import Room
-from Objects.User.Priorities.Priorities import Priorities
+from typing import Callable
+
 
 
 class Loop:

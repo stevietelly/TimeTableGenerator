@@ -5,6 +5,7 @@ The Evaluation Function
 import sys
 from typing import Dict, List
 from Assets.Functions.Echo import Echo
+from Data.Parsers.Data import DataReader
 from Logic.Compliance.Negative import CapacityInequality, Clash
 from Logic.Compliance.Positive import FreeGroupPeriod, FreeInstructorPeriod, FreePeriod, FreeRoomPeriod
 from Logic.Statistics.Costs.Cost import ClassOnePrioritySatisfaction, ClassTwoPrioritySatisfaction, ConstraintSatisfaction, TotalConstraintCompliance
@@ -19,13 +20,11 @@ from Objects.User.Priorities.Priorities import Priorities
 
 class FitnessEvaluation:
 
-    def __init__(self, timetable: Timetable, rooms: List[Room],
-                 groups: List[Group], instructors: List[Instructor],
-                 priorities: Priorities) -> None:
-        self.rooms = rooms
-        self.groups = groups
-        self.instructors = instructors
-        self.priorities: Priorities = priorities
+    def __init__(self, timetable: Timetable, inputData: DataReader) -> None:
+        self.rooms = inputData.rooms
+        self.groups = inputData.groups
+        self.instructors = inputData.instructors
+        self.priorities: Priorities = inputData.configuration.priorities
 
     
         """"
@@ -54,9 +53,9 @@ class FitnessEvaluation:
         """
         self.echo = Echo()
         self.timetable: Timetable = timetable
-        self.room_holder = rooms
-        self.group_holder = groups
-        self.instructor_holder = instructors
+        self.room_holder = inputData.rooms
+        self.group_holder = inputData.groups
+        self.instructor_holder = inputData.instructors
 
         # Calculators
         self.group_calculator: List[GroupCalculator] = []

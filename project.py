@@ -31,6 +31,7 @@ custom_config: Dict[str, Any] = {
   }
 }
 
+echo = Echo()
 def main():
 
     # for echo
@@ -40,7 +41,7 @@ def main():
         if state == "on":
             Echo.state = True
         elif not state == "off":
-            sys.exit("Invalid Echo status: expected values 'on' or 'off' ")
+            echo.exit("Invalid Echo status: expected values 'on' or 'off' ")
         sys.argv.pop(o_index)
         sys.argv.pop(o_index)
 
@@ -51,7 +52,7 @@ def main():
     if "run" in sys.argv:
         Run()
   
-    sys.exit("Invalid inputs: Read README file for input paramaters")
+    echo.exit("Invalid inputs: Read README file for input paramaters")
           
 def write_configuration_manually():
     """
@@ -69,8 +70,8 @@ def write_configuration_manually():
                     break
                 
             except:
-                print("Invalid input type")   
-                sys.exit(2)
+                echo.exit("Invalid input type", 2)   
+             
 
     print("Sytem Inputs Inputs")
     system_inputs = {
@@ -88,24 +89,24 @@ def write_configuration_manually():
                 system_inputs[system_input] = input_str_sys
                 break
             except:
-                print("Invalid input type")   
-                sys.exit(2)
+                echo.exit("Invalid input type")   
+               
     
     print("\nValidating input...........\n")
     
     if not is_valid_day(config_list["start-day"]):
-        print("\nInvalid day -> ", config_list["start-day"])
-        sys.exit(2)
+        echo.exit("\nInvalid day -> ", config_list["start-day"])
+       
 
     custom_config["days"] = return_list_of_days(config_list["start-day"], config_list["days"])
 
     if not is_valid_time(config_list["start-time"]):
-        print("\nInvalid Time -> ", config_list["start-time"])
-        sys.exit(2)
+        echo.exit("\nInvalid Time -> ", config_list["start-time"])
+ 
 
     if not is_valid_time(config_list["end-time"]):
-        print("\nInvalid Time -> ", config_list["end-time"])
-        sys.exit(2)
+        echo.exit("\nInvalid Time -> ", config_list["end-time"])
+     
 
 def Run():
     input_file: str
@@ -121,7 +122,7 @@ def Run():
     elif "defaults" in sys.argv:
         input_file = "Data/Defaults/data.json"
     else:
-        sys.exit("please Link in an input file, or run defaults")
+        echo.exit("please Link in an input file, or run defaults")
 
     # Define output file
     if "-o" in sys.argv or "--output_file" in sys.argv:
@@ -130,7 +131,7 @@ def Run():
         sys.argv.pop(o_index)
         sys.argv.pop(o_index)
     else:
-        sys.exit("Please Define an Output file")
+        echo.exit("Please Define an Output file")
     
      # Output Type for the final output
     if "-tp" in sys.argv or "--output_type" in sys.argv:
@@ -144,11 +145,11 @@ def Run():
     Echo().print("Validating Input File.........")
 
     if not is_valid_formart(output_type):
-        sys.exit("invalid output formart: Please Read Info for specified output formarts")
+        echo.exit("invalid output formart: Please Read Info for specified output formarts")
     
     data = Read(input_file).extract()
     if not FileTypeValidator(data):
-        sys.exit("Invalid Input File")
+        echo.exit("Invalid Input File")
 
     if "-a" in sys.argv or "--algorithm" in sys.argv:
         o_index = sys.argv.index("-a") if "-a" in sys.argv else sys.argv.index("--algorithm")
@@ -161,7 +162,7 @@ def Run():
    
         
     if not algorithm_type_validator(algo_type):
-        sys.exit("Invalid Algorithm type")
+        echo.exit("Invalid Algorithm type")
     
     reader = DataReader(data)
     reader.Encode()
@@ -206,7 +207,7 @@ def RunGeneticAlgorithim(inputData: DataReader, initial: int=10):
     evaluation.Evaluate()
     evaluation.Redefine()
     print(evaluation.Output().stats)
-    sys.exit(1)
+    echo.exit(1)
     
 def generateData():
     print("Genarate mock data")
